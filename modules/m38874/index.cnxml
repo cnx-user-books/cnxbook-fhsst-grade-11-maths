@@ -1,0 +1,2125 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Equations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38874</md:content-id>
+  <md:title>Equations</md:title>
+  <md:abstract/>
+  <md:uuid>62182361-b8d9-4ced-a96d-aef55f2694e7</md:uuid>
+</metadata>
+
+<content>
+ <section id="cid5">
+      <title>Solving Trigonometric Equations</title>
+      <para id="id323737">In Grade 10 and 11 we focussed on the solution of algebraic equations and excluded equations that dealt with trigonometric functions (i.e. <m:math overflow="scroll"><m:mo form="prefix">sin</m:mo></m:math> and <m:math overflow="scroll"><m:mo form="prefix">cos</m:mo></m:math>). In this section, the solution of trigonometric equations will be discussed.</para>
+      <para id="id323765">The methods described in previous Grades also apply here.
+In most cases, trigonometric identities will be used to simplify equations, before finding the final solution. The final solution can be found either graphically or using inverse trigonometric functions.</para>
+      <section id="uid172">
+        <title>Graphical Solution</title>
+        <para id="id323779">As an example, to introduce the methods of solving trigonometric equations, consider</para>
+        <equation id="uid173">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo form="prefix">sin</m:mo>
+              <m:mi>θ</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id323812">As explained in previous Grades,the solution of Equation <link target-id="uid173"/> is obtained by examining the intersecting points of the graphs of:</para>
+        <equation id="id323821">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id323874">Both graphs, for <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mn>720</m:mn><m:mo>∘</m:mo></m:msup><m:mo>&lt;</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:msup><m:mn>720</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>, are shown in <link target-id="uid174"/> and the intersection points of the graphs are shown by the dots.</para>
+        <figure id="uid174">
+          <media id="uid174_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C17_028.png" id="uid174_onlineimage" width="429"><!-- NOTE: attribute width changes image size online (pixels). original width is 429. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_028.eps" id="uid174_printimage"/>
+          </media>
+          <caption>Plot of <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math> showing the points of intersection, hence the solutions to the equation <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math>.</caption>
+        </figure>
+        <para id="id323988">In the domain for <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> of <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mn>720</m:mn><m:mo>∘</m:mo></m:msup><m:mo>&lt;</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:msup><m:mn>720</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>, there are 8 possible solutions for the equation <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math>. These are <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>[</m:mo><m:mo>-</m:mo><m:msup><m:mn>690</m:mn><m:mo>∘</m:mo></m:msup><m:mo>,</m:mo><m:mo>-</m:mo><m:msup><m:mn>570</m:mn><m:mo>∘</m:mo></m:msup><m:mo>,</m:mo><m:mo>-</m:mo><m:msup><m:mn>330</m:mn><m:mo>∘</m:mo></m:msup><m:mo>,</m:mo><m:mo>-</m:mo><m:msup><m:mn>210</m:mn><m:mo>∘</m:mo></m:msup><m:mo>,</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup><m:mo>,</m:mo><m:msup><m:mn>150</m:mn><m:mo>∘</m:mo></m:msup><m:mo>,</m:mo><m:msup><m:mn>390</m:mn><m:mo>∘</m:mo></m:msup><m:mo>,</m:mo><m:msup><m:mn>510</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math></para>
+<exercise id="secfhsst_id4742"><title>  </title>
+        <problem id="probfhsst_id4743">
+        <para id="id324170">Find <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>, if <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math>, with <m:math overflow="scroll"><m:mrow><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup><m:mo>&lt;</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Determine the solution graphically. </para>
+        </problem>
+        <solution id="solfhsst_id4746"> <list id="listfhsst_id4746" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Write the equation so that all the terms with the unknown quantity (i.e. <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>) are on one side of the equation. </label>
+        <equation id="id324276">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>1</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Identify the two functions which are intersecting. </label>
+        <equation id="id324347">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>1</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Draw graphs of both functions, over the required domain and identify the intersection point. </label>
+        <para id="id324400">
+          <figure id="id324403">
+            <media id="id324403_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_029.png" id="id324403_onlineimage" width="82"><!-- NOTE: attribute width changes image size online (pixels). original width is 82. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_029.eps" id="id324403_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id324410">The graphs intersect at <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>45</m:mn><m:mo>∘</m:mo></m:msup><m:mo>.</m:mo></m:mrow></m:math>
+ </para>
+        </item> </list> </solution>
+</exercise>
+      </section>
+      <section id="uid175">
+        <title>Algebraic Solution</title>
+        <para id="id324457">The inverse trigonometric functions <m:math overflow="scroll"><m:mo form="prefix">arcsin</m:mo></m:math>, <m:math overflow="scroll"><m:mo form="prefix">arccos</m:mo></m:math> and <m:math overflow="scroll"><m:mo form="prefix">arctan</m:mo></m:math> can also be used to solve trigonometric equations. These may be shown as second functions on your calculator: sin<m:math overflow="scroll"><m:msup><m:mrow/><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>, cos<m:math overflow="scroll"><m:msup><m:mrow/><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math> and tan<m:math overflow="scroll"><m:msup><m:mrow/><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>.</para>
+        <para id="id324545">Using inverse trigonometric functions, the equation</para>
+        <equation id="id324549">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo form="prefix">sin</m:mo>
+              <m:mi>θ</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id324573">is solved as</para>
+        <equation id="id324576">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo form="prefix">arcsin</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>30</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+<exercise id="secfhsst_id4909"><title>  </title>
+        <problem id="probfhsst_id4910">
+        <para id="id324676">Find <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>, if <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math>, with <m:math overflow="scroll"><m:mrow><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup><m:mo>&lt;</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Determine the solution using inverse trigonometric functions. </para>
+        </problem>
+        <solution id="solfhsst_id4913"> <list id="listfhsst_id4913" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Write the equation so that all the terms with the unknown quantity (i.e. <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>) are on one side of the equation. Then solve for the angle using the inverse function. </label>
+        <equation id="id324782">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>1</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo form="prefix">arctan</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>45</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+        <para id="id324910">Trigonometric equations often look very simple. Consider solving the equation <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow></m:math>. We can take the inverse sine of both sides to find that <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mo form="prefix">sin</m:mo><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math>. If we put this into a calculator we find that <m:math overflow="scroll"><m:mrow><m:msup><m:mo form="prefix">sin</m:mo><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>44</m:mn><m:mo>,</m:mo><m:msup><m:mn>42</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. This is true, however, it does not tell the whole story.</para>
+        <figure id="uid176">
+          <media id="uid176_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C17_030.png" id="uid176_onlineimage" width="259"><!-- NOTE: attribute width changes image size online (pixels). original width is 259. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_030.eps" id="uid176_printimage"/>
+          </media>
+          <caption>The sine graph. The dotted line represents <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow></m:math>. There are four points of intersection on this interval, thus four solutions to <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow></m:math>.</caption>
+        </figure>
+        <para id="id325076">As you can see from <link target-id="uid176"/>, there are <emphasis effect="bold">four</emphasis> possible angles with a sine of <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow></m:math> between <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:math>. If we were to extend the range of the sine graph to infinity we would in fact see that there are an infinite number of solutions to this equation! This difficulty (which is caused by the periodicity of the sine function) makes solving trigonometric equations much harder than they may seem to be.</para>
+        <para id="id325140">Any problem on trigonometric equations will require two pieces of information to solve. The first is the equation itself and the second is the <emphasis effect="bold">range</emphasis> in which your answers must lie. The hard part is making sure you find all of the possible answers within the range. Your calculator will always give you the <emphasis effect="bold">smallest</emphasis> answer (<emphasis effect="italics">i.e. </emphasis>the one that lies between <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math> for tangent and sine and one between <m:math overflow="scroll"><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:math> and <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:math> for cosine). Bearing this in mind we can already solve trigonometric equations within these ranges.</para>
+<exercise id="secfhsst_id5000"><title>  </title>
+        <problem id="probfhsst_id5001">
+        <para id="id325237">Find the values of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> for which <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mfenced open="(" close=")"><m:mstyle scriptlevel="0" displaystyle="false"><m:mfrac><m:mi>x</m:mi><m:mn>2</m:mn></m:mfrac></m:mstyle></m:mfenced><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math> if it is given that <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. </para>
+        </problem>
+        <solution id="solfhsst_id5004"> <list id="listfhsst_id5004" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine if the angle is acute </label>
+        <para id="id325327">Because we are told that <m:math overflow="scroll"><m:mi>x</m:mi></m:math> is an acute angle, we
+can simply apply an inverse trigonometric function to both sides.</para>
+        <equation id="uid177">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mfenced open="(" close=")">
+                      <m:mstyle scriptlevel="0" displaystyle="false">
+                        <m:mfrac>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:mfrac>
+                      </m:mstyle>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mstyle scriptlevel="0" displaystyle="false">
+                      <m:mfrac>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo form="prefix">arcsin</m:mo>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mstyle scriptlevel="0" displaystyle="false">
+                      <m:mfrac>
+                        <m:mi>x</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>30</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mn>60</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+        <para id="id325512">We can, of course, solve trigonometric equations in any range by drawing the graph.</para>
+<exercise id="secfhsst_id5108"><title>  </title>
+        <problem id="probfhsst_id5109">
+        <para id="id325529">For what values of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> does <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math>, when <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>?</para>
+        
+        </problem>
+        <solution id="solfhsst_id5113"> <list id="listfhsst_id5113" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Draw the graph </label>
+        <para id="id325622">We take a look at the graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math> on the interval <m:math overflow="scroll"><m:mrow><m:mo>[</m:mo><m:mo>-</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>,</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math>. We want to know when the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> value of the graph is <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math>, so we draw in a
+line at <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math>.</para>
+        <para id="id325722">
+          <figure id="id325725">
+            <media id="id325725_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_031.png" id="id325725_onlineimage" width="259"><!-- NOTE: attribute width changes image size online (pixels). original width is 259. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_031.eps" id="id325725_printimage"/>
+            </media>
+          </figure>
+        </para>
+        </item> <item> <label>  </label>
+        <para id="id325735">Notice that this line touches the graph four times. This means
+that there are four solutions to the equation.</para>
+        </item> <item> <label>  </label>
+        <para id="id325743">Read off the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> values of those intercepts from the graph as <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:msup><m:mn>330</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mn>210</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>, <m:math overflow="scroll"><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup></m:math> and <m:math overflow="scroll"><m:msup><m:mn>150</m:mn><m:mo>∘</m:mo></m:msup></m:math>.</para>
+        <para id="id325824">
+          <figure id="id325827">
+            <media id="id325827_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_032.png" id="id325827_onlineimage" width="259"><!-- NOTE: attribute width changes image size online (pixels). original width is 259. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_032.eps" id="id325827_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </item> </list> </solution>
+</exercise>
+        <para id="id325848">This method can be time consuming and inexact. We shall now look at how to solve these problems algebraically.</para>
+      </section>
+      <section id="uid178">
+        <title>Solution using CAST diagrams</title>
+        <section id="uid179">
+          <title>The Sign of the Trigonometric Function</title>
+          <para id="id325872">The first step to finding the trigonometry of any angle is to determine the <emphasis effect="bold">sign</emphasis> of the ratio for a given angle. We shall do this for the sine function first and then do the same for the cosine and tangent.</para>
+          <figure id="uid180">
+            <media id="uid180_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_033.png" id="uid180_onlineimage" width="379"><!-- NOTE: attribute width changes image size online (pixels). original width is 379. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_033.eps" id="uid180_printimage"/>
+            </media>
+            <caption>The graph and unit circle showing the sign of the sine function.</caption>
+          </figure>
+          <para id="id325895">In <link target-id="uid180"/> we have split the sine graph into four <emphasis effect="bold">quadrants</emphasis>, each <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math> wide. We call them quadrants because they correspond to the four quadrants of the unit circle. We notice from <link target-id="uid180"/> that the sine graph is positive in the 1<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> st </m:mi></m:msup></m:math> and 2<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> nd </m:mi></m:msup></m:math> quadrants and negative in the 3<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> rd </m:mi></m:msup></m:math> and 4<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> th </m:mi></m:msup></m:math>. <link target-id="uid181"/> shows similar graphs for cosine and tangent.</para>
+          <figure id="uid181">
+            <media id="uid181_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_034.png" id="uid181_onlineimage" width="355"><!-- NOTE: attribute width changes image size online (pixels). original width is 355. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_034.eps" id="uid181_printimage"/>
+            </media>
+            <caption>Graphs showing the sign of the cosine and tangent functions.</caption>
+          </figure>
+          <para id="id326001">All of this can be summed up in two ways. <link target-id="uid182"/> shows which trigonometric functions are positive and which are negative in each quadrant.</para>
+          <table id="uid182" summary="">
+            <tgroup cols="5">
+              <tbody>
+                <row>
+                  <entry/>
+                  <entry>1<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> st </m:mi></m:msup></m:math></entry>
+                  <entry>2<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> nd </m:mi></m:msup></m:math></entry>
+                  <entry>3<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> rd </m:mi></m:msup></m:math></entry>
+                  <entry>4<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> th </m:mi></m:msup></m:math></entry>
+                </row>
+                <row>
+                  <entry>sin</entry>
+                  <entry>+VE</entry>
+                  <entry>+VE</entry>
+                  <entry>-VE</entry>
+                  <entry>-VE</entry>
+                </row>
+                <row>
+                  <entry>cos</entry>
+                  <entry>+VE</entry>
+                  <entry>-VE</entry>
+                  <entry>-VE</entry>
+                  <entry>+VE</entry>
+                </row>
+                <row>
+                  <entry>tan</entry>
+                  <entry>+VE</entry>
+                  <entry>-VE</entry>
+                  <entry>+VE</entry>
+                  <entry>-VE</entry>
+                </row>
+              </tbody>
+            </tgroup>
+            <caption>The signs of the three basic trigonometric functions in each quadrant.</caption>
+          </table>
+          <para id="id326203">A more convenient way of writing this is to note that all functions are positive in the 1<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> st </m:mi></m:msup></m:math> quadrant, only sine is positive in the 2<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> nd </m:mi></m:msup></m:math>, only tangent in the 3<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> rd </m:mi></m:msup></m:math> and only cosine in the 4<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> th </m:mi></m:msup></m:math>. We express this using the CAST diagram (<link target-id="uid183"/>). This diagram is known as a CAST diagram as the letters, taken anticlockwise from the bottom right, read C-A-S-T. The letter in each quadrant tells us which trigonometric functions are <emphasis effect="bold">positive</emphasis> in that quadrant. The `A' in the 1<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> st </m:mi></m:msup></m:math> quadrant stands for all (meaning sine, cosine and tangent are all positive in this quadrant). `S', `C' and `T' ,of course, stand for sine, cosine and tangent. The diagram is shown in two forms. The version on the left shows the CAST diagram including the unit circle. This version is useful for equations which lie in large or negative ranges. The simpler version on the right is useful for ranges between <m:math overflow="scroll"><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:math> and <m:math overflow="scroll"><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:math>. Another useful diagram shown in <link target-id="uid183"/> gives the formulae to use in each quadrant when solving a trigonometric equation.</para>
+          <figure id="uid183">
+            <media id="uid183_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_035.png" id="uid183_onlineimage" width="387"><!-- NOTE: attribute width changes image size online (pixels). original width is 387. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_035.eps" id="uid183_printimage"/>
+            </media>
+            <caption>The two forms of the CAST diagram and the formulae in each quadrant.</caption>
+          </figure>
+        </section>
+        <section id="uid184">
+          <title>Magnitude of the trigonometric functions</title>
+          <para id="id326347">Now that we know in which quadrants our solutions lie, we need to know which angles in these quadrants satisfy our equation.</para>
+          <para id="id326352">Calculators give us the smallest possible answer (sometimes negative) which satisfies the equation. For example, if we wish to solve <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow></m:math> we can apply the inverse sine function to both sides of the equation to find:</para>
+          <equation id="id326382">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi>θ</m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">arcsin</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>17</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:msup>
+                        <m:mn>46</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          <para id="id326441">However, we know that this is just one of infinitely many possible answers. We get the rest of the answers by finding relationships between this small angle, <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>, and answers in other quadrants.
+To do this we use our small angle <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> as a <emphasis effect="bold">reference angle</emphasis>. We then look at the sign of the trigonometric function in order to decide in which quadrants we need to work (using the CAST diagram) and add multiples of the period to each, remembering that sine, cosine and tangent are periodic (repeating) functions. To add multiples of the period we use <m:math overflow="scroll"><m:mrow><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>·</m:mo><m:mi>n</m:mi></m:mrow></m:math> (where <m:math overflow="scroll"><m:mi>n</m:mi></m:math> is an integer) for sine and cosine and <m:math overflow="scroll"><m:mrow><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>·</m:mo><m:mi>n</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">Z</m:mi></m:mrow></m:math>, for the tangent.</para>
+<exercise id="secfhsst_id5252"><title>  </title>
+          <problem id="probfhsst_id5253">
+          <para id="id326553">Solve for <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>:</para>
+          <equation id="id326569">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>
+          </equation>
+          
+          </problem>
+          <solution id="solfhsst_id5269"> <list id="listfhsst_id5269" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Determine in which quadrants the solution lies </label>
+          <para id="id326617">We look at the sign of the trigonometric function. <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi></m:mrow></m:math> is given as a positive amount (<m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow></m:math>). Reference to the CAST diagram shows that sine is positive in the first and second quadrants.
+
+
+
+<table id="id326660" summary=""><tgroup cols="2"><tbody><row><entry>S</entry><entry>A</entry></row><row><entry>T</entry><entry>C</entry></row></tbody></tgroup></table><!--empty paragraphs get left behind.--></para>
+          </item> <item> <label> Determine the reference angle </label>
+          <para id="id326701">The small angle <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> is the angle returned by the calculator:</para>
+          <equation id="id326714">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>⇒</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">arcsin</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mo>⇒</m:mo>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>17</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:msup>
+                        <m:mn>46</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          </item> <item> <label> Determine the general solution </label>
+          <para id="id326814">Our solution lies in quadrants I and II. We therefore use <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> and <m:math overflow="scroll"><m:mrow><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:mi>θ</m:mi></m:mrow></m:math>, and add the <m:math overflow="scroll"><m:mrow><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>·</m:mo><m:mi>n</m:mi></m:mrow></m:math> for the periodicity of sine.
+
+
+
+<table id="id326877" summary=""><tgroup cols="2"><tbody><row><entry><m:math overflow="scroll"><m:mrow><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:mi>θ</m:mi></m:mrow></m:math></entry><entry><m:math overflow="scroll"><m:mi>θ</m:mi></m:math></entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>+</m:mo><m:mi>θ</m:mi></m:mrow></m:math></entry><entry><m:math overflow="scroll"><m:mrow><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:mi>θ</m:mi></m:mrow></m:math></entry></row></tbody></tgroup></table></para>
+          <equation id="id326975">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi mathvariant="normal">I</m:mi>
+                        <m:mo>:</m:mo>
+                      </m:mrow>
+                      <m:mspace width="1.em"/>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>17</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:msup>
+                        <m:mn>46</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mn>360</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>·</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mo>,</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mo>∈</m:mo>
+                      <m:mi mathvariant="double-struck">Z</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi> II </m:mi>
+                        <m:mo>:</m:mo>
+                      </m:mrow>
+                      <m:mspace width="1.em"/>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:msup>
+                        <m:mn>180</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>-</m:mo>
+                      <m:mn>17</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:msup>
+                        <m:mn>46</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mn>360</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>·</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mo>,</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mo>∈</m:mo>
+                      <m:mi mathvariant="double-struck">Z</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>162</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:msup>
+                        <m:mn>54</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mn>360</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>·</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mo>,</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mo>∈</m:mo>
+                      <m:mi mathvariant="double-struck">Z</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          <para id="id327171">This is called the <emphasis effect="bold">general solution</emphasis>.</para>
+          </item> <item> <label> Find the specific solutions </label>
+          <para id="id327184">We can then find <emphasis effect="bold">all</emphasis> the values of <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> by substituting <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>...</m:mo><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>...</m:mo></m:mrow></m:math>etc.
+For example,
+If <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mspace width="1.em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>17</m:mn><m:mo>,</m:mo><m:msup><m:mn>46</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mn>162</m:mn><m:mo>,</m:mo><m:msup><m:mn>54</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>
+If <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="1.em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>377</m:mn><m:mo>,</m:mo><m:msup><m:mn>46</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mn>522</m:mn><m:mo>,</m:mo><m:msup><m:mn>54</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>
+If <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="1.em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>342</m:mn><m:mo>,</m:mo><m:msup><m:mn>54</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>197</m:mn><m:mo>,</m:mo><m:msup><m:mn>46</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>
+We can find as many as we like or find specific solutions in a given interval by choosing more values for <m:math overflow="scroll"><m:mi>n</m:mi></m:math>.
+ </para>
+          </item> </list> </solution>
+</exercise>
+        </section>
+      </section>
+      <section id="uid185">
+        <title>General Solution Using Periodicity</title>
+        <para id="id327429">Up until now we have only solved trigonometric equations where the argument (the bit after the function, e.g. the <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> in <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> or the <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow></m:math> in <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>7</m:mn><m:mo>)</m:mo></m:mrow></m:math>), has been <m:math overflow="scroll"><m:mi>θ</m:mi></m:math>. If there is anything more complicated than this we need to be a little more careful.
+Let us try to solve <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:msup><m:mn>10</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math> in the range <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. We want solutions for positive tangent so using our CAST diagram we know to look in the 1<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> st </m:mi></m:msup></m:math> and 3<m:math overflow="scroll"><m:msup><m:mrow/><m:mi> rd </m:mi></m:msup></m:math> quadrants. Our calculator tells us that <m:math overflow="scroll"><m:mrow><m:mo form="prefix">arctan</m:mo><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>68</m:mn><m:mo>,</m:mo><m:msup><m:mn>2</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. This is our reference angle. So to find the general solution we proceed as follows:</para>
+        <equation id="id327650">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mspace width="4pt"/>
+                    <m:mo>[</m:mo>
+                    <m:mn>68</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>]</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi mathvariant="normal">I</m:mi>
+                      <m:mo>:</m:mo>
+                    </m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mn>2</m:mn>
+                    <m:mi mathvariant="normal">x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>68</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>78</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>x</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>39</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>1</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>90</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id327886">This is the general solution. Notice that we added the <m:math overflow="scroll"><m:msup><m:mn>10</m:mn><m:mo>∘</m:mo></m:msup></m:math> and divided by 2 only at the end. Notice that we added <m:math overflow="scroll"><m:mrow><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>·</m:mo><m:mi>n</m:mi></m:mrow></m:math> because the tangent has a period of <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:math>. This is <emphasis effect="bold">also</emphasis> divided by 2 in the last step to keep the equation balanced. We chose quadrants I and III because <m:math overflow="scroll"><m:mo form="prefix">tan</m:mo></m:math> was positive and we used the formulae <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> in quadrant I and <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>+</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> in quadrant III. To find solutions where <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> we substitue integers for <m:math overflow="scroll"><m:mi>n</m:mi></m:math>:</para>
+        <list id="id328035" display="block" list-type="bulleted">
+          <item id="uid186"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>39</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mn>129</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item>
+          <item id="uid187"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>129</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mn>219</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item>
+          <item id="uid188"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>219</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mn>309</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item>
+          <item id="uid189"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>309</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mn>399</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> (too big!)
+</item>
+          <item id="uid190"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:msup><m:mn>9</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mn>39</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item>
+          <item id="uid191"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>140</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:msup><m:mn>9</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item>
+          <item id="uid192"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>230</m:mn><m:mo>,</m:mo><m:msup><m:mn>9</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>140</m:mn><m:mo>,</m:mo><m:msup><m:mn>9</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item>
+          <item id="uid193"><m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>320</m:mn><m:mo>,</m:mo><m:msup><m:mn>9</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>230</m:mn><m:mo>,</m:mo><m:msup><m:mn>9</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item>
+        </list>
+        <para id="id328598">Solution: <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>320</m:mn><m:mo>,</m:mo><m:msup><m:mn>9</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mo>-</m:mo><m:msup><m:mn>230</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>140</m:mn><m:mo>,</m:mo><m:msup><m:mn>9</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:msup><m:mn>9</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mn>39</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mn>129</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mn>219</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mn>309</m:mn><m:mo>,</m:mo><m:msup><m:mn>1</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></para>
+      </section>
+      <section id="uid194">
+        <title>Linear Trigonometric Equations</title>
+        <para id="id328743">Just like with regular equations without trigonometric functions, solving trigonometric equations can become a lot more complicated. You should solve these just like normal equations to isolate a single trigonometric ratio. Then you follow the strategy outlined in the previous section.</para>
+<exercise id="secfhsst_id5628"><title>  </title>
+        <problem id="probfhsst_id5629">
+        <para id="id328761">Write down the general solution for <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:msup><m:mn>15</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>583</m:mn></m:mrow></m:math>
+ </para>
+        </problem>
+        <solution id="solfhsst_id5633"> <list id="listfhsst_id5633" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Use what we have learnt so far: </label>
+        <equation id="id328831">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mn>15</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>583</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mn>15</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>583</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mn>15</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5276</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                    <m:mo>.</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> reference </m:mi>
+                      <m:mi> angle </m:mi>
+                      <m:mo>:</m:mo>
+                    </m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mn>15</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>58</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> II </m:mi>
+                      <m:mo>:</m:mo>
+                    </m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mi>θ</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mn>15</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>58</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>θ</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>136</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>8</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> III </m:mi>
+                      <m:mo>:</m:mo>
+                    </m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mi>θ</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mn>15</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>58</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>θ</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>253</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+      </section>
+      <section id="uid195">
+        <title>Quadratic and Higher Order Trigonometric Equations</title>
+        <para id="id329330">The simplest quadratic trigonometric equation is of the form</para>
+        <equation id="id329334">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>=</m:mo>
+              <m:mo>-</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id329371">This type of equation can be easily solved by rearranging to get a more familiar linear equation</para>
+        <equation id="id329378">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>±</m:mo>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:msqrt>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id329454">This gives two linear trigonometric equations. The solutions to either of these equations will satisfy the original quadratic.</para>
+        <para id="id329458">The next level of complexity comes when we need to solve a trinomial which contains trigonometric functions. It is much easier in this case to use <emphasis effect="bold">temporary variables</emphasis>.
+Consider solving</para>
+        <equation id="id329468">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mo form="prefix">tan</m:mo>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo form="prefix">tan</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id329533">Here we notice that <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> occurs twice in the equation, hence we let <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:math> and rewrite:</para>
+        <equation id="id329594">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>y</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id329626">That should look rather more familiar. We can immediately write down the factorised form and the solutions:</para>
+        <equation id="id329632">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>⇒</m:mo>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="14.22636pt"/>
+                    <m:mi> OR </m:mi>
+                    <m:mspace width="14.22636pt"/>
+                    <m:mi mathvariant="normal">y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id329711">Next we just substitute back for the temporary variable:
+<m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mspace width="14.22636pt"/><m:mi> or </m:mi><m:mspace width="14.22636pt"/><m:mo form="prefix">tan</m:mo><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi mathvariant="normal">x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>
+And then we are left with two linear trigonometric equations. Be careful: sometimes one of the two solutions will be outside the <emphasis effect="bold">range</emphasis> of the trigonometric function. In that case you need to discard that solution. For example consider the same equation with cosines instead of tangents
+<m:math overflow="scroll"><m:mrow><m:msup><m:mo form="prefix">cos</m:mo><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mo form="prefix">cos</m:mo><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+Using the same method we find that
+<m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mspace width="14.22636pt"/><m:mi> or </m:mi><m:mspace width="14.22636pt"/><m:mo form="prefix">cos</m:mo><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi mathvariant="normal">x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>
+The second solution cannot be valid as cosine must lie between <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math> and 1. We must, therefore, reject the second equation. Only solutions to the first equation will be valid.</para>
+      </section>
+      <section id="uid196">
+        <title>More Complex Trigonometric Equations</title>
+        <para id="id329949">Here are two examples on the level of the hardest trigonometric equations you are likely to encounter. They require using everything that you have learnt in this chapter. If you can solve these, you should be able to solve anything!</para>
+<exercise id="secfhsst_id6093"><title>  </title>
+        <problem id="probfhsst_id6094">
+        <para id="id329966">Solve <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mo form="prefix">cos</m:mo><m:mn>2</m:mn></m:msup><m:mi>x</m:mi><m:mo>-</m:mo><m:mo form="prefix">cos</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> for <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>∈</m:mo><m:mo>[</m:mo><m:mo>-</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math>
+ </para>
+        </problem>
+        <solution id="solfhsst_id6098"> <list id="listfhsst_id6098" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Use a temporary variable </label>
+        <para id="id330065">We note that <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>x</m:mi></m:mrow></m:math> occurs twice in the equation. So, let <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>x</m:mi></m:mrow></m:math>. Then we have <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>
+Note that with practice you may be able to leave out this step.</para>
+        </item> <item> <label> Solve the quadratic equation </label>
+        <para id="id330137">Factorising yields</para>
+        <equation id="id330140">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>y</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>)</m:mo>
+              <m:mo>(</m:mo>
+              <m:mi>y</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <equation id="id330178">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo>∴</m:mo>
+              <m:mspace width="1.em"/>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>-</m:mo>
+              <m:mn>0</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>5</m:mn>
+              <m:mspace width="1.em"/>
+              <m:mi> or </m:mi>
+              <m:mspace width="1.em"/>
+              <m:mi mathvariant="normal">y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        
+        </item> 
+        <item> <label> Substitute back and solve the two resulting equations </label>
+        <para id="id330244">We thus get</para>
+        <equation id="id330248">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mspace width="1.em"/>
+              <m:mo form="prefix">cos</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>-</m:mo>
+              <m:mn>0</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>5</m:mn>
+              <m:mspace width="1.em"/>
+              <m:mi> or </m:mi>
+              <m:mspace width="1.em"/>
+              <m:mo form="prefix">cos</m:mo>
+              <m:mi mathvariant="normal">x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id330300">Both equations are valid (<emphasis effect="italics">i.e. </emphasis>lie in the range of cosine).
+General solution:</para>
+        <equation id="id330312">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mo>[</m:mo>
+                    <m:msup>
+                      <m:mn>60</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>]</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> II </m:mi>
+                      <m:mo>:</m:mo>
+                    </m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mi mathvariant="normal">x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mn>60</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>120</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi> III </m:mi>
+                      <m:mo>:</m:mo>
+                    </m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mi mathvariant="normal">x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>60</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>240</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <equation id="id330593">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mo>[</m:mo>
+                    <m:msup>
+                      <m:mn>90</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>]</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi mathvariant="normal">I</m:mi>
+                      <m:mo>;</m:mo>
+                      <m:mi> IV </m:mi>
+                      <m:mo>:</m:mo>
+                    </m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mi mathvariant="normal">x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>0</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id330741">Now we find the specific solutions in the interval <m:math overflow="scroll"><m:mrow><m:mo>[</m:mo><m:mo>-</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math>. Appropriate values of <m:math overflow="scroll"><m:mi>n</m:mi></m:math> yield</para>
+        <equation id="id330786">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>-</m:mo>
+              <m:msup>
+                <m:mn>120</m:mn>
+                <m:mo>∘</m:mo>
+              </m:msup>
+              <m:mo>;</m:mo>
+              <m:msup>
+                <m:mn>0</m:mn>
+                <m:mo>∘</m:mo>
+              </m:msup>
+              <m:mo>;</m:mo>
+              <m:msup>
+                <m:mn>120</m:mn>
+                <m:mo>∘</m:mo>
+              </m:msup>
+              <m:mo>;</m:mo>
+              <m:msup>
+                <m:mn>240</m:mn>
+                <m:mo>∘</m:mo>
+              </m:msup>
+              <m:mo>;</m:mo>
+              <m:msup>
+                <m:mn>360</m:mn>
+                <m:mo>∘</m:mo>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+</item>
+</list> </solution>
+</exercise>
+<exercise id="secfhsst_id6450"><title>  </title>
+        <problem id="probfhsst_id6451">
+        <para id="id330862">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> in the interval <m:math overflow="scroll"><m:mrow><m:mo>[</m:mo><m:mo>-</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math>:</para>
+        <equation id="id330908">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:msup>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mo form="prefix">sin</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo form="prefix">cos</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        
+        </problem>
+        <solution id="solfhsst_id6474"> <list id="listfhsst_id6474" list-type="enumerated" number-style="arabic" class="stepwise">
+         <item> <label> Factorise </label>
+        <para id="id330974">Factorising yields</para>
+        <equation id="id330978">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo form="prefix">sin</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>(</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo form="prefix">sin</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mo form="prefix">cos</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id331020">which gives two equations</para>
+        <equation id="id331026">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo form="prefix">sin</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <equation id="id331047">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>1</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mstyle scriptlevel="0" displaystyle="false">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mstyle>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Solve the two trigonometric equations </label>
+        <para id="id331191">General solution:</para>
+        <equation id="id331195">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mspace width="1.em"/>
+                    <m:mo>[</m:mo>
+                    <m:msup>
+                      <m:mn>0</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>]</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <equation id="id331288">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mstyle scriptlevel="0" displaystyle="false">
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mstyle>
+                    <m:mspace width="1.em"/>
+                    <m:mrow>
+                      <m:mo>[</m:mo>
+                      <m:mn>26</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:msup>
+                        <m:mn>57</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>]</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi mathvariant="normal">I</m:mi>
+                      <m:mo>;</m:mo>
+                      <m:mi> III </m:mi>
+                      <m:mo>:</m:mo>
+                    </m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mi mathvariant="normal">x</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>26</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>57</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mn>180</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>·</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>,</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>∈</m:mo>
+                    <m:mi mathvariant="double-struck">Z</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id331422">Specific solution in the interval <m:math overflow="scroll"><m:mrow><m:mo>[</m:mo><m:mo>-</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math>:
+<m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>206</m:mn><m:mo>,</m:mo><m:msup><m:mn>57</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mo>-</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mo>-</m:mo><m:mn>26</m:mn><m:mo>,</m:mo><m:msup><m:mn>57</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mn>26</m:mn><m:mo>,</m:mo><m:msup><m:mn>57</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:mn>206</m:mn><m:mo>,</m:mo><m:msup><m:mn>25</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id6732"><title> Solving Trigonometric Equations </title>
+        <list id="id331603" display="block" list-type="enumerated">
+          <item id="uid197">
+            <list id="id331614" display="block" list-type="enumerated">
+              <item id="uid198">Find the general solution of each of the following equations. Give answers to one decimal place.
+</item>
+              <item id="uid199">Find all solutions in the interval <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mo>[</m:mo><m:mo>-</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo><m:mo>.</m:mo></m:mrow></m:math><list id="id331680" display="block" list-type="enumerated"><item id="uid200"><m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>327</m:mn></m:mrow></m:math></item><item id="uid201"><m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>231</m:mn></m:mrow></m:math></item><item id="uid202"><m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>375</m:mn></m:mrow></m:math></item><item id="uid203"><m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>439</m:mn></m:mrow></m:math></item></list></item>
+            </list>
+          </item>
+          <item id="uid204">
+            <list id="id331829" display="block" list-type="enumerated">
+              <item id="uid205">Find the general solution of each of the following equations. Give answers to one decimal place.
+</item>
+              <item id="uid206">Find all solutions in the interval <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mo>[</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo><m:mo>.</m:mo></m:mrow></m:math><list id="id331892" display="block" list-type="enumerated"><item id="uid207"><m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></item><item id="uid208"><m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></item><item id="uid209"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>-</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></item><item id="uid210"><m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid211"><m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid212"><m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math></item><item id="uid213"><m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></item><item id="uid214"><m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo form="prefix">tan</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>7</m:mn></m:mrow></m:math></item></list></item>
+            </list>
+          </item>
+          <item id="uid215">
+            <list id="id332191" display="block" list-type="enumerated">
+              <item id="uid216">Write down the general solution for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> if <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>12</m:mn></m:mrow></m:math>.
+</item>
+              <item id="uid217">Hence determine values of <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>∈</m:mo><m:mo>[</m:mo><m:mo>-</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math>.
+</item>
+            </list>
+          </item>
+          <item id="uid218">
+            <list id="id332297" display="block" list-type="enumerated">
+              <item id="uid219">Write down the general solution for <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> if <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>61</m:mn></m:mrow></m:math>.
+</item>
+              <item id="uid220">Hence determine values of <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mo>[</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>720</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math>.
+</item>
+            </list>
+          </item>
+          <item id="uid221">
+            <list id="id332435" display="block" list-type="enumerated">
+              <item id="uid222">Solve for A if <m:math overflow="scroll"><m:mrow><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi mathvariant="normal">A</m:mi><m:mo>+</m:mo><m:msup><m:mn>20</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>53</m:mn></m:mrow></m:math></item>
+              <item id="uid223">Write down the values of A<m:math overflow="scroll"><m:mrow><m:mo>∈</m:mo><m:mo>[</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math></item>
+            </list>
+          </item>
+          <item id="uid224">
+            <list id="id332540" display="block" list-type="enumerated">
+              <item id="uid225">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> if <m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>32</m:mn></m:mrow></m:math></item>
+              <item id="uid226">Write down the values of <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>∈</m:mo><m:mo>[</m:mo><m:mo>-</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math></item>
+            </list>
+          </item>
+          <item id="uid227">
+            <list id="id332656" display="block" list-type="enumerated">
+              <item id="uid228">Solve for <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> if <m:math overflow="scroll"><m:mrow><m:msup><m:mo form="prefix">sin</m:mo><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo form="prefix">sin</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></item>
+              <item id="uid229">Write down the values of <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mo>[</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup><m:mo>;</m:mo><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mo>]</m:mo></m:mrow></m:math></item>
+            </list>
+          </item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

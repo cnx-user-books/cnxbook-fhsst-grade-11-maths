@@ -1,0 +1,754 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Compound depreciation</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38827</md:content-id>
+  <md:title>Compound depreciation</md:title>
+  <md:abstract/>
+  <md:uuid>aa3c52f8-e1a9-4df2-a5b1-4728a11c41d8</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid5">
+      <title>Compound Depreciation</title>
+      <para id="id342034">The second method of calculating depreciation is to assume that the value of the asset decreases at a certain annual rate, but that the initial value of the asset this year, is the book value of the asset at the end of last year.</para>
+      <para id="id342039">For example, if our second hand car has a limited useful life of 5 years and it has an initial value of R60 000, then the interest rate of depreciation is 20% (100%/5 years). After 1 year, the car is worth:</para>
+      <equation id="id342046"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Book value after first year</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>×</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>60</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>20</m:mn>
+                  <m:mo>%</m:mo>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>60</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>60</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>8</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>48</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id342230">At the beginning of the second year, the car is now worth R48 000, so after two years, the car is worth:</para>
+      <equation id="id342235"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Book value after second year</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>×</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>48</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>20</m:mn>
+                  <m:mo>%</m:mo>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>48</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>48</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>8</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>38</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>400</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id342420">We can tabulate these values.</para>
+      <table id="id342423" summary="">
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>End of first year</entry>
+              <entry>R<m:math overflow="scroll"><m:mrow><m:mn>60</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>×</m:mo><m:mn>20</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>=R<m:math overflow="scroll"><m:mrow><m:mn>60</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>×</m:mo><m:mn>20</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow><m:mn>1</m:mn></m:msup></m:mrow></m:math></entry>
+              <entry>= R48 000,00</entry>
+            </row>
+            <row>
+              <entry>End of second year</entry>
+              <entry>R<m:math overflow="scroll"><m:mrow><m:mn>48</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>×</m:mo><m:mn>20</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>=R<m:math overflow="scroll"><m:mrow><m:mn>60</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>×</m:mo><m:mn>20</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math></entry>
+              <entry>= R38 400,00</entry>
+            </row>
+            <row>
+              <entry>End of third year</entry>
+              <entry>R38 400<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>×</m:mo><m:mn>20</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>=R<m:math overflow="scroll"><m:mrow><m:mn>60</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>×</m:mo><m:mn>20</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow><m:mn>3</m:mn></m:msup></m:mrow></m:math></entry>
+              <entry>= R30 720,00</entry>
+            </row>
+            <row>
+              <entry>End of fourth year</entry>
+              <entry>R30 720<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>×</m:mo><m:mn>20</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>=R<m:math overflow="scroll"><m:mrow><m:mn>60</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>×</m:mo><m:mn>20</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math></entry>
+              <entry>= R24 576,00</entry>
+            </row>
+            <row>
+              <entry>End of fifth year</entry>
+              <entry>R24 576<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>×</m:mo><m:mn>20</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow></m:math>=R<m:math overflow="scroll"><m:mrow><m:mn>60</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>×</m:mo><m:mn>20</m:mn><m:mo>%</m:mo><m:mo>)</m:mo></m:mrow><m:mn>5</m:mn></m:msup></m:mrow></m:math></entry>
+              <entry>= R19 608,80</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      <para id="id342852">We can now write a general formula for the book value of an asset if the depreciation is compounded.</para>
+      <equation id="uid5"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi> Initial value</m:mi>
+              <m:mo>-</m:mo>
+              <m:mi> Total depreciation after n years</m:mi>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>-</m:mo>
+                <m:mi mathvariant="normal">i</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mi mathvariant="normal">n</m:mi>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id342921">For example, the book value of the car after two years can be simply calculated as follows:</para>
+      <equation id="id342925"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Book value after</m:mi><m:mspace width="3pt"/>
+                  <m:mn>2</m:mn><m:mspace width="3pt"/>
+                  <m:mi> years </m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>60</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>20</m:mn>
+                      <m:mo>%</m:mo>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>60</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>60</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>8</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>38</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>400</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id343125">as expected.</para>
+      <para id="id343131">Note that the difference between the compound interest calculations and the compound depreciation calculations is that while the interest adds value to the principal amount, the depreciation amount reduces value!</para>
+<exercise id="secfhsst_id1048"><title> Compound Depreciation </title>
+      <problem id="probfhsst_id1049">
+      <para id="id343149">The Flamingo population of the Bergriver mouth is depreciating on a reducing balance at a rate of 12% p.a. If there are now 3 200 flamingos in the wetlands of the Bergriver mouth, how many will there be in 5 years' time ? Answer to three significant numbers. </para>
+      </problem>
+      <solution id="solfhsst_id1052"> <list id="listfhsst_id1052" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Determine what has been provided and what is required </label>
+      <equation id="id343177">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>P</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>R</m:mi>
+                  <m:mn>3</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>200</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>i</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>12</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>n</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>5</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:mspace width="3.33333pt"/>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mi> is </m:mi>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mi> required </m:mi>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Determine how to approach the problem </label>
+      <equation id="id343273">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>A</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>200</m:mn>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>12</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Solve the problem </label>
+      <equation id="id343332">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>A</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>200</m:mn>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>88</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>200</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>527731916</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>1688</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>742134</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Write the final answer </label>
+      There would be approximately 1 690 flamingos in 5 years' time.
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id1217"><title> Compound Depreciation </title>
+      <problem id="probfhsst_id1218">
+      <para id="id343459">Farmer Brown buys a tractor for R250 000 and depreciates it by 20% per year using the compound depreciation method. What is the depreciated value of the tractor after 5 years ? </para>
+      </problem>
+      <solution id="solfhsst_id1221"> <list id="listfhsst_id1221" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Determine what has been provided and what is required </label>
+      <equation id="id343486">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>P</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>R</m:mi>
+                  <m:mn>250</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>i</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>n</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>5</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:mspace width="3.33333pt"/>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mi> is </m:mi>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mi> required </m:mi>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Determine how to approach the problem </label>
+      <equation id="id343582">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>A</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>250</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Solve the problem </label>
+      <equation id="id343640">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>A</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>250</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>8</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>250</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>32768</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>81</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>920</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Write the final answer </label>
+      <para id="id343739">Depreciated value after 5 years is R 81 920 </para>
+      </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id1385"><title> Compound Depreciation </title>
+      <list id="id343762" display="block" list-type="enumerated"><item id="uid6">On January 1, 2008 the value of my Kia Sorento is R320 000.
+Each year after that, the cars value will decrease 20% of the previous years value. What is the value of the car on January 1, 2012?
+</item>
+        <item id="uid7">The population of Bonduel decreases at a rate of 9,5% per annum as people migrate to the cities. Calculate the decrease in population over a period of 5 years if the initial population was 2 178 000.
+</item>
+        <item id="uid8">A 20 kg watermelon consists of 98% water. If it is left outside in the sun it loses 3% of its water each day. How much does it weigh after a month of 31 days ?
+</item>
+        <item id="uid9">A computer depreciates at <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>%</m:mo></m:mrow></m:math> per annum using the reducing-balance method. Four years ago the value of the computer was R10 000 and is now worth R4 520. Calculate the value of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> correct to two decimal places.
+</item>
+      </list>
+      
+</section>
+    </section>
+
+  </content>
+</document>

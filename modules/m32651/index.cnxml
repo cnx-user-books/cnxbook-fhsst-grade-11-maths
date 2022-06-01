@@ -1,0 +1,591 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Gradient at a Point</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32651</md:content-id>
+  <md:title>Gradient at a Point</md:title>
+  <md:abstract/>
+  <md:uuid>11a288d3-df39-4d59-965f-5147f302b22b</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id62184">In Grade 10, we investigated the idea of <emphasis effect="italics">average gradient</emphasis> and saw that the gradient of some functions varied over different intervals. In Grade 11, we further look at the idea of average gradient, and are introduced to the idea of a gradient of a curve at a point.</para>
+    </section>
+    <section id="cid3">
+      <title>Average Gradient</title>
+      <para id="id62542">We saw that the average gradient between two points on a curve is the gradient of the straight line passing through the two points.</para>
+      <figure id="uid1">
+        <media id="uid1_media" alt="">
+          <image mime-type="image/png" src="../../media/MG11C14_001.png" id="uid1_onlineimage" width="170"><!-- NOTE: attribute width changes image size online (pixels). original width is 170. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG11C14_001.eps" id="uid1_printimage"/>
+        </media>
+        <caption>The average gradient between two points on a curve is the gradient of the straight line that passes through the points.</caption>
+      </figure>
+      <para id="id62559">What happens to the gradient if we fix the position of one point and move the second point closer to the fixed point?</para>
+<section id="secfhsst_id81"><title> Investigation : Gradient at a Single Point on a Curve </title>
+      <para id="id62570">The curve shown is defined by <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn></m:mrow></m:math>. Point B is fixed at coordinates
+(0,-5). The position of point A varies. Complete the table below by calculating
+the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-coordinates of point A for the given <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-coordinates and then calculate
+the average gradient between points A and B.</para>
+      <para id="id62621">
+        <table id="id62627" summary="">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mi>A</m:mi>
+                    </m:msub>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mi>A</m:mi>
+                    </m:msub>
+                  </m:math>
+                </entry>
+                <entry>average gradient</entry>
+              </row>
+              <row>
+                <entry>-2</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>-1.5</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>-1</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>-0.5</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>0</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>0.5</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>1.5</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>2</entry>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <figure id="id62906">
+          <media id="id62906_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C14_002.png" id="id62906_onlineimage" width="85"><!-- NOTE: attribute width changes image size online (pixels). original width is 85. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C14_002.eps" id="id62906_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id62913">What happens to the average gradient as A moves towards B? What happens to the
+average gradient as A moves away from B? What is the average gradient when A overlaps
+with B?
+ </para>
+</section>
+      <para id="id62923">In <link target-id="uid2"/>, the gradient of the straight line that passes through points A and C changes as A moves closer to C. At the point when A and C overlap, the straight line only passes through one point on the curve. Such a line is known as a tangent to the curve.</para>
+      <figure id="uid2" orient="vertical">
+        <subfigure id="id62953">
+          <media id="id62953_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C14_003.png" id="id62953_onlineimage" width="84"><!-- NOTE: attribute width changes image size online (pixels). original width is 84. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C14_003.eps" id="id62953_printimage"/>
+          </media>
+        </subfigure>
+        <subfigure id="id62962">
+          <media id="id62962_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C14_004.png" id="id62962_onlineimage" width="83"><!-- NOTE: attribute width changes image size online (pixels). original width is 83. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C14_004.eps" id="id62962_printimage"/>
+          </media>
+        </subfigure>
+        <subfigure id="id62973">
+          <media id="id62973_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C14_005.png" id="id62973_onlineimage" width="83"><!-- NOTE: attribute width changes image size online (pixels). original width is 83. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C14_005.eps" id="id62973_printimage"/>
+          </media>
+        </subfigure>
+        <subfigure id="id62982">
+          <media id="id62982_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C14_006.png" id="id62982_onlineimage" width="83"><!-- NOTE: attribute width changes image size online (pixels). original width is 83. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C14_006.eps" id="id62982_printimage"/>
+          </media>
+        </subfigure>
+        <caption>The gradient of the straight line between A and C changes as the point A moves along the curve towards C. There comes a point when A and C overlap (as shown in (c)). At this point the line is a tangent to the curve.</caption>
+      </figure>
+      <para id="id62989">We therefore introduce the idea of a gradient at a single point on a curve. The gradient at a point on a curve is simply the gradient of the tangent to the curve at the given point.</para>
+<exercise id="secfhsst_id198"><title> Average Gradient </title>
+      <problem id="probfhsst_id199">
+      <para id="id63005">Find the average gradient between two points P<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>;</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow></m:math> and Q<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>;</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow></m:math> on a curve <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Then find the average gradient between P<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow></m:math> and Q<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow></m:math>. Finally, explain what happens to the average gradient if P moves closer to Q. </para>
+      </problem>
+      <solution id="solfhsst_id202"> <list id="listfhsst_id202" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Label <m:math overflow="scroll"><m:mi>x</m:mi></m:math> points </label>
+      <equation id="id63345">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mi>a</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <equation id="id63366">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mi>a</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Determine <m:math overflow="scroll"><m:mi>y</m:mi></m:math> coordinates </label>
+      <para id="id63402">Using the function <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, we can determine:</para>
+      <equation id="id63432">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msub>
+              <m:mi>y</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mi>g</m:mi>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>a</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <equation id="id63469">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>h</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>a</m:mi>
+                  <m:mi>h</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:msup>
+                    <m:mi>h</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Calculate average gradient </label>
+      <equation id="uid3">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>-</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>-</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mi>a</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mi>a</m:mi>
+                      <m:mi>h</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mi>h</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mi>a</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow/>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>a</m:mi>
+                    <m:mi>h</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mi>a</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow/>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>a</m:mi>
+                    <m:mi>h</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>h</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mi>h</m:mi>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow/>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mi>h</m:mi>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>h</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id63853">The average gradient between P<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>;</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow></m:math> and Q<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>;</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow></m:math> on the curve <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow></m:math>.</para>
+      </item> <item> <label> Calculate the average gradient between P<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>;</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow></m:math> and Q<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>;</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mn>4</m:mn><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow></m:math> </label>
+      <para id="id64006">We can use the result in <link target-id="uid3"/>, but we have to determine what <m:math overflow="scroll"><m:mi>a</m:mi></m:math> and <m:math overflow="scroll"><m:mi>h</m:mi></m:math> are. We do this by looking at the definitions of P and Q. The <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-coordinate of P is <m:math overflow="scroll"><m:mi>a</m:mi></m:math> and the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-coordinate of Q is <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi></m:mrow></m:math> therefore if we assume that <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, then <m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+      <para id="id64110">Then the average gradient is:</para>
+      <equation id="id64113">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>a</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>h</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo>(</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mo>(</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>6</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> When P moves closer to Q... </label>
+      <para id="id64158">When point P moves closer to point Q, <m:math overflow="scroll"><m:mi>h</m:mi></m:math> gets smaller. This means that the average gradient also gets smaller. When the point Q overlaps with the point P <m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and the average gradient is given by <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:math>.
+ </para>
+      </item> </list> </solution>
+</exercise>
+      <para id="id64206">We now see that we can write the equation to calculate average gradient in a slightly different manner. If we have a curve defined by <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> then for two points P and Q with P<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>;</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow></m:math> and Q<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>;</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>h</m:mi><m:mo>)</m:mo><m:mo>)</m:mo></m:mrow></m:math>, then the average gradient between P and Q on <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> is:</para>
+      <equation id="id64297">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>-</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mo>-</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>h</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>a</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mi>h</m:mi>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id64441">This result is important for calculating the gradient at a point on a curve and will be explored in greater detail in Grade 12.</para>
+    </section>
+    <section id="cid4">
+      <title>End of Chapter Exercises</title>
+      <list id="id64457" display="block" list-type="enumerated">
+        <item id="uid4">
+          <list id="id64467" display="block" list-type="enumerated">
+            <item id="uid5">Determine the average gradient of the curve <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow></m:math> between <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>Â</m:mi><m:mi></m:mi><m:mn>5</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>Â</m:mi><m:mi></m:mi><m:mn>3</m:mn></m:mrow></m:math>.
+</item>
+            <item id="uid6">Hence, state what you can deduce about the function <m:math overflow="scroll"><m:mi>f</m:mi></m:math> between <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>Â</m:mi><m:mi></m:mi><m:mn>5</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>Â</m:mi><m:mi></m:mi><m:mn>3</m:mn></m:mrow></m:math>.
+</item>
+          </list>
+        </item>
+        <item id="uid7">A(1;3) is a point on <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.
+<list id="id64651" display="block" list-type="enumerated"><item id="uid8">Determine the gradient of the curve at point A.
+</item><item id="uid9">Hence, determine the equation of the tangent line at A.
+</item></list></item>
+        <item id="uid10">Given: <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.
+<list id="id64721" display="block" list-type="enumerated"><item id="uid11">Determine the average gradient of the curve between <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>.
+</item><item id="uid12">Determine the gradient of the curve of <m:math overflow="scroll"><m:mi>f</m:mi></m:math> where <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.
+</item></list></item>
+      </list>
+    </section>
+  </content>
+</document>

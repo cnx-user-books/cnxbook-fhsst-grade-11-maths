@@ -1,0 +1,1075 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Exponential Functions and Graphs</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m30856</md:content-id>
+  <md:title>Exponential Functions and Graphs</md:title>
+  <md:abstract/>
+  <md:uuid>1ef218d5-716c-4afa-be78-65d66e251016</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id62184">In Grade 10, you studied graphs of many different forms. In this chapter, you will learn a little more about the graphs of exponential functions.</para>
+    </section>
+    <section id="cid3">
+      <title>Functions of the Form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> for <m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></title>
+      <para id="id62584">This form of the exponential function is slightly more complex than the form studied in Grade 10.</para>
+      <figure id="uid1">
+        <media id="uid1_media" alt="">
+          <image mime-type="image/png" src="../../media/MG11C12_001-7594.png" id="uid1_onlineimage" width="194"><!-- NOTE: attribute width changes image size online (pixels). original width is 194. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG11C12_001-63c1.eps" id="uid1_printimage"/>
+        </media>
+        <caption>General shape and position of the graph of a function of the form <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>.</caption>
+      </figure>
+<section id="secfhsst_id73"><title> Investigation : Functions of the Form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> </title>
+      <list id="id62684" display="block" list-type="enumerated"><item id="uid2">On the same set of axes, with <m:math display="display">
+  <m:apply>
+    <m:leq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>5</m:cn>
+    </m:apply>
+    <m:ci>x</m:ci>
+    <m:cn>3</m:cn>
+  </m:apply>
+</m:math> and <m:math display="display">
+  <m:apply>
+    <m:leq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>35</m:cn>
+    </m:apply>
+    <m:ci>y</m:ci>
+    <m:cn>35</m:cn>
+  </m:apply>
+</m:math>, plot the following graphs:
+<list id="id62699" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid3"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid4"><m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid5"><m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid6"><m:math overflow="scroll"><m:mrow><m:mi>j</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid7"><m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item></list>
+Use your results to understand what happens when you change the value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math>.
+
+You should find that the value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> affects whether the graph curves upwards (<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>) or curves downwards (<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>). You should also find that a larger value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> (when <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is positive) stretches the graph upwards. However, when <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is negative, a lower value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> (such as -2 instead of -1) stretches the graph downwards. Finally, note that when <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> the graph is simply a horizontal line. This is why we set <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> in the original definition of these functions.
+</item>
+        <item id="uid8">On the same set of axes, with <m:math display="display">
+  <m:apply>
+    <m:leq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>3</m:cn>
+    </m:apply>
+    <m:ci>x</m:ci>
+    <m:cn>3</m:cn>
+  </m:apply>
+</m:math> and <m:math display="display">
+  <m:apply>
+    <m:leq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>5</m:cn>
+    </m:apply>
+    <m:ci>y</m:ci>
+    <m:cn>20</m:cn>
+  </m:apply>
+</m:math>, plot the following graphs:
+<list id="id63178" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid9"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid10"><m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid11"><m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>0</m:mn></m:mrow></m:math></item><item id="uid12"><m:math overflow="scroll"><m:mrow><m:mi>j</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid13"><m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item></list>
+Use your results to understand what happens when you change the value of <m:math overflow="scroll"><m:mi>q</m:mi></m:math>.
+
+You should find that when <m:math overflow="scroll"><m:mi>q</m:mi></m:math> is increased, the whole graph is translated (moved) upwards. When <m:math overflow="scroll"><m:mi>q</m:mi></m:math> is decreased (poosibly even made negative), the graph is translated downwards.
+
+</item>
+
+<item id="uid211">On the same set of axes, with <m:math display="display">
+  <m:apply>
+    <m:leq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>5</m:cn>
+    </m:apply>
+    <m:ci>x</m:ci>
+    <m:cn>3</m:cn>
+  </m:apply>
+</m:math> and <m:math display="display">
+  <m:apply>
+    <m:leq/>
+    <m:apply>
+      <m:minus/>
+      <m:cn>35</m:cn>
+    </m:apply>
+    <m:ci>y</m:ci>
+    <m:cn>35</m:cn>
+  </m:apply>
+</m:math>, plot the following graphs:
+<list id="id626991" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid311"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid411"><m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid511"><m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid61"><m:math overflow="scroll"><m:mrow><m:mi>j</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid71"><m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>·</m:mo><m:msup><m:mi>2</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></item></list>
+Use your results to understand what happens when you change the value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math>.
+
+You should find that the value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> affects whether the graph curves upwards (<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>) or curves downwards (<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>). You should also find that a larger value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> (when <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is positive) stretches the graph upwards. However, when <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is negative, a lower value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> (such as -2 instead of -1) stretches the graph downwards. Finally, note that when <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> the graph is simply a horizontal line. This is why we set <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> in the original definition of these functions.
+</item>
+
+        <item id="uid14">Following the general method of the above activities, choose your own values of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> and <m:math overflow="scroll"><m:mi>q</m:mi></m:math> to plot 5 graphs of <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> on the same set of axes (choose your own limits for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> and <m:math overflow="scroll"><m:mi>y</m:mi></m:math> carefully). Make sure that you use the same values of <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> and <m:math overflow="scroll"><m:mi>q</m:mi></m:math> for each graph, and different values of <m:math overflow="scroll"><m:mi>p</m:mi></m:math>. Use your results to understand the effect of changing the value of <m:math overflow="scroll"><m:mi>p</m:mi></m:math>.
+</item></list>
+      
+</section>
+      
+      
+      
+      <para id="id63618">These different properties are summarised in <link target-id="uid15"/>. </para>
+      <table id="uid15" summary="">
+        <tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <tbody>
+            <row>
+              <entry/>
+              <entry namest="c2" nameend="c3">
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo>&lt;</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry namest="c4" nameend="c5">
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo>&gt;</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>&gt;</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>&lt;</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>&gt;</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>&lt;</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>q</m:mi>
+                    <m:mo>&gt;</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <figure id="id63839">
+                  <media id="id63839_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG11C12_002-e032.png" id="id63839_onlineimage" width="57"><!-- NOTE: attribute width changes image size online (pixels). original width is 57. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG11C12_002-5860.eps" id="id63839_printimage"/>
+                  </media>
+                </figure>
+              </entry>
+              <entry>
+                <figure id="id63850">
+                  <media id="id63850_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG11C12_003-87c7.png" id="id63850_onlineimage" width="57"><!-- NOTE: attribute width changes image size online (pixels). original width is 57. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG11C12_003-3aad.eps" id="id63850_printimage"/>
+                  </media>
+                </figure>
+              </entry>
+              <entry>
+                <figure id="id63861">
+                  <media id="id63861_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG11C12_004-5198.png" id="id63861_onlineimage" width="57"><!-- NOTE: attribute width changes image size online (pixels). original width is 57. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG11C12_004-356d.eps" id="id63861_printimage"/>
+                  </media>
+                </figure>
+              </entry>
+              <entry>
+                <figure id="id63872">
+                  <media id="id63872_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG11C12_005-c9fe.png" id="id63872_onlineimage" width="57"><!-- NOTE: attribute width changes image size online (pixels). original width is 57. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG11C12_005-5702.eps" id="id63872_printimage"/>
+                  </media>
+                </figure>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>q</m:mi>
+                    <m:mo>&lt;</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <figure id="id63907">
+                  <media id="id63907_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG11C12_006-922b.png" id="id63907_onlineimage" width="57"><!-- NOTE: attribute width changes image size online (pixels). original width is 57. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG11C12_006-ab65.eps" id="id63907_printimage"/>
+                  </media>
+                </figure>
+              </entry>
+              <entry>
+                <figure id="id63918">
+                  <media id="id63918_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG11C12_007-a6d7.png" id="id63918_onlineimage" width="57"><!-- NOTE: attribute width changes image size online (pixels). original width is 57. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG11C12_007-d639.eps" id="id63918_printimage"/>
+                  </media>
+                </figure>
+              </entry>
+              <entry>
+                <figure id="id63929">
+                  <media id="id63929_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG11C12_008-277e.png" id="id63929_onlineimage" width="57"><!-- NOTE: attribute width changes image size online (pixels). original width is 57. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG11C12_008-627c.eps" id="id63929_printimage"/>
+                  </media>
+                </figure>
+              </entry>
+              <entry>
+                <figure id="id63940">
+                  <media id="id63940_media" alt="">
+                    <image mime-type="image/png" src="../../media/MG11C12_009-1a19.png" id="id63940_onlineimage" width="57"><!-- NOTE: attribute width changes image size online (pixels). original width is 57. --></image>
+                    <image mime-type="application/postscript" for="pdf" src="../../media/MG11C12_009-bec1.eps" id="id63940_printimage"/>
+                  </media>
+                </figure>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <caption>Table summarising general shapes and positions of functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>.</caption>
+      </table>
+      <section id="uid16">
+        <title>Domain and Range</title>
+        <para id="id63956">For <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, the function is defined for all real values of <m:math overflow="scroll"><m:mi>x</m:mi></m:math>. Therefore, the domain is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>x</m:mi><m:mo>:</m:mo><m:mi>x</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math>.</para>
+        <para id="id64026">The range of <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> is dependent on the sign of <m:math overflow="scroll"><m:mi>a</m:mi></m:math>.</para>
+        <para id="id64071">If <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> then:</para>
+        <equation id="id64088">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>b</m:mi>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>p</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>&gt;</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mi>p</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>&gt;</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mi>p</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>q</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>&gt;</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mi>q</m:mi>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>&gt;</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mi>q</m:mi>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id64224">Therefore, if <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then the range is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mi>q</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math>. In other words  
+<m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> can be any real number greater than <m:math overflow="scroll"><m:mi>q</m:mi></m:math>.</para>
+        <para id="id64286">If <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> then:</para>
+        <equation id="id64302">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>b</m:mi>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>p</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>&gt;</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mi>p</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>&lt;</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mi>p</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>q</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>&lt;</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mi>q</m:mi>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>&lt;</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mi>q</m:mi>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id64439">Therefore, if <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then the range is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>q</m:mi><m:mo>)</m:mo></m:mrow></m:math>, meaning that 
+<m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> can be any real number less than <m:math overflow="scroll"><m:mi>q</m:mi></m:math>. Equivalently, one could write that the range is  <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>y</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>:</m:mo><m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mi>q</m:mi><m:mo>}</m:mo></m:mrow></m:math>.</para>
+        <para id="id64506">For example, the domain of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>x</m:mi><m:mo>:</m:mo><m:mi>x</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math>.
+For the range,</para>
+        <equation id="id64577">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>&gt;</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>&gt;</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>&gt;</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>2</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id64683">Therefore the range is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+<section id="secfhsst_id515"><title> Domain and Range </title>
+        <list id="id64740" display="block" list-type="enumerated">
+          <item id="uid17">Give the domain of <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>.
+</item>
+          <item id="uid18">What is the domain and range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> ?
+</item>
+          <item id="uid19">Determine the domain and range of <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math>.
+</item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid20">
+        <title>Intercepts</title>
+        <para id="id64881">For functions of the form, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, the intercepts with the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>- and <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis are calculated by setting <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> for the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept and by setting <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> for the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-intercept.</para>
+        <para id="id64985">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept is calculated as follows:</para>
+        <equation id="uid21">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mi>p</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>q</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msub>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mi>i</m:mi>
+                      <m:mi>n</m:mi>
+                      <m:mi>t</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>0</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>p</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>q</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mi>p</m:mi>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>q</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id65122">For example, the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> is given by setting <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> to get:</para>
+        <equation id="id65190">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msub>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mi>i</m:mi>
+                      <m:mi>n</m:mi>
+                      <m:mi>t</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>1</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>8</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id65342">The <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-intercepts are calculated by setting <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> as follows:</para>
+        <equation id="uid22">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mi>p</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>q</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mi>i</m:mi>
+                            <m:mi>n</m:mi>
+                            <m:mi>t</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo>+</m:mo>
+                        <m:mi>p</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>q</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mi>i</m:mi>
+                            <m:mi>n</m:mi>
+                            <m:mi>t</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo>+</m:mo>
+                        <m:mi>p</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>q</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>b</m:mi>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mi>i</m:mi>
+                          <m:mi>n</m:mi>
+                          <m:mi>t</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:mi>p</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mfrac>
+                      <m:mi>q</m:mi>
+                      <m:mi>a</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id65566">Since <m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> (this is a requirement in the original definition) and a positive number raised to any power is always positive, the last equation above only has a real solution if either <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> or <m:math overflow="scroll"><m:mrow><m:mi>q</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> (but not both). Additionally, <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> must not be zero for the division to be valid. If these conditions are not satisfied, the graph of the function of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> does not have any <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-intercepts.</para>
+        <para id="id65660">For example, the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-intercept of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> is given by setting <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> to get:</para>
+        <equation id="id65728">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mi>i</m:mi>
+                            <m:mi>n</m:mi>
+                            <m:mi>t</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mi>i</m:mi>
+                            <m:mi>n</m:mi>
+                            <m:mi>t</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mn>2</m:mn>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mi>i</m:mi>
+                          <m:mi>n</m:mi>
+                          <m:mi>t</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id65910">which has no real solution. Therefore, the graph of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> does not have a <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-intercept. You will notice that calculating <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> for any value of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> will always give a positive number, meaning that <m:math overflow="scroll"><m:mi>y</m:mi></m:math> will never be zero and so the graph will never intersect the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis.</para>
+<section id="secfhsst_id972"><title> Intercepts </title>
+        <list id="id65974" display="block" list-type="enumerated">
+          <item id="uid23">Give the y-intercept of the graph of <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.
+</item>
+          <item id="uid24">Give the x- and y-intercepts of the graph of <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>75</m:mn></m:mrow></m:math>.
+</item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid25"><title>Asymptotes</title><para id="id66094">Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> always have exactly one horizontal asymptote.</para>
+        <para id="id66135">When examining the range of these functions, we saw that we always have either <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mi>q</m:mi></m:mrow></m:math> or <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>&gt;</m:mo><m:mi>q</m:mi></m:mrow></m:math> for all input values of <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>. Therefore the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>q</m:mi></m:mrow></m:math> is an asymptote.</para>
+        <para id="id66199">For example, we saw earlier that the range of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo></m:mrow></m:math> because <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is always greater than 2. However, the value of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> can get extremely close to 2, even though it never reaches it. For example, if you calculate <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math>, the value is approximately 2.000006. Using larger negative values of <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> will make <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:math> even closer to 2: the value of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mn>0</m:mn><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> is so close to 2 that the calculator is not precise enough to know the difference, and will (incorrectly) show you that it is equal to exactly 2.</para>
+        <para id="id66403">From this we deduce that the line <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> is an asymptote.</para>
+<section id="secfhsst_id988"><title> Asymptotes </title>
+        <list id="id66445" display="block" list-type="enumerated">
+          <item id="uid26">Give the equation of the asymptote of the graph of <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math>.
+</item>
+          <item id="uid27">What is the equation of the horizontal asymptote of the
+graph of <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math> ?
+</item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid28">
+        <title>Sketching Graphs of the Form <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math></title>
+        <para id="id66605">In order to sketch graphs of functions of the form, <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>, we need to determine four characteristics:</para>
+        <list id="id66651" display="block" list-type="enumerated">
+          <item id="uid29">domain and range
+</item>
+          <item id="uid30"><m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept
+</item>
+          <item id="uid31"><m:math overflow="scroll"><m:mi>x</m:mi></m:math>-intercept
+</item>
+        </list>
+        <para id="id66707">For example, sketch the graph of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>. Mark the intercepts.</para>
+        <para id="id66751">We have determined the domain to be <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>x</m:mi><m:mo>:</m:mo><m:mi>x</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math> and the range to be <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+        <para id="id66825">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept is <m:math overflow="scroll"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>t</m:mi></m:mrow></m:msub><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math> and there is no <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-intercept.</para>
+        <figure id="uid32">
+          <media id="uid32_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C12_010-8162.png" id="uid32_onlineimage" width="194"><!-- NOTE: attribute width changes image size online (pixels). original width is 194. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C12_010-0991.eps" id="uid32_printimage"/>
+          </media>
+          <caption>Graph of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>·</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</caption>
+        </figure>
+<section id="secfhsst_id1020"><title> Sketching Graphs </title>
+        <list id="id66932" display="block" list-type="enumerated">
+          <item id="uid33">Draw the graphs of the following on the same set of axes. Label the horizontal asymptotes and y-intercepts clearly.
+<list id="id66947" display="block" list-type="enumerated"><item id="uid34"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item><item id="uid35"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math></item><item id="uid36"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math></item><item id="uid37"><m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:msup><m:mi>b</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item></list><list id="id67092" display="block" list-type="enumerated"><item id="uid38">Draw the graph of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>.
+</item><item id="uid39">Explain where a solution of <m:math overflow="scroll"><m:mrow><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> can be read off the graph.
+</item></list></item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+    <section id="cid4">
+      <title>End of Chapter Exercises</title>
+      <list id="id67186" display="block" list-type="enumerated">
+        <item id="uid40">The following table of values has columns giving the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-values for the graph <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mi>a</m:mi><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Match a graph to a column.
+<table id="id67280" summary=""><tgroup cols="4"><tbody><row><entry><m:math overflow="scroll"><m:mi>x</m:mi></m:math></entry><entry>A</entry><entry>B</entry><entry>C</entry></row><row><entry>-2</entry><entry>7,25</entry><entry>6,25</entry><entry>2,5</entry></row><row><entry>-1</entry><entry>3,5</entry><entry>2,5</entry><entry>1</entry></row><row><entry>0</entry><entry>2</entry><entry>1</entry><entry>0,4</entry></row><row><entry>1</entry><entry>1,4</entry><entry>0,4</entry><entry>0,16</entry></row><row><entry>2</entry><entry>1,16</entry><entry>0,16</entry><entry>0,064</entry></row></tbody></tgroup></table></item>
+        <item id="uid41">The graph of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>a</m:mi><m:mo>.</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> (a is a constant) passes through the origin.
+<list id="id67567" display="block" list-type="enumerated"><item id="uid42">Determine the value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math>.
+</item><item id="uid43">Determine the value of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>15</m:mn><m:mo>)</m:mo></m:mrow></m:math> correct to FIVE decimal places.
+</item><item id="uid44">Determine the value of <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, if <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow></m:math> lies on the graph of <m:math overflow="scroll"><m:mi>f</m:mi></m:math>.
+</item><item id="uid45">If the graph of <m:math overflow="scroll"><m:mi>f</m:mi></m:math> is shifted 2 units to the right to give the function <m:math overflow="scroll"><m:mi>h</m:mi></m:math>, write down the equation of <m:math overflow="scroll"><m:mi>h</m:mi></m:math>.
+</item></list></item>
+        <item id="uid46">The graph of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>.</m:mo><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup><m:mspace width="3.33333pt"/><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math> has the point P(2;144) on <m:math overflow="scroll"><m:mi>f</m:mi></m:math>.
+<list id="id67783" display="block" list-type="enumerated"><item id="uid47">If <m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>75</m:mn></m:mrow></m:math>, calculate the value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math>.
+</item><item id="uid48">Hence write down the equation of <m:math overflow="scroll"><m:mi>f</m:mi></m:math>.
+</item><item id="uid49">Determine, correct to TWO decimal places, the value of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mn>13</m:mn><m:mo>)</m:mo></m:mrow></m:math>.
+</item><item id="uid50">Describe the transformation of the curve of <m:math overflow="scroll"><m:mi>f</m:mi></m:math> to <m:math overflow="scroll"><m:mi>h</m:mi></m:math> if <m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+</item></list></item>
+      </list>
+    </section>
+  </content>
+</document>

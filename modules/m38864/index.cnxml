@@ -1,0 +1,127 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Misuse of statistics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38864</md:content-id>
+  <md:title>Misuse of statistics</md:title>
+  <md:abstract/>
+  <md:uuid>2d46f028-447d-43e8-9cc4-3b307a063dac</md:uuid>
+</metadata>
+
+<content>
+
+    <section id="cid7">
+      <title>Misuse of Statistics</title>
+      <para id="id170678">Statistics can be manipulated in many ways that can be misleading. Graphs need to be carefully analysed and questions must always be asked about 'the story behind the figures.' Potential manipulations are:</para>
+      <list id="id170683" display="block" list-type="enumerated">
+        <item id="uid99">Changing the scale to change the appearence of a graph
+</item>
+        <item id="uid100">Omissions and biased selection of data
+</item>
+        <item id="uid101">Focus on particular research questions
+</item>
+        <item id="uid102">Selection of groups
+</item>
+      </list>
+<section id="secfhsst_id1570"><title> Investigation : Misuse of statistics </title>
+      <list id="id170744" display="block" list-type="enumerated">
+        <item id="uid103">Examine the following graphs and comment on the effects of changing scale.
+<figure id="id170763"><media id="id170763_media" alt=""><image mime-type="image/png" src="../../media/MG11C18_008.png" id="id170763_onlineimage" width="295"><!-- NOTE: attribute width changes image size online (pixels). original width is 295. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C18_008.eps" id="id170763_printimage"/></media></figure><figure id="id170773"><media id="id170773_media" alt=""><image mime-type="image/png" src="../../media/MG11C18_009.png" id="id170773_onlineimage" width="295"><!-- NOTE: attribute width changes image size online (pixels). original width is 295. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C18_009.eps" id="id170773_printimage"/></media></figure></item>
+        <item id="uid104">Examine the following three plots and comment on omission, selection and bias. Hint: What is wrong with the data and what is missing from the bar and pie charts?
+<table id="id170793" summary=""><tgroup cols="2"><tbody><row><entry>Activity</entry><entry>Hours</entry></row><row><entry>Sleep</entry><entry>8</entry></row><row><entry>Sports</entry><entry>2</entry></row><row><entry>School</entry><entry>7</entry></row><row><entry>Visit friend</entry><entry>1</entry></row><row><entry>Watch TV</entry><entry>2</entry></row><row><entry>Studying</entry><entry>3</entry></row></tbody></tgroup></table><figure id="id170945"><media id="id170945_media" alt=""><image mime-type="image/png" src="../../media/MG11C18_010.png" id="id170945_onlineimage" width="273"><!-- NOTE: attribute width changes image size online (pixels). original width is 273. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C18_010.eps" id="id170945_printimage"/></media></figure><figure id="id170955"><media id="id170955_media" alt=""><image mime-type="image/png" src="../../media/MG11C18_011.png" id="id170955_onlineimage" width="194"><!-- NOTE: attribute width changes image size online (pixels). original width is 194. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C18_011.eps" id="id170955_printimage"/></media></figure></item>
+      </list>
+      
+</section>
+<section id="secfhsst_id1579"><title> Misuse of Statistics </title>
+      <para id="id170979">The bar graph below shows the results of a study that looked at the cost of food compared to the income of a household in 1994.</para>
+      <para id="id170986">
+        <figure id="id170989">
+          <media id="id170989_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C18_012.png" id="id170989_onlineimage" width="287"><!-- NOTE: attribute width changes image size online (pixels). original width is 287. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C18_012.eps" id="id170989_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <table id="id170996" summary="">
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Income (thousands of rands)</entry>
+              <entry>Food bill (thousands of rands)</entry>
+            </row>
+            <row>
+              <entry><m:math overflow="scroll"><m:mo>&lt;</m:mo></m:math>5</entry>
+              <entry>2</entry>
+            </row>
+            <row>
+              <entry>5-10</entry>
+              <entry>2</entry>
+            </row>
+            <row>
+              <entry>10-15</entry>
+              <entry>4</entry>
+            </row>
+            <row>
+              <entry>15-20</entry>
+              <entry>4</entry>
+            </row>
+            <row>
+              <entry>20-30</entry>
+              <entry>8</entry>
+            </row>
+            <row>
+              <entry>30-40</entry>
+              <entry>6</entry>
+            </row>
+            <row>
+              <entry>40-50</entry>
+              <entry>10</entry>
+            </row>
+            <row>
+              <entry><m:math overflow="scroll"><m:mo>&gt;</m:mo></m:math>50</entry>
+              <entry>12</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      <list id="id171197" display="block" list-type="enumerated">
+        <item id="uid105">What is the dependent variable? Why?
+</item>
+        <item id="uid106">What conclusion can you make about this variable? Why? Does this make sense?
+</item>
+        <item id="uid107">What would happen if the graph was changed from food bill in thousands of rands to percentage of income?
+</item>
+        <item id="uid108">Construct this bar graph using a table. What conclusions can be drawn?
+</item>
+        <item id="uid109">Why do the two graphs differ despite showing the same information?
+</item>
+        <item id="uid110">What else is observed? Does this affect the fairness of the results?
+</item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid8">
+      <title>End of Chapter Exercises</title>
+      <list id="id171296" display="block" list-type="enumerated">
+        <item id="uid111">Many accidents occur during the holidays between Durban and Johannesburg. A study was done to see if speeding was a factor in the high accident rate. Use the results given to answer the following questions.
+<table id="id171313" summary=""><tgroup cols="2"><tbody><row><entry>Speed (km/h)</entry><entry>Frequency</entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>60</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>70</m:mn></m:mrow></m:math></entry><entry>3</entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>70</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>80</m:mn></m:mrow></m:math></entry><entry>2</entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>80</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>90</m:mn></m:mrow></m:math></entry><entry>6</entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>90</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>100</m:mn></m:mrow></m:math></entry><entry>40</entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>100</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>110</m:mn></m:mrow></m:math></entry><entry>50</entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>110</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>120</m:mn></m:mrow></m:math></entry><entry>30</entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>120</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>130</m:mn></m:mrow></m:math></entry><entry>15</entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>130</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>140</m:mn></m:mrow></m:math></entry><entry>12</entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>140</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>150</m:mn></m:mrow></m:math></entry><entry>3</entry></row><row><entry><m:math overflow="scroll"><m:mrow><m:mn>150</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>160</m:mn></m:mrow></m:math></entry><entry>2</entry></row></tbody></tgroup></table><list id="id171701" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid112">Draw a graph to illustrate this information.
+</item><item id="uid113">Use your graph to find the median speed and the interquartile range.
+</item><item id="uid114">What percent of cars travel more than <m:math><m:mn>120</m:mn><m:mspace width="2pt"/><m:mi mathvariant="normal">km</m:mi><m:mo>.</m:mo><m:msup><m:mi mathvariant="normal">h</m:mi><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math> on this road?
+</item><item id="uid115">Do cars generally exceed the speed limit?
+</item></list></item>
+        <item id="uid116">The following two diagrams (showing two schools contribution to charity) have been exaggerated. Explain how they are misleading and redraw them so that they are not misleading.
+<figure id="id171772"><media id="id171772_media" alt=""><image mime-type="image/png" src="../../media/MG11C18_013.png" id="id171772_onlineimage" width="229"><!-- NOTE: attribute width changes image size online (pixels). original width is 229. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C18_013.eps" id="id171772_printimage"/></media></figure></item>
+        <item id="uid117">The monthly income of eight teachers are given as follows:
+R10 050; R14 300; R9 800; R15 000; R12 140; R13 800; R11 990; R12 900.
+<list id="id171798" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid118">What is the mean income and the standard deviation?
+</item><item id="uid119">How many of the salaries are within one standard deviation of the mean?
+</item><item id="uid120">If each teacher gets a bonus of R500 added to their pay what is the new mean and standard deviation?
+</item><item id="uid121">If each teacher gets a bonus of 10% on their salary what is the new mean and standard deviation?
+</item><item id="uid122">Determine for both of the above, how many salaries are within one standard deviation of the mean.
+</item><item id="uid123">Using the above information work out which bonus is more beneficial financially for the teachers.
+</item></list></item>
+      </list>
+    </section>
+  </content>
+</document>

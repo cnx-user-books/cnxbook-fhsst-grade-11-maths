@@ -1,0 +1,353 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Present and future values</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38828</md:content-id>
+  <md:title>Present and future values</md:title>
+  <md:abstract/>
+  <md:uuid>9e7ca702-c3b7-4bf2-8efd-c53c07671e0c</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid6">
+      <title>Present Values or Future Values of an Investment or Loan</title>
+      <section id="uid10">
+        <title>Now or Later</title>
+        <para id="id343875">When we studied simple and compound interest we looked at having a sum of money now, and calculating what it will be worth in the future. Whether the money was borrowed or invested, the calculations examined what the total money would be at some future date. We call these <emphasis effect="italics">future values</emphasis>.</para>
+        <para id="id343886">It is also possible, however, to look at a sum of money in the future, and work out what it is worth now. This is called a <emphasis effect="italics">present value</emphasis>.</para>
+        <para id="id343896">For example, if R1 000 is deposited into a bank account now, the future value is what that amount will accrue to by some specified future date. However, if R1 000 is needed at some future time, then the present value can be found by working backwards - in other words, how much must be invested to ensure the money grows to R1 000 at that future date?</para>
+        <para id="id343904">The equation we have been using so far in compound interest, which relates the open balance (<m:math overflow="scroll"><m:mi>P</m:mi></m:math>), the closing balance (<m:math overflow="scroll"><m:mi>A</m:mi></m:math>), the interest rate (<m:math overflow="scroll"><m:mi>i</m:mi></m:math> as a rate per annum) and the term (<m:math overflow="scroll"><m:mi>n</m:mi></m:math> in years) is:</para>
+        <equation id="uid11">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:mo>·</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id343984">Using simple algebra, we can solve for <m:math overflow="scroll"><m:mi>P</m:mi></m:math> instead of <m:math overflow="scroll"><m:mi>A</m:mi></m:math>, and come up with:</para>
+        <equation id="uid12">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>P</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>A</m:mi>
+              <m:mo>·</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mi>n</m:mi>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id344048">This can also be written as follows, but the first approach is usually preferred.</para>
+        <equation id="uid13"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>P</m:mi>
+              <m:mo>=</m:mo><m:mfrac>
+              <m:mi>A</m:mi>
+              <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:msup></m:mrow></m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id344092">Now think about what is happening here. In Equation <link target-id="uid11"/>, we start off with a sum of money and we let it grow for <m:math overflow="scroll"><m:mi>n</m:mi></m:math> years. In Equation <link target-id="uid12"/> we have a sum of money which we know in <m:math overflow="scroll"><m:mi>n</m:mi></m:math> years time, and we “unwind" the interest - in other words we take off interest for <m:math overflow="scroll"><m:mi>n</m:mi></m:math> years, until we see what it is worth right now.</para>
+        <para id="id344134">We can test this as follows. If I have R1 000 now and I invest it at 10% for 5 years, I will have:</para>
+        <equation id="id344139">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>10</m:mn>
+                        <m:mo>%</m:mo>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>5</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>610</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>51</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id344253">at the end. BUT, if I know I have to have R1 610,51 in 5 years time, I need to invest:</para>
+        <equation id="id344260">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>P</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mi>n</m:mi>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>610</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>51</m:mn>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>10</m:mn>
+                        <m:mo>%</m:mo>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id344381">We end up with R1 000 which - if you think about it for a moment - is what we started off with. Do you see that?</para>
+        <para id="id344388">Of course we could apply the same techniques to calculate a present value amount under simple interest rate assumptions - we just need to solve for the opening balance using the equations for simple interest.</para>
+        <equation id="uid14">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:mo>(</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi>i</m:mi>
+              <m:mo>×</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id344429">Solving for <m:math overflow="scroll"><m:mi>P</m:mi></m:math> gives:
+        </para>
+        <equation id="uid15">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>P</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>A</m:mi>
+              <m:mo>/</m:mo>
+              <m:mo>(</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi>i</m:mi>
+              <m:mo>×</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id344482">Let us say you need to accumulate an amount of R1 210 in 3 years time, and a bank account pays <emphasis effect="italics">Simple Interest</emphasis> of 7%. How much would you need to invest in this bank account today?
+        </para>
+        <equation id="id344494">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>P</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi>A</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mo>·</m:mo>
+                      <m:mi>i</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi mathvariant="normal">R</m:mi>
+                      <m:mn>1</m:mn>
+                      <m:mspace width="3.33333pt"/>
+                      <m:mn>210</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo>×</m:mo>
+                      <m:mn>7</m:mn>
+                      <m:mo>%</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id344596">Does this look familiar? Look back to the simple interest worked example in Grade 10. There we started with an amount of R1 000 and looked at what it would grow to in 3 years' time using simple interest rates. Now we have worked backwards to see what amount we need as an opening balance in order to achieve the closing balance of R1 210.
+        </para>
+        <para id="id344609">In practice, however, present values are usually always calculated assuming compound interest. So unless you are explicitly asked to calculate a present value (or opening balance) using simple interest rates, make sure you use the compound interest rate formula!</para>
+<section id="secfhsst_id1733"><title> Present and Future Values </title>
+        <list id="id344622" display="block" list-type="enumerated">
+          <item id="uid16">After a 20-year period Josh's lump sum investment matures to an amount of R313 550. How much did he invest if his money earned interest at a rate of 13,65% p.a.compounded half yearly for the first 10 years, 8,4% p.a. compounded quarterly for the next five years and 7,2% p.a. compounded monthly for the remaining period ?
+</item>
+          <item id="uid17">A loan has to be returned in two equal semi-annual instalments. If the rate of interest is 16% per annum, compounded semi-annually and each instalment is R1 458, find the sum borrowed.
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

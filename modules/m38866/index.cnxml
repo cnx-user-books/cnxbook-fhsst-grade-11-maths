@@ -1,0 +1,1514 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Graphs of trig functions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38866</md:content-id>
+  <md:title>Graphs of trig functions</md:title>
+  <md:abstract/>
+  <md:uuid>5b54845d-4b39-48f6-91f9-260a112b5727</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="cid2">
+      <title>History of Trigonometry</title>
+      <para id="id305384">Work in pairs or groups and investigate the history of the development of trigonometry. Describe the various stages of development and how different cultures used trigonometry to improve their lives.</para>
+      <para id="id305389">The works of the following people or cultures can be investigated:</para>
+      <list id="id305392" display="block" list-type="enumerated">
+        <item id="uid1">Cultures
+<list id="id305745" display="block" list-type="enumerated"><item id="uid2">Ancient Egyptians
+</item><item id="uid3">Mesopotamians
+</item><item id="uid4">Ancient Indians of the Indus Valley
+</item></list></item>
+        <item id="uid5">People
+<list id="id305795" display="block" list-type="enumerated"><item id="uid6">Lagadha (circa 1350-1200 BC)
+</item><item id="uid7">Hipparchus (circa 150 BC)
+</item><item id="uid8">Ptolemy (circa 100)
+</item><item id="uid9">Aryabhata (circa 499)
+</item><item id="uid10">Omar Khayyam (1048-1131)
+</item><item id="uid11">Bhaskara (circa 1150)
+</item><item id="uid12">Nasir al-Din (13th century)
+</item><item id="uid13">al-Kashi and Ulugh Beg (14th century)
+</item><item id="uid14">Bartholemaeus Pitiscus (1595)
+</item></list></item>
+      </list>
+    </section>
+    <section id="cid3">
+      <title>Graphs of Trigonometric Functions</title>
+      <section id="uid15">
+        <title>Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math></title>
+        <para id="id305942">In the equation, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mi>k</m:mi></m:math> is a constant and has different effects on the graph of the function. The general shape of the graph of functions of this form is shown in <link target-id="uid16"/> for the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <figure id="uid16">
+          <media id="uid16_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C17_001.png" id="uid16_onlineimage" width="508"><!-- NOTE: attribute width changes image size online (pixels). original width is 508. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_001.eps" id="uid16_printimage"/>
+          </media>
+          <caption>Graph of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> (solid line) and the graph of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> (dotted line).</caption>
+        </figure>
+<section id="secfhsst_id101"><title> Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> </title>
+        <para id="id306114">On the same set of axes, plot the following graphs:</para>
+        <list id="id306120" display="block" list-type="enumerated">
+          <item id="uid17">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid18">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>b</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mn>1</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid19">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>c</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid20">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>d</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid21">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>e</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+        </list>
+        <para id="id306492">Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>k</m:mi></m:math>. </para>
+</section>
+        <para id="id306509">You should have found that the value of <m:math overflow="scroll"><m:mi>k</m:mi></m:math> affects the period or frequency of the graph. Notice that in the case of the sine graph, the period (length of one wave) is given by <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="false"><m:mfrac><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mi>k</m:mi></m:mfrac></m:mstyle></m:math>.</para>
+        <para id="id306544">These different properties are summarised in <link target-id="uid22"/>.</para>
+        <table id="uid22" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <figure id="id306663">
+                    <media id="id306663_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_002.png" id="id306663_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_002.eps" id="id306663_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id306674">
+                    <media id="id306674_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_003.png" id="id306674_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_003.eps" id="id306674_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Table summarising general shapes and positions of graphs of functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math>. The curve <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> is shown as a dotted line.</caption>
+        </table>
+        <section id="uid23">
+          <title>Domain and Range</title>
+          <para id="id306690">For <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the domain is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>θ</m:mi><m:mo>:</m:mo><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math> because there is no value of <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi></m:mrow></m:math> for which <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is undefined.</para>
+          <para id="id306777">The range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>]</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+        </section>
+        <section id="uid24">
+          <title>Intercepts</title>
+          <para id="id306865">For functions of the form, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the details of calculating the intercepts with the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> axis are given.</para>
+          <para id="id306900">There are many <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-intercepts.</para>
+          <para id="id306912">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept is calculated by setting <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>:</para>
+          <equation id="id306936">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi>y</m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>k</m:mi>
+                      <m:mi>θ</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                        <m:mi>n</m:mi>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>0</m:mn>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+        </section>
+      </section>
+      <section id="uid25">
+        <title>Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math></title>
+        <para id="id307052">In the equation, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mi>k</m:mi></m:math> is a constant and has different effects on the graph of the function. The general shape of the graph of functions of this form is shown in <link target-id="uid26"/> for the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <figure id="uid26">
+          <media id="uid26_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C17_004.png" id="uid26_onlineimage" width="516"><!-- NOTE: attribute width changes image size online (pixels). original width is 516. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_004.eps" id="uid26_printimage"/>
+          </media>
+          <caption>Graph of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> (solid line) and the graph of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>c</m:mi><m:mi>o</m:mi><m:mi>s</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> (dotted line).</caption>
+        </figure>
+<section id="secfhsst_id307"><title> Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> </title>
+        <para id="id307229">On the same set of axes, plot the following graphs:</para>
+        <list id="id307235" display="block" list-type="enumerated">
+          <item id="uid27">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">cos</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid28">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>b</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">cos</m:mo>
+                <m:mn>1</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid29">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>c</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">cos</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid30">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>d</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">cos</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid31">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>e</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">cos</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+        </list>
+        <para id="id307438">Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>k</m:mi></m:math>. </para>
+</section>
+        <para id="id307456">You should have found that the value of <m:math overflow="scroll"><m:mi>k</m:mi></m:math> affects the period or frequency of the graph. The period of the cosine graph is given by <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="false"><m:mfrac><m:msup><m:mn>360</m:mn><m:mo>∘</m:mo></m:msup><m:mi>k</m:mi></m:mfrac></m:mstyle></m:math>.</para>
+        <para id="id307493">These different properties are summarised in <link target-id="uid32"/>.</para>
+        <table id="uid32" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <figure id="id307620">
+                    <media id="id307620_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_005.png" id="id307620_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_005.eps" id="id307620_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id307632">
+                    <media id="id307632_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_006.png" id="id307632_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_006.eps" id="id307632_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Table summarising general shapes and positions of graphs of functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math>. The curve <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> is plotted with a dotted line.</caption>
+        </table>
+        <section id="uid33">
+          <title>Domain and Range</title>
+          <para id="id307649">For <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the domain is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>θ</m:mi><m:mo>:</m:mo><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math> because there is no value of <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi></m:mrow></m:math> for which <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is undefined.</para>
+          <para id="id307744">The range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>]</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+        </section>
+        <section id="uid34">
+          <title>Intercepts</title>
+          <para id="id307836">For functions of the form, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the details of calculating the intercepts with the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> axis are given.</para>
+          <para id="id307875">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept is calculated as follows:</para>
+          <equation id="id307888">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi>y</m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>k</m:mi>
+                      <m:mi>θ</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                        <m:mi>n</m:mi>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>1</m:mn>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+        </section>
+      </section>
+      <section id="uid35">
+        <title>Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math></title>
+        <para id="id308007">In the equation, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mi>k</m:mi></m:math> is a constant and has different effects on the graph of the function. The general shape of the graph of functions of this form is shown in <link target-id="uid36"/> for the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <figure id="uid36">
+          <media id="uid36_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C17_007.png" id="uid36_onlineimage" width="623"><!-- NOTE: attribute width changes image size online (pixels). original width is 623. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_007.eps" id="uid36_printimage"/>
+          </media>
+          <caption>The graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> (solid line) and the graph of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> (dotted line). The asymptotes are shown as dashed lines.</caption>
+        </figure>
+<section id="secfhsst_id512"><title> Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> </title>
+        <para id="id308178">On the same set of axes, plot the following graphs:</para>
+        <list id="id308184" display="block" list-type="enumerated">
+          <item id="uid37">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">tan</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid38">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>b</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">tan</m:mo>
+                <m:mn>1</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid39">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>c</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">tan</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid40">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>d</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">tan</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid41">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>e</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">tan</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+        </list>
+        <para id="id308387">Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>k</m:mi></m:math>. </para>
+</section>
+        <para id="id308405">You should have found that, once again, the value of <m:math overflow="scroll"><m:mi>k</m:mi></m:math> affects the periodicity (i.e. frequency) of the graph. As <m:math overflow="scroll"><m:mi>k</m:mi></m:math> increases, the graph is more tightly packed. As <m:math overflow="scroll"><m:mi>k</m:mi></m:math> decreases, the graph is more spread out. The period of the tan graph is given by <m:math overflow="scroll"><m:mstyle scriptlevel="0" displaystyle="false"><m:mfrac><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mi>k</m:mi></m:mfrac></m:mstyle></m:math>.</para>
+        <para id="id308460">These different properties are summarised in <link target-id="uid42"/>.</para>
+        <table id="uid42" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <figure id="id308563">
+                    <media id="id308563_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_008.png" id="id308563_onlineimage" width="58"><!-- NOTE: attribute width changes image size online (pixels). original width is 58. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_008.eps" id="id308563_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id308576">
+                    <media id="id308576_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_009.png" id="id308576_onlineimage" width="58"><!-- NOTE: attribute width changes image size online (pixels). original width is 58. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_009.eps" id="id308576_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Table summarising general shapes and positions of graphs of functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>.</caption>
+        </table>
+        <section id="uid43">
+          <title>Domain and Range</title>
+          <para id="id308592">For <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the domain of one branch is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>θ</m:mi><m:mo>:</m:mo><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mfrac><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mi>k</m:mi></m:mfrac><m:mo>,</m:mo><m:mfrac><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mi>k</m:mi></m:mfrac><m:mo>)</m:mo></m:mrow><m:mo>}</m:mo></m:mrow></m:math> because the function is undefined for <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mi>k</m:mi></m:mfrac></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mi>k</m:mi></m:mfrac></m:mrow></m:math>.</para>
+          <para id="id308735">The range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+        </section>
+        <section id="uid44">
+          <title>Intercepts</title>
+          <para id="id308827">For functions of the form, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the details of calculating the intercepts with the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> and <m:math overflow="scroll"><m:mi>y</m:mi></m:math> axis are given.</para>
+          <para id="id308875">There are many <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-intercepts; each one is halfway between the asymptotes.</para>
+          <para id="id308888">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept is calculated as follows:</para>
+          <equation id="id308900">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi>y</m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">tan</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>k</m:mi>
+                      <m:mi>θ</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                        <m:mi>n</m:mi>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">tan</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mn>0</m:mn>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+        </section>
+        <section id="uid45">
+          <title>Asymptotes</title>
+          <para id="id308995">The graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mi>k</m:mi><m:mi>θ</m:mi></m:mrow></m:math> has asymptotes because as <m:math overflow="scroll"><m:mrow><m:mi>k</m:mi><m:mi>θ</m:mi></m:mrow></m:math> approaches <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>, <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mrow><m:mi>k</m:mi><m:mi>θ</m:mi></m:mrow></m:mrow></m:math> approaches infinity. In other words, there is no defined value of the function at the asymptote values.</para>
+        </section>
+      </section>
+      <section id="uid46">
+        <title>Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math></title>
+        <para id="id309097">In the equation, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mi>p</m:mi></m:math> is a constant and has different effects on the graph of the function. The general shape of the graph of functions of this form is shown in <link target-id="uid47"/> for the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mrow><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+        <figure id="uid47">
+          <media id="uid47_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C17_010.png" id="uid47_onlineimage" width="522"><!-- NOTE: attribute width changes image size online (pixels). original width is 522. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_010.eps" id="uid47_printimage"/>
+          </media>
+          <caption>Graph of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mrow><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mrow></m:mrow></m:math> (solid line) and the graph of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> (dotted line).</caption>
+        </figure>
+<section id="secfhsst_id722"><title> Functions of the Form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math> </title>
+        <para id="id309303">On the same set of axes, plot the following graphs:</para>
+        <list id="id309308" display="block" list-type="enumerated">
+          <item id="uid48">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:msup>
+                    <m:mn>90</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid49">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>b</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:msup>
+                    <m:mn>60</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid50">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>c</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid51">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>d</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:msup>
+                    <m:mn>90</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid52">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>e</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">sin</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:msup>
+                    <m:mn>180</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+        </list>
+        <para id="id309553">Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>p</m:mi></m:math>. </para>
+</section>
+        <para id="id309571">You should have found that the value of <m:math overflow="scroll"><m:mi>p</m:mi></m:math> affects the position of the graph along the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-axis (i.e. the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept) and the position of the graph along the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis (i.e. the <emphasis effect="italics">phase shift</emphasis>). The <m:math overflow="scroll"><m:mi>p</m:mi></m:math> value shifts the graph horizontally. If <m:math overflow="scroll"><m:mi>p</m:mi></m:math> is positive, the graph shifts left and if <m:math overflow="scroll"><m:mi>p</m:mi></m:math> is negative tha graph shifts right.</para>
+        <para id="id309644">These different properties are summarised in <link target-id="uid53"/>.</para>
+        <table id="uid53" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>p</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>p</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <figure id="id309772">
+                    <media id="id309772_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_011.png" id="id309772_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_011.eps" id="id309772_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id309785">
+                    <media id="id309785_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_012.png" id="id309785_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_012.eps" id="id309785_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Table summarising general shapes and positions of graphs of functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>. The curve <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is plotted with a dotted line.</caption>
+        </table>
+        <section id="uid54">
+          <title>Domain and Range</title>
+          <para id="id309802">For <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the domain is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>θ</m:mi><m:mo>:</m:mo><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math> because there is no value of <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi></m:mrow></m:math> for which <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is undefined.</para>
+          <para id="id309899">The range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>]</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+        </section>
+        <section id="uid55">
+          <title>Intercepts</title>
+          <para id="id309994">For functions of the form, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">sin</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the details of calculating the intercept with the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> axis are given.</para>
+          <para id="id310034">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept is calculated as follows: set <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></para>
+          <equation id="id310065">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi>y</m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>θ</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>p</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                        <m:mi>n</m:mi>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>p</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>p</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+        </section>
+      </section>
+      <section id="uid56">
+        <title>Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math></title>
+        <para id="id310203">In the equation, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mi>p</m:mi></m:math> is a constant and has different effects on the graph of the function. The general shape of the graph of functions of this form is shown in <link target-id="uid57"/> for the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mrow><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+        <figure id="uid57">
+          <media id="uid57_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C17_013.png" id="uid57_onlineimage" width="514"><!-- NOTE: attribute width changes image size online (pixels). original width is 514. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_013.eps" id="uid57_printimage"/>
+          </media>
+          <caption>Graph of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mrow><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mrow></m:mrow></m:math> (solid line) and the graph of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> (dotted line).</caption>
+        </figure>
+<section id="secfhsst_id968"><title> Functions of the Form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math> </title>
+        <para id="id310409">On the same set of axes, plot the following graphs:</para>
+        <list id="id310415" display="block" list-type="enumerated">
+          <item id="uid58">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">cos</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:msup>
+                    <m:mn>90</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid59">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>b</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">cos</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:msup>
+                    <m:mn>60</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid60">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>c</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">cos</m:mo>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid61">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>d</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">cos</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:msup>
+                    <m:mn>90</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid62">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>e</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">cos</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:msup>
+                    <m:mn>180</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+        </list>
+        <para id="id310659">Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>p</m:mi></m:math>. </para>
+</section>
+        <para id="id310677">You should have found that the value of <m:math overflow="scroll"><m:mi>p</m:mi></m:math> affects the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept and phase shift of the graph. As in the case of the sine graph, positive values of <m:math overflow="scroll"><m:mi>p</m:mi></m:math> shift the cosine graph left while negative <m:math overflow="scroll"><m:mi>p</m:mi></m:math> values shift the graph right.</para>
+        <para id="id310718">These different properties are summarised in <link target-id="uid63"/>.</para>
+        <table id="uid63" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>p</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>p</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <figure id="id310842">
+                    <media id="id310842_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_014.png" id="id310842_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_014.eps" id="id310842_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id310854">
+                    <media id="id310854_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_015.png" id="id310854_onlineimage" width="72"><!-- NOTE: attribute width changes image size online (pixels). original width is 72. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_015.eps" id="id310854_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Table summarising general shapes and positions of graphs of functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>. The curve <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi></m:mrow></m:math> is plotted with a dotted line.</caption>
+        </table>
+        <section id="uid64">
+          <title>Domain and Range</title>
+          <para id="id310871">For <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the domain is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>θ</m:mi><m:mo>:</m:mo><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi><m:mo>}</m:mo></m:mrow></m:math> because there is no value of <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mi mathvariant="double-struck">R</m:mi></m:mrow></m:math> for which <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is undefined.</para>
+          <para id="id310969">The range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>[</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>]</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+        </section>
+        <section id="uid65">
+          <title>Intercepts</title>
+          <para id="id311063">For functions of the form, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">cos</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the details of calculating the intercept with the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> axis are given.</para>
+          <para id="id311104">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept is calculated as follows: set <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></para>
+          <equation id="id311135">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi>y</m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>θ</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>p</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                        <m:mi>n</m:mi>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>p</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>p</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+        </section>
+      </section>
+      <section id="uid66">
+        <title>Functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math></title>
+        <para id="id311273">In the equation, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>, <m:math overflow="scroll"><m:mi>p</m:mi></m:math> is a constant and has different effects on the graph of the function. The general shape of the graph of functions of this form is shown in <link target-id="uid67"/> for the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mrow><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mrow></m:mrow></m:math>.</para>
+        <figure id="uid67">
+          <media id="uid67_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C17_016.png" id="uid67_onlineimage" width="650"><!-- NOTE: attribute width changes image size online (pixels). original width is 650. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_016.eps" id="uid67_printimage"/>
+          </media>
+          <caption>The graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup><m:mo>)</m:mo></m:mrow></m:math> (solid lines) and the graph of <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> (dotted lines).</caption>
+        </figure>
+<section id="secfhsst_id1214"><title> Functions of the Form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math> </title>
+        <para id="id311466">On the same set of axes, plot the following graphs:</para>
+        <list id="id311471" display="block" list-type="enumerated">
+          <item id="uid68">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">tan</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:msup>
+                    <m:mn>90</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid69">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>b</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">tan</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:msup>
+                    <m:mn>60</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid70">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>c</m:mi>
+                <m:mo>(</m:mo>
+                <m:mi>θ</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">tan</m:mo>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid71">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>d</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">tan</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:msup>
+                    <m:mn>60</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid72">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>e</m:mi>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>=</m:mo>
+                <m:mo form="prefix">tan</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>θ</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:msup>
+                    <m:mn>180</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:math>
+          </item>
+        </list>
+        <para id="id311716">Use your results to deduce the effect of <m:math overflow="scroll"><m:mi>p</m:mi></m:math>. </para>
+</section>
+        <para id="id311734">You should have found that the value of <m:math overflow="scroll"><m:mi>p</m:mi></m:math> once again affects the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept and phase shift of the graph. There is a horizontal shift to the left if <m:math overflow="scroll"><m:mi>p</m:mi></m:math> is positive and to the right if <m:math overflow="scroll"><m:mi>p</m:mi></m:math> is negative.</para>
+        <para id="id311774">These different properties are summarised in <link target-id="uid73"/>.</para>
+        <table id="uid73" summary="">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo>&gt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo>&lt;</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <figure id="id311903">
+                    <media id="id311903_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_017.png" id="id311903_onlineimage" width="65"><!-- NOTE: attribute width changes image size online (pixels). original width is 65. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_017.eps" id="id311903_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+                <entry>
+                  <figure id="id311915">
+                    <media id="id311915_media" alt="">
+                      <image mime-type="image/png" src="../../media/MG11C17_018.png" id="id311915_onlineimage" width="65"><!-- NOTE: attribute width changes image size online (pixels). original width is 65. --></image>
+                      <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_018.eps" id="id311915_printimage"/>
+                    </media>
+                  </figure>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+          <caption>Table summarising general shapes and positions of graphs of functions of the form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>. The curve <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:math> is plotted with a dotted line.</caption>
+        </table>
+        <section id="uid74">
+          <title>Domain and Range</title>
+          <para id="id311932">For <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the domain for one branch is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>θ</m:mi><m:mo>:</m:mo><m:mi>θ</m:mi><m:mo>∈</m:mo><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:mi>p</m:mi><m:mo>,</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:mi>p</m:mi><m:mo>}</m:mo></m:mrow></m:mrow></m:math> because the function is undefined for <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:mi>p</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:mi>p</m:mi></m:mrow></m:math>.</para>
+          <para id="id312074">The range of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math> is <m:math overflow="scroll"><m:mrow><m:mo>{</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>:</m:mo><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo><m:mo>∈</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi><m:mo>)</m:mo><m:mo>}</m:mo></m:mrow></m:math>.</para>
+        </section>
+        <section id="uid75">
+          <title>Intercepts</title>
+          <para id="id312169">For functions of the form, <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math>, the details of calculating the intercepts with the <m:math overflow="scroll"><m:mi>y</m:mi></m:math> axis are given.</para>
+          <para id="id312210">The <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-intercept is calculated as follows: set <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>0</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></para>
+          <equation id="id312240">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mi>y</m:mi>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">tan</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>θ</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>p</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mi>i</m:mi>
+                        <m:mi>n</m:mi>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mo form="prefix">tan</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>p</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+        </section>
+        <section id="uid76">
+          <title>Asymptotes</title>
+          <para id="id312327">The graph of <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math> has asymptotes because as <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi></m:mrow></m:math> approaches <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math>, <m:math overflow="scroll"><m:mrow><m:mo form="prefix">tan</m:mo><m:mo>(</m:mo><m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:math> approaches infinity. Thus, there is no defined value of the function at the asymptote values.</para>
+<section id="secfhsst_id1436"><title> Functions of various form </title>
+          <para id="id312414">Using your knowledge of the effects of <m:math overflow="scroll"><m:mi>p</m:mi></m:math> and <m:math overflow="scroll"><m:mi>k</m:mi></m:math> draw a rough sketch of the following graphs without a table of values.</para>
+          <list id="id312438" display="block" list-type="enumerated">
+            <item id="uid77">
+              <m:math overflow="scroll">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>
+            </item>
+            <item id="uid78">
+              <m:math overflow="scroll">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mo form="prefix">cos</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>
+            </item>
+            <item id="uid79">
+              <m:math overflow="scroll">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo form="prefix">tan</m:mo>
+                  <m:mstyle scriptlevel="0" displaystyle="false">
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mstyle>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>
+            </item>
+            <item id="uid80">
+              <m:math overflow="scroll">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:msup>
+                    <m:mn>45</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:math>
+            </item>
+            <item id="uid81">
+              <m:math overflow="scroll">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo form="prefix">cos</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:msup>
+                    <m:mn>45</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:math>
+            </item>
+            <item id="uid82">
+              <m:math overflow="scroll">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo form="prefix">tan</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:msup>
+                    <m:mn>45</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:math>
+            </item>
+            <item id="uid83">
+              <m:math overflow="scroll">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>
+            </item>
+            <item id="uid84">
+              <m:math overflow="scroll">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo form="prefix">sin</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:msup>
+                    <m:mn>30</m:mn>
+                    <m:mo>∘</m:mo>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:math>
+            </item>
+          </list>
+          
+</section>
+        </section>
+      </section>
+    </section>
+
+  </content>
+</document>

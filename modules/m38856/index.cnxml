@@ -1,0 +1,951 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Algebraic solution</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38856</md:content-id>
+  <md:title>Algebraic solution</md:title>
+  <md:abstract/>
+  <md:uuid>9b0aee27-3f26-43e4-95a4-d695afe57006</md:uuid>
+</metadata>
+
+<content>
+<section id="cid3">
+      <title>Algebraic Solution</title>
+      <para id="id326863">The algebraic method of solving simultaneous equations is by substitution.</para>
+      <para id="id326867">For example the solution of</para>
+      <equation id="id326870">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id326922">is:</para>
+      <equation id="id326926">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>y</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mspace width="1.em"/>
+                  <m:mrow>
+                    <m:mi> into </m:mi>
+                    <m:mi> second </m:mi>
+                    <m:mi> equation </m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>4</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>8</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi> Factorise </m:mi>
+                    <m:mi> to </m:mi>
+                    <m:mi> get </m:mi>
+                    <m:mo>:</m:mo>
+                  </m:mrow>
+                  <m:mspace width="1.em"/>
+                  <m:mo>(</m:mo>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>∴</m:mo>
+                  <m:mrow>
+                    <m:mi> the </m:mi>
+                    <m:mn>2</m:mn>
+                    <m:mi> solutions </m:mi>
+                    <m:mi> for </m:mi>
+                    <m:mi mathvariant="normal">x</m:mi>
+                    <m:mi> are </m:mi>
+                    <m:mo>:</m:mo>
+                  </m:mrow>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi> and </m:mi>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id327136">The corresponding solutions for <m:math overflow="scroll"><m:mi>y</m:mi></m:math> are obtained by substitution of the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-values into the first equation</para>
+      <equation id="id327155"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>12</m:mn><m:mspace width="3pt"/>
+                  <m:mi> for </m:mi><m:mspace width="3pt"/>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi> and </m:mi>
+                    <m:mo>:</m:mo><m:mspace width="3pt"/>
+                  </m:mrow>
+                  <m:mi mathvariant="normal">y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn><m:mspace width="3pt"/>
+                  <m:mi> for </m:mi><m:mspace width="3pt"/>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id327264">As expected, these solutions are identical to those obtained by the graphical solution.</para>
+<exercise id="secfhsst_id669"><title> Simultaneous Equations </title>
+      <problem id="probfhsst_id670">
+      <para id="id327280">Solve algebraically:</para>
+      <equation id="id327285">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </problem>
+      <solution id="solfhsst_id718"> <list id="listfhsst_id718" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Make <m:math overflow="scroll"><m:mi>y</m:mi></m:math> the subject of the linear equation </label>
+      <equation id="id327381">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>y</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Substitute into the quadratic equation </label>
+      <equation id="id327447"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>18</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi> Factorise to get</m:mi>
+                    <m:mo>:</m:mo><m:mspace width="3pt"/>
+                  </m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>∴</m:mo><m:mspace width="3pt"/>
+                  <m:mrow>
+                    <m:mi> the </m:mi><m:mspace width="3pt"/>
+                    <m:mn>2</m:mn><m:mspace width="3pt"/>
+                    <m:mi> solutions or x are</m:mi>
+                    <m:mo>:</m:mo><m:mspace width="3pt"/>
+                  </m:mrow>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn><m:mspace width="3pt"/>
+                  <m:mi> and </m:mi><m:mspace width="3pt"/>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Substitute the values for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> into the first equation to calculate the corresponding <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-values. </label>
+      <equation id="id327648"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>+</m:mo>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>27</m:mn>
+                  <m:mspace width="1.em"/>
+                  <m:mi> for </m:mi><m:mspace width="3pt"/>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi> and </m:mi>
+                    <m:mo>:</m:mo>
+                  </m:mrow>
+                  <m:mspace width="1.em"/>
+                  <m:mi mathvariant="normal">y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>+</m:mo>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mspace width="1.em"/>
+                  <m:mi> for </m:mi><m:mspace width="3pt"/>
+                  <m:mi mathvariant="normal">x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Write the solution of the system of simultaneous equations. </label>
+      <para id="id327772">The first solution is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>27</m:mn></m:mrow></m:math>. The second solution is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. </para>
+      </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id943"><title> Algebraic Solution </title>
+      <para id="id327851">Solve the following systems of equations algebraically. Leave your answer in
+surd form, where appropriate.</para>
+      <table id="id327858" summary="">
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>1. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>2. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>3. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>4. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>5. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>6. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>7. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>12</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>8. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>18</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>9. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>10. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>11. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>12. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>13.<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>14. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>15. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>16. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>17. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>18.<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>12</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>19. <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>20. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>19</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>101</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>21. <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>-</m:mo><m:mn>18</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>a</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>57</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      
+</section>
+    </section>
+  </content>
+</document>

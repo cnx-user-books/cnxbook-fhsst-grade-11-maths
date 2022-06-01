@@ -1,0 +1,681 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Exponents</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32625</md:content-id>
+  <md:title>Exponents</md:title>
+  <md:abstract/>
+  <md:uuid>f18a50a5-82e3-4532-a7f7-559fab8b4e8e</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id74916">In Grade 10 we studied exponential numbers and learnt that there were six laws that made working with exponential numbers easier. There is one law that we did not study in Grade 10. This will be described here.</para>
+    </section>
+    <section id="cid3">
+      <title>Laws of Exponents</title>
+      <para id="id74930">In Grade 10, we worked only with indices that were integers. What happens when the index is not an integer, but is a rational number? This leads us to the final law of exponents,</para>
+      <equation id="uid1">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mfrac>
+                <m:mi>m</m:mi>
+                <m:mi>n</m:mi>
+              </m:mfrac>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mroot>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mi>m</m:mi>
+              </m:msup>
+              <m:mi>n</m:mi>
+            </m:mroot>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <section id="uid2">
+        <title>Exponential Law 7: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mfrac><m:mi>m</m:mi><m:mi>n</m:mi></m:mfrac></m:msup><m:mo>=</m:mo><m:mroot><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup><m:mi>n</m:mi></m:mroot></m:mrow></m:math></title>
+        <para id="id75352">We say that <m:math overflow="scroll"><m:mi>x</m:mi></m:math> is an <m:math overflow="scroll"><m:mi>n</m:mi></m:math>th root of <m:math overflow="scroll"><m:mi>b</m:mi></m:math> if <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mi>n</m:mi></m:msup><m:mo>=</m:mo><m:mi>b</m:mi></m:mrow></m:math> and we write <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math>. <m:math overflow="scroll"><m:msup><m:mi>n</m:mi><m:mi> th </m:mi></m:msup></m:math> roots written with the radical symbol, <m:math overflow="scroll"><m:msqrt><m:mspace width="3.33333pt"/></m:msqrt></m:math>, are referred to as surds. For example, <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, so <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math> is a 4th root of 1. Using law 6, we notice that</para>
+        <equation id="uid3">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mfrac>
+                      <m:mi>m</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:mfrac>
+                  </m:msup>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mi>m</m:mi>
+                    <m:mi>n</m:mi>
+                  </m:mfrac>
+                  <m:mo>×</m:mo>
+                  <m:mi>n</m:mi>
+                </m:mrow>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mi>m</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id75542">therefore <m:math overflow="scroll"><m:msup><m:mi>a</m:mi><m:mfrac><m:mi>m</m:mi><m:mi>n</m:mi></m:mfrac></m:msup></m:math> must be an <m:math overflow="scroll"><m:mi>n</m:mi></m:math>th root of <m:math overflow="scroll"><m:msup><m:mi>a</m:mi><m:mi>m</m:mi></m:msup></m:math>. We can therefore say</para>
+        <equation id="uid4">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mfrac>
+                  <m:mi>m</m:mi>
+                  <m:mi>n</m:mi>
+                </m:mfrac>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mroot>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mi>m</m:mi>
+                </m:msup>
+                <m:mi>n</m:mi>
+              </m:mroot>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id75624">For example,</para>
+        <equation id="id75627">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mfrac>
+                  <m:mn>2</m:mn>
+                  <m:mn>3</m:mn>
+                </m:mfrac>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mroot>
+                <m:msup>
+                  <m:mn>2</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mn>3</m:mn>
+              </m:mroot>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id75661">A number may not always have a real <m:math overflow="scroll"><m:mi>n</m:mi></m:math>th root. For example, if <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> and
+<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>, then there is no real number such that <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math> because <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math> for all real numbers <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.</para>
+<note id="eip-241" type="aside"><title>Complex Numbers</title>There are numbers which can solve problems like
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:math>, but they are beyond the scope of this book. They are called
+<emphasis effect="italics">complex numbers</emphasis>. </note>
+        <para id="id75976">It is also possible for more than one <m:math overflow="scroll"><m:mi>n</m:mi><m:mi>th</m:mi></m:math> root of a number to exist. For example, <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:msup><m:mn>2</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, so both <m:math><m:mo>-</m:mo><m:mn>2</m:mn></m:math> and 2 are 2nd (square) roots of 4. Usually, if there is more than one root, we choose the positive real solution and move on.</para>
+<exercise id="secfhsst_id187"><title> Rational Exponents </title>
+        <problem id="probfhsst_id188">
+        <para id="id76045">Simplify without using a calculator:</para>
+        <equation id="id76051">
+          <m:math overflow="scroll" mode="display">
+            <m:msup>
+              <m:mfenced separators="" open="(" close=")">
+                <m:mfrac>
+                  <m:mn>5</m:mn>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mn>9</m:mn>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mfenced>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:msup>
+          </m:math>
+        </equation>
+        
+        </problem>
+        <solution id="solfhsst_id224"> <list id="listfhsst_id224" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Rewrite negative exponents as numbers with positive indices </label>
+        <equation id="id76126">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mfenced separators="" open="(" close=")">
+                      <m:mfrac>
+                        <m:mn>5</m:mn>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>4</m:mn>
+                          </m:mfrac>
+                          <m:mo>-</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>9</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mfenced>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Simplify inside brackets </label>
+        <equation id="id76186">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mfenced separators="" open="(" close=")">
+                      <m:mfrac>
+                        <m:mn>5</m:mn>
+                        <m:mn>1</m:mn>
+                      </m:mfrac>
+                      <m:mo>÷</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                          <m:mo>-</m:mo>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                        <m:mn>36</m:mn>
+                      </m:mfrac>
+                    </m:mfenced>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mfenced separators="" open="(" close=")">
+                      <m:mfrac>
+                        <m:mn>5</m:mn>
+                        <m:mn>1</m:mn>
+                      </m:mfrac>
+                      <m:mo>×</m:mo>
+                      <m:mfrac>
+                        <m:mn>36</m:mn>
+                        <m:mn>5</m:mn>
+                      </m:mfrac>
+                    </m:mfenced>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>6</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Apply exponential law 6 </label>
+        <equation id="id76317">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>6</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id364"><title> More rational Exponents </title>
+        <problem id="probfhsst_id365">
+        <para id="id76366">Simplify:</para>
+        <equation id="id76372">
+          <m:math overflow="scroll" mode="display">
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>16</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>4</m:mn>
+                </m:msup>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mfrac>
+                <m:mn>3</m:mn>
+                <m:mn>4</m:mn>
+              </m:mfrac>
+            </m:msup>
+          </m:math>
+        </equation>
+        
+        </problem>
+        <solution id="solfhsst_id388"> <list id="listfhsst_id388" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Convert the number coefficient to index-form with a prime base </label>
+        <equation id="id76426">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mn>4</m:mn>
+                      </m:msup>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mn>4</m:mn>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mfrac>
+                      <m:mn>3</m:mn>
+                      <m:mn>4</m:mn>
+                    </m:mfrac>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Apply exponential laws </label>
+        <equation id="id76479">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mn>4</m:mn>
+                        <m:mo>×</m:mo>
+                        <m:mfrac>
+                          <m:mn>3</m:mn>
+                          <m:mn>4</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo>.</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>4</m:mn>
+                        <m:mo>×</m:mo>
+                        <m:mfrac>
+                          <m:mn>3</m:mn>
+                          <m:mn>4</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>.</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<para id="eip-477">The following videos work through two examples of simplifying expressions.
+<figure id="exponents-1" class="khanacademy">
+	  <title>Khan academy video on exponents - 1</title>
+	  <media id="yt-media1" display="block" alt="video on exponents 1">
+	  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/NuccqpiUHrk&amp;rel=0&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure>
+
+<figure id="exponents-2" class="khanacademy">
+	  <title>Khan academy video on exponents - 2</title>
+	  <media id="yt-media2" display="block" alt="video on exponents 2">
+	  <flash id="yt-video2" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/rco7DMcy-oE&amp;rel=0&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><section id="secfhsst_id499"><title> Applying laws </title>
+        <para id="id76604">Use all the laws to:</para>
+        <list id="id76609" display="block" list-type="enumerated"><item id="uid5">Simplify:<list id="id6342" list-type="enumerated" number-style="lower-alpha">
+<item><m:math overflow="scroll"><m:mrow><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>0</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>0</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>25</m:mn><m:mo>)</m:mo></m:mrow><m:mrow><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:msup><m:mn>8</m:mn><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:msup><m:mi>s</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:msup><m:mo>÷</m:mo><m:msup><m:mi>s</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:mfrac><m:mrow><m:mn>12</m:mn><m:msup><m:mi>m</m:mi><m:mfrac><m:mn>7</m:mn><m:mn>9</m:mn></m:mfrac></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:msup><m:mi>m</m:mi><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>11</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:msup></m:mrow></m:mfrac></m:math></item>
+<item><m:math overflow="scroll"><m:msup><m:mrow><m:mo>(</m:mo><m:mn>64</m:mn><m:msup><m:mi>m</m:mi><m:mn>6</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:msup></m:math></item></list></item>
+          <item id="uid6">Re-write the following expression as a power of <m:math overflow="scroll"><m:mi>x</m:mi></m:math>:
+<equation id="id76844"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>x</m:mi><m:msqrt><m:mrow><m:mi>x</m:mi><m:msqrt><m:mrow><m:mi>x</m:mi><m:msqrt><m:mrow><m:mi>x</m:mi><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:msqrt></m:mrow></m:msqrt></m:mrow></m:msqrt></m:mrow></m:math></equation></item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+    <section id="cid4">
+      <title>Exponentials in the Real-World</title>
+      <para id="id76890">In Grade 10 Finance, you used exponentials to calculate different types of interest, for example on a savings account or on a loan and compound growth.</para>
+<exercise id="secfhsst_id514"><title> Exponentials in the Real world </title>
+      <problem id="probfhsst_id515">
+      <para id="id76907">A type of bacteria has a very high exponential growth rate at 80% every hour. If there are 10 bacteria, determine how many there will be in 5 hours, in 1 day and in 1 week? </para>
+      </problem>
+      <solution id="solfhsst_id518"> <list id="listfhsst_id518" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> <m:math overflow="scroll"><m:mrow><m:mi>Population</m:mi><m:mo>=</m:mo><m:mi>Initial population</m:mi><m:mo>×</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>growth percentage</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>time period in hours</m:mi></m:mrow></m:msup></m:mrow></m:math> </label>
+      <para id="id77098">Therefore, in this case:</para>
+      <para id="id77101"><m:math overflow="scroll"><m:mrow><m:mi>Population</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo>)</m:mo></m:mrow><m:mi>n</m:mi></m:msup></m:mrow></m:math>, where <m:math overflow="scroll"><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>number of hours</m:mi></m:math></para>
+      </item> <item> <label> In 5 hours </label>
+      <para id="id77166">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mi>Population</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>10</m:mn>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>5</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mn>189</m:mn>
+          </m:mrow>
+        </m:math>
+      </para>
+      </item> <item> <label> In 1 day = 24 hours </label>
+      <para id="id77225">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mi>Population</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>10</m:mn>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>24</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mn>13</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>382</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>588</m:mn>
+          </m:mrow>
+        </m:math>
+      </para>
+      </item> <item> <label> in 1 week = 168 hours </label>
+      <para id="id77294">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mi>Population</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>10</m:mn>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>168</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mn>7</m:mn>
+            <m:mo>,</m:mo>
+            <m:mn>687</m:mn>
+            <m:mo>×</m:mo>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mn>43</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </para>
+      <para id="id77363">Note this answer is given in scientific notation as it is a very big number. </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id629"><title> More Exponentials in the Real world </title>
+      <problem id="probfhsst_id630">
+      <para id="id77392">A species of extremely rare, deep water fish has an extremely long lifespan and rarely have children. If there are a total 821 of this type of fish and their growth rate is 2% each month, how many will there be in half of a year? What will the population be in 10 years and in 100 years? </para>
+      </problem>
+      <solution id="solfhsst_id633"> <list id="listfhsst_id633" list-type="enumerated" number-style="arabic" class="stepwise"><item> <label> <m:math overflow="scroll"><m:mrow><m:mi>Population</m:mi><m:mo>=</m:mo><m:mi>Initial population</m:mi><m:mo>×</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>growth percentage</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>time in months</m:mi></m:mrow></m:msup></m:mrow></m:math> </label>
+      <para id="id77587">Therefore, in this case:</para>
+      <para id="id77590"><m:math overflow="scroll"><m:mrow><m:mi>Population</m:mi><m:mo>=</m:mo><m:mn>821</m:mn><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>02</m:mn><m:mo>)</m:mo></m:mrow><m:mi>n</m:mi></m:msup></m:mrow></m:math>, where <m:math overflow="scroll"><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>number of months</m:mi></m:math></para>
+      </item> <item> <label> In half a year = 6 months </label>
+      <para id="id77656">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mi>Population</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>821</m:mn>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>02</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>6</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mn>925</m:mn>
+          </m:mrow>
+        </m:math>
+      </para>
+      </item> <item> <label> In 10 years = 120 months </label>
+      <para id="id77715">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mi>Population</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>821</m:mn>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>02</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>120</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mn>8</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>838</m:mn>
+          </m:mrow>
+        </m:math>
+      </para>
+      </item> <item> <label> in 100 years = 1 200 months </label>
+      <para id="id77781">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mi>Population</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>821</m:mn>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>02</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mspace width="3.33333pt"/>
+                <m:mn>200</m:mn>
+              </m:mrow>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>,</m:mo>
+            <m:mn>716</m:mn>
+            <m:mo>×</m:mo>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mn>13</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </para>
+      <para id="id77857">Note this answer is also given in scientific notation as it is a very big number. </para>
+      </item> </list> </solution>
+</exercise>
+    </section>
+    <section id="cid5">
+      <title>End of chapter Exercises</title>
+      <list id="id77884" display="block" list-type="enumerated"><item id="uid7">Simplify as far as possible:
+<list id="id77900" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid8"><m:math overflow="scroll"><m:msup><m:mn>8</m:mn><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup></m:math></item><item id="uid9"><m:math overflow="scroll"><m:mrow><m:msqrt><m:mn>16</m:mn></m:msqrt><m:mo>+</m:mo><m:msup><m:mn>8</m:mn><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:msup></m:mrow></m:math></item></list></item>
+        <item id="uid10">Simplify:
+<list id="id77985" list-type="enumerated" number-style="lower-alpha"><item><m:math overflow="scroll"><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:msup></m:math></item>
+<item><m:math overflow="scroll"><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:msup></m:math></item>
+<item><m:math overflow="scroll"><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>m</m:mi><m:mn>5</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mfrac><m:mn>5</m:mn><m:mn>3</m:mn></m:mfrac></m:msup></m:math></item>
+<item><m:math overflow="scroll"><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:msup></m:math></item>
+<item><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:msup><m:mi>m</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo></m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:msup></m:mrow></m:math></item>
+<item><m:math overflow="scroll"><m:msup><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mfrac><m:mn>4</m:mn><m:mn>3</m:mn></m:mfrac></m:msup><m:mo>)</m:mo></m:mrow><m:mn>4</m:mn></m:msup></m:math></item></list></item>
+        <item id="uid11">Simplify as much as you can:
+<equation id="id78217"><m:math overflow="scroll" mode="display"><m:mfrac><m:mrow><m:mn>3</m:mn><m:msup><m:mi>a</m:mi><m:mrow><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>b</m:mi><m:mn>15</m:mn></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mo>-</m:mo><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mfenced separators="" open="(" close=")"><m:msup><m:mi>a</m:mi><m:mrow><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:msup><m:msup><m:mi>b</m:mi><m:mn>3</m:mn></m:msup><m:mi>c</m:mi></m:mfenced><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>5</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:msup></m:mfrac></m:math></equation></item>
+        <item id="uid12">Simplify as much as you can:
+<equation id="id78312"><m:math overflow="scroll" mode="display"><m:msup><m:mfenced separators="" open="(" close=")"><m:mn>9</m:mn><m:msup><m:mi>a</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup></m:mfenced><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:msup></m:math></equation></item>
+        <item id="uid13">Simplify as much as you can:
+<equation id="id78367"><m:math overflow="scroll" mode="display"><m:msup><m:mfenced separators="" open="(" close=")"><m:msup><m:mi>a</m:mi><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:msup><m:msup><m:mi>b</m:mi><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:msup></m:mfenced><m:mn>16</m:mn></m:msup></m:math></equation></item>
+        <item id="uid14">Simplify:
+<equation id="id78423"><m:math overflow="scroll" mode="display"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:math></equation></item>
+        <item id="uid15">Simplify:
+<equation id="id78456"><m:math overflow="scroll" mode="display"><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>5</m:mn></m:msup></m:mrow><m:mn>3</m:mn></m:mroot></m:math></equation></item>
+        <item id="uid16">Re-write the following expression as a power of <m:math overflow="scroll"><m:mi>x</m:mi></m:math>:
+<equation id="id78507"><m:math overflow="scroll" mode="display"><m:mfrac><m:mrow><m:mi>x</m:mi><m:msqrt><m:mrow><m:mi>x</m:mi><m:msqrt><m:mrow><m:mi>x</m:mi><m:msqrt><m:mrow><m:mi>x</m:mi><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow></m:msqrt></m:mrow></m:msqrt></m:mrow></m:msqrt></m:mrow><m:mroot><m:mi>x</m:mi><m:mn>3</m:mn></m:mroot></m:mfrac></m:math></equation></item>
+      </list>
+    </section>
+  </content>
+</document>

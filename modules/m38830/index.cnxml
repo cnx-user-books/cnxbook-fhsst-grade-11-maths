@@ -1,0 +1,1332 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Nominal and effective interest rates</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38830</md:content-id>
+  <md:title>Nominal and effective interest rates</md:title>
+  <md:abstract/>
+  <md:uuid>bdd8650b-4fe7-4d79-803a-c435a20be53f</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid9">
+      <title>Nominal and Effective Interest Rates</title>
+      <para id="id346114">So far we have discussed annual interest rates, where the interest is quoted as a per annum amount. Although it has not been explicitly stated, we have assumed that when the interest is quoted as a per annum amount it means that the interest is paid once a year.</para>
+      <para id="id346119">Interest however, may be paid more than just once a year, for example we could receive interest on a monthly basis, i.e. 12 times per year. So how do we compare a monthly interest rate, say, to an annual interest rate? This brings us to the concept of the effective annual interest rate.</para>
+      <para id="id346125">One way to compare different rates and methods of interest payments would be to compare the Closing Balances under the different options, for a given Opening Balance. Another, more widely used, way is to calculate and compare the “effective annual interest rate" on each option. This way, regardless of the differences in how frequently the interest is paid, we can compare apples-with-apples.</para>
+      <para id="id346135">For example, a savings account with an opening balance of R1 000 offers a compound interest rate of 1% per month which is paid at the end of every month. We can calculate the accumulated balance at the end of the year using the formulae from the previous section. But be careful as our interest rate has been given as a monthly rate, so we need to use the same units (months) for our time period of measurement.</para>
+<note id="notfhsst_id2164" type="tip">Remember, the trick to using the formulae is to define the time period, and use the interest rate relevant to the time period.</note>
+      <para id="id346151">So we can calculate the amount that would be accumulated by the end of 1-year as follows:</para>
+      <equation id="id346155"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Closing balance after</m:mi><m:mspace width="3pt"/>                  <m:mn>12</m:mn><m:mspace width="3pt"/>
+                  <m:mi> months </m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>×</m:mo>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>%</m:mo>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>12</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>126</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>83</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id346283">Note that because we are using a monthly time period, we have used <m:math overflow="scroll"><m:mi>n</m:mi></m:math> = 12 months to calculate the balance at the end of one year.</para>
+      <para id="id346299">The effective annual interest rate is an annual interest rate which represents the equivalent per annum interest rate assuming compounding.</para>
+      <para id="id346304">It is the annual interest rate in our Compound Interest equation that equates to the same accumulated balance after one year. So we need to solve for the effective annual interest rate so that the accumulated balance is equal to our calculated amount of R1 126,83.</para>
+      <para id="id346309">We use <m:math overflow="scroll"><m:msub><m:mi>i</m:mi><m:mn>12</m:mn></m:msub></m:math> to denote the monthly interest rate. We have introduced this notation here to distinguish between the annual interest rate, <m:math overflow="scroll"><m:mi>i</m:mi></m:math>. Specifically, we need to solve for <m:math overflow="scroll"><m:mi>i</m:mi></m:math> in the following equation:</para>
+      <equation id="id346346"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>×</m:mo>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>×</m:mo>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>i</m:mi>
+                        <m:mn>12</m:mn>
+                      </m:msub>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>12</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>i</m:mi>
+                        <m:mn>12</m:mn>
+                      </m:msub>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>12</m:mn>
+                  </m:msup><m:mspace width="2em"/>
+                  <m:mrow>
+                    <m:mi> divide both sides by P</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>i</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>i</m:mi>
+                        <m:mn>12</m:mn>
+                      </m:msub>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>12</m:mn>
+                  </m:msup>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn><m:mspace width="2em"/>
+                  <m:mrow>
+                    <m:mi> subtract </m:mi><m:mspace width="3pt"/>
+                    <m:mn>1</m:mn><m:mspace width="3pt"/>
+                    <m:mi> from both sides</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id346533">For the example, this means that the effective annual rate for a monthly rate <m:math overflow="scroll"><m:mrow><m:msub><m:mi>i</m:mi><m:mn>12</m:mn></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>%</m:mo></m:mrow></m:math> is:</para>
+      <equation id="id346559">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>i</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>i</m:mi>
+                        <m:mn>12</m:mn>
+                      </m:msub>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>12</m:mn>
+                  </m:msup>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>%</m:mo>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>12</m:mn>
+                  </m:msup>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>12683</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>12</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>683</m:mn>
+                  <m:mo>%</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id346679">If we recalculate the closing balance using this annual rate we get:</para>
+      <equation id="id346683"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Closing balance after</m:mi><m:mspace width="3pt"/>
+                  <m:mn>1</m:mn><m:mspace width="3pt"/>
+                  <m:mi> year </m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>×</m:mo>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>12</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>683</m:mn>
+                      <m:mo>%</m:mo>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>126</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>83</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id346815">which is the same as the answer obtained for 12 months.</para>
+      <para id="id346821">Note that this is greater than simply multiplying the monthly rate by 12 (<m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:mo>×</m:mo><m:mn>1</m:mn><m:mo>%</m:mo><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>%</m:mo></m:mrow></m:math>) due to the effects of compounding. The difference is due to interest on interest. We have seen this before, but it is an important point!</para>
+      <section id="uid29">
+        <title>The General Formula</title>
+        <para id="id346858">So we know how to convert a monthly interest rate into an effective annual interest. Similarly, we can convert a quarterly interest, or a semi-annual interest rate or an interest rate of any frequency for that matter into an effective annual interest rate.</para>
+        <para id="id346864">For a quarterly interest rate of say 3% per quarter, the interest will be paid four times per year (every three months). We can calculate the effective annual interest rate by solving for <m:math overflow="scroll"><m:mi>i</m:mi></m:math>:</para>
+        <equation id="id346878">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>P</m:mi>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>i</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:msub>
+                    <m:mi>i</m:mi>
+                    <m:mn>4</m:mn>
+                  </m:msub>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mn>4</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id346928">where <m:math overflow="scroll"><m:msub><m:mi>i</m:mi><m:mn>4</m:mn></m:msub></m:math> is the quarterly interest rate.</para>
+        <para id="id346946">So
+<m:math overflow="scroll"><m:mrow><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>i</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>03</m:mn><m:mo>)</m:mo></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:math> , and so <m:math overflow="scroll"><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>55</m:mn><m:mo>%</m:mo></m:mrow></m:math>. This is the effective annual interest rate.</para>
+        <para id="id347009">In general, for interest paid at a frequency of <m:math overflow="scroll"><m:mi>T</m:mi></m:math> times per annum, the follow equation holds:</para>
+        <equation id="uid30">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>P</m:mi>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>i</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:msub>
+                    <m:mi>i</m:mi>
+                    <m:mi>T</m:mi>
+                  </m:msub>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>T</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id347076">where <m:math overflow="scroll"><m:msub><m:mi>i</m:mi><m:mi>T</m:mi></m:msub></m:math> is the interest rate paid <m:math overflow="scroll"><m:mi>T</m:mi></m:math> times per annum.</para>
+      </section>
+      <section id="uid31">
+        <title>De-coding the Terminology</title>
+        <para id="id347114">Market convention however, is not to state the interest rate as say 1% per month, but rather to express this amount as an annual amount which in this example would be paid monthly. This annual amount is called the nominal amount.</para>
+        <para id="id347119">The market convention is to quote a nominal interest rate of “12% per annum paid monthly" instead of saying (an effective) 1% per month. We know from a previous example, that a nominal interest rate of 12% per annum paid monthly, equates to an effective annual interest rate of 12,68%, and the difference is due to the effects of interest-on-interest.</para>
+        <para id="id347129">So if you are given an interest rate expressed as an annual rate but paid more frequently than annual, we first need to calculate the actual interest paid per period in order to calculate the effective annual interest rate.</para>
+        <equation id="uid32"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi> monthly interest rate</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi> Nominal interest rate per annum</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi> number of periods per year</m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id347186">For example, the monthly interest rate on 12% interest per annum paid monthly, is:</para>
+        <equation id="id347190"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> monthly interest rate</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi> Nominal interest rate per annum</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi> number of periods per year</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>12</m:mn>
+                      <m:mo>%</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>12</m:mn>
+                      <m:mspace width="3.33333pt"/>
+                      <m:mi> months </m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>%</m:mo>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mrow>
+                      <m:mi> per month</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id347298">The same principle applies to other frequencies of payment.</para>
+<exercise id="secfhsst_id2708"><title> Nominal Interest Rate </title>
+        <problem id="probfhsst_id2709">
+        <para id="id347317">Consider a savings account which pays a nominal interest at 8% per annum, paid quarterly. Calculate (a) the interest amount that is paid each quarter, and (b) the effective annual interest rate. </para>
+        </problem>
+        <solution id="solfhsst_id2712"> <list id="listfhsst_id2712" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is given and what is required </label>
+        <para id="id347342">We are given that a savings account has a nominal interest rate of 8% paid quarterly. We are required to find:</para>
+        <list id="id347346" display="block" list-type="bulleted">
+          <item id="uid33">the quarterly interest rate, <m:math overflow="scroll"><m:msub><m:mi>i</m:mi><m:mn>4</m:mn></m:msub></m:math></item>
+          <item id="uid34">the effective annual interest rate, <m:math overflow="scroll"><m:mi>i</m:mi></m:math></item>
+        </list>
+        </item> <item> <label> Determine how to approach the problem </label>
+        <para id="id347401">We know that:</para>
+        <equation id="id347404"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mi> quarterly interest rate</m:mi>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi> Nominal interest rate per annum</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi> number of quarters per year</m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id347452">and</para>
+        <equation id="id347457">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>P</m:mi>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>i</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:msub>
+                    <m:mi>i</m:mi>
+                    <m:mi>T</m:mi>
+                  </m:msub>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>T</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id347508">where <m:math overflow="scroll"><m:mi>T</m:mi></m:math> is 4 because there are 4 payments each year.</para>
+        </item> <item> <label> Calculate the monthly interest rate </label>
+        <equation id="id347527"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi> quarterly interest rate</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi> Nominal interest rate per annum</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi> number of periods per year</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>8</m:mn>
+                      <m:mo>%</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mspace width="3.33333pt"/>
+                      <m:mi> quarters </m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>%</m:mo>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mrow>
+                      <m:mi> per quarter</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Calculate the effective annual interest rate </label>
+        <para id="id347638">The effective annual interest rate (<m:math overflow="scroll"><m:mi>i</m:mi></m:math>) is calculated as:</para>
+        <equation id="id347651">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>i</m:mi>
+                        <m:mn>4</m:mn>
+                      </m:msub>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>4</m:mn>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>%</m:mo>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>4</m:mn>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>i</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>2</m:mn>
+                        <m:mo>%</m:mo>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>4</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>24</m:mn>
+                    <m:mo>%</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the final answer </label>
+        <para id="id347809">The quarterly interest rate is 2% and the effective annual interest rate is 8,24%, for a nominal interest rate of 8% paid quarterly. </para>
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id2960"><title> Nominal Interest Rate </title>
+        <problem id="probfhsst_id2961">
+        <para id="id347838">On their saving accounts, Echo Bank offers an interest rate of 18% nominal,
+paid monthly. If you save R100 in such an account now, how much would the amount
+have accumulated to in 3 years' time? </para>
+        </problem>
+        <solution id="solfhsst_id2966"> <list id="listfhsst_id2966" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is given and what is required </label>
+        <para id="id347863">Interest rate is 18%
+nominal paid monthly. There are 12 months in a year. We are working with a
+yearly time period, so <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>. The amount we have saved is R100, so <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>100</m:mn></m:mrow></m:math>. We need the accumulated value, <m:math overflow="scroll"><m:mi>A</m:mi></m:math>.</para>
+        </item> <item> <label> Recall relevant formulae </label>
+        <para id="id347910">We know that</para>
+        <equation id="id347913"><m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi> monthly interest rate </m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi> Nominal interest rate per annum</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi> number of periods per year</m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id347955">for converting from nominal interest rate to effective interest rate, we have</para>
+        <equation id="id347959">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi>i</m:mi>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:msub>
+                    <m:mi>i</m:mi>
+                    <m:mi>T</m:mi>
+                  </m:msub>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>T</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id348000">and for calculating accumulated value, we have</para>
+        <equation id="id348004">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>P</m:mi>
+              <m:mo>×</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Calculate the effective interest rate </label>
+        <para id="id348044">There are 12 month in a year, so</para>
+        <equation id="id348047"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msub>
+                    <m:mi>i</m:mi>
+                    <m:mn>12</m:mn>
+                  </m:msub>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi> Nominal annual interest rate</m:mi>
+                    </m:mrow>
+                    <m:mn>12</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>18</m:mn>
+                      <m:mo>%</m:mo>
+                    </m:mrow>
+                    <m:mn>12</m:mn>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>%</m:mo><m:mspace width="3.333pt"/>
+                    <m:mi> per month</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id348133">and then, we have</para>
+        <equation id="id348139">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>i</m:mi>
+                        <m:mn>12</m:mn>
+                      </m:msub>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>12</m:mn>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>i</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:msub>
+                          <m:mi>i</m:mi>
+                          <m:mn>12</m:mn>
+                        </m:msub>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>12</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:mo>%</m:mo>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>12</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>015</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>12</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>19</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>56</m:mn>
+                    <m:mo>%</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Reach the final answer </label>
+        <equation id="id348324">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>19</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>56</m:mn>
+                        <m:mo>%</m:mo>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>7091</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>170</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>91</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the final answer </label>
+        <para id="id348450">The accumulated value is R<m:math overflow="scroll"><m:mrow><m:mn>170</m:mn><m:mo>,</m:mo><m:mn>91</m:mn></m:mrow></m:math>. (Remember to round off to the the nearest
+cent.)
+ </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id3315"><title> Nominal and Effect Interest Rates </title>
+        <list id="id348487" display="block" list-type="enumerated">
+          <item id="uid35">Calculate the effective rate equivalent to a nominal interest rate of 8,75% p.a. compounded monthly.
+</item>
+          <item id="uid36">Cebela is quoted a nominal interest rate of 9,15% per annum compounded every four months on her investment of R 85 000. Calculate the effective rate per annum.
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+    <section id="cid10">
+      <title>Formulae Sheet</title>
+      <para id="id348538">As an easy reference, here are the key formulae that we derived and used during this chapter. While memorising them is nice (there are not many), it is the application that is useful. Financial experts are not paid a salary in order to recite formulae, they are paid a salary to use the right methods to solve financial problems.</para>
+      <section id="uid37">
+        <title>Definitions</title>
+        <table id="id348556" summary="definitions of finance terms">
+<tgroup cols="2"><tbody>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>P</m:mi>
+                  </m:math>
+                </entry>
+                <entry>Principal (the amount of money at the starting point of the calculation)</entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>i</m:mi>
+                  </m:math>
+                </entry>
+                <entry>interest rate, normally the effective rate per annum</entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mi>n</m:mi>
+                  </m:math>
+                </entry>
+                <entry>period for which the investment is made</entry>
+              </row>
+              <row>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:msub>
+                      <m:mi>i</m:mi>
+                      <m:mi>T</m:mi>
+                    </m:msub>
+                  </m:math>
+                </entry>
+                <entry>the interest rate paid <m:math overflow="scroll"><m:mi>T</m:mi></m:math> times per annum, i.e. <m:math overflow="scroll"><m:mrow><m:msub><m:mi>i</m:mi><m:mi>T</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi> Nominal interest rate</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:math></entry>
+              </row>
+            </tbody>
+          
+</tgroup>
+</table>
+      </section>
+      <section id="uid38">
+        <title>Equations</title>
+        <equation id="id348688"><m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>Simple increase</m:mi>
+                    <m:mo>:</m:mo><m:mspace width="3pt"/>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>Compound increase</m:mi>
+                    <m:mo>:</m:mo><m:mspace width="3pt"/>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>Simple decrease</m:mi>
+                    <m:mo>:</m:mo><m:mspace width="3pt"/>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>×</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>Compound decrease</m:mi>
+                    <m:mo>:</m:mo><m:mspace width="3pt"/>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo>-</m:mo>
+                        <m:mi>i</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>Effective annual interest rate</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>:</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:msub>
+                        <m:mi>i</m:mi>
+                        <m:mi>T</m:mi>
+                      </m:msub>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>T</m:mi>
+                  </m:msup>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+      </section>
+    </section>
+    <section id="cid11">
+      <title>End of Chapter Exercises</title>
+      <list id="id349119" display="block" list-type="enumerated">
+        <item id="uid39">Shrek buys a Mercedes worth R385 000 in 2007. What will the value of the Mercedes be at the end of 2013 if
+<list id="id349136" display="block" list-type="enumerated"><item id="uid40">the car depreciates at 6% p.a. straight-line depreciation
+</item><item id="uid41">the car depreciates at 12% p.a. reducing-balance depreciation.
+</item></list></item>
+        <item id="uid42">Greg enters into a 5-year hire-purchase agreement to buy a computer for R8 900. The interest rate is quoted as 11% per annum based on simple interest. Calculate the required monthly payment for this contract.
+</item>
+        <item id="uid43">A computer is purchased for R16 000. It depreciates at 15% per annum.
+<list id="id349193" display="block" list-type="enumerated"><item id="uid44">Determine the book value of the computer after 3 years if depreciation
+is calculated according to the straight-line method.
+</item><item id="uid45">Find the rate, according to the reducing-balance method, that would
+yield the same book value as in <link target-id="uid44"/> after 3 years.
+</item></list></item>
+        <item id="uid46">Maggie invests R12 500,00 for 5 years at 12% per annum compounded monthly for
+the first 2 years and 14% per annum compounded semi-annually for the next 3
+years. How much will Maggie receive in total after 5 years?
+</item>
+        <item id="uid47">Tintin invests R120 000. He is quoted a nominal interest rate of 7,2% per annum compounded monthly.
+<list id="id349255" display="block" list-type="enumerated"><item id="uid48">Calculate the effective rate per annum correct to THREE decimal
+places.
+</item><item id="uid49">Use the effective rate to calculate the value of Tintin's investment if
+he invested the money for 3 years.
+</item><item id="uid50">Suppose Tintin invests his money for a total period of 4 years, but
+after 18 months makes a withdrawal of R20 000, how much will he
+receive at the end of the 4 years?
+</item></list></item>
+        <item id="uid51">Paris opens accounts at a number of clothing stores and spends freely. She gets heself into terrible debt and she cannot pay off her accounts. She owes Hilton Fashion world R5 000 and the shop agrees to let Paris pay the bill at a nominal interest rate of 24% compounded monthly.
+<list id="id349315" display="block" list-type="enumerated"><item id="uid52">How much money will she owe Hilton Fashion World after two years ?
+</item><item id="uid53">What is the effective rate of interest that Hilton Fashion World is charging her ?
+</item></list></item>
+      </list>
+    </section>
+  </content>
+</document>

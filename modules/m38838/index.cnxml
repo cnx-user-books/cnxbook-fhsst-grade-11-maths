@@ -1,0 +1,1030 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Completing the square</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38838</md:content-id>
+  <md:title>Completing the square</md:title>
+  <md:abstract/>
+  <md:uuid>933a6024-1ca5-4362-86cc-3feb8e46ee67</md:uuid>
+</metadata>
+
+<content>
+ <section id="cid4">
+      <title>Solution by Completing the Square</title>
+      <para id="id65282">We have seen that expressions of the form:</para>
+      <equation id="id65285">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id65320">are known as differences of squares and can be factorised as follows:</para>
+      <equation id="id65326">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>a</m:mi>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mi>b</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>a</m:mi>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>.</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id65364">This simple factorisation leads to another technique to solve quadratic equations known as <emphasis effect="italics">completing the square</emphasis>.</para>
+      <para id="id65375">We demonstrate with a simple example, by trying to solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> in:</para>
+      <equation id="uid20">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+            <m:mo>.</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id65427">We cannot easily find factors of this term, but the first two terms look similar to the first two terms of the perfect square:</para>
+      <equation id="id65434">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>.</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id65483">However, we can cheat and create a perfect square by adding 2 to both sides of the equation in <link target-id="uid20"/> as:</para>
+      <equation id="id65494">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>2</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msup>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>2</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id65678">Now we know that:</para>
+      <equation id="id65683">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:msqrt>
+                  <m:mn>2</m:mn>
+                </m:msqrt>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id65712">which means that:</para>
+      <equation id="id65717">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id65749">is a difference of squares.
+Therefore we can write:</para>
+      <equation id="id65754">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo>=</m:mo>
+            <m:mrow>
+              <m:mo>[</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mo>-</m:mo>
+              <m:msqrt>
+                <m:mn>2</m:mn>
+              </m:msqrt>
+              <m:mo>]</m:mo>
+            </m:mrow>
+            <m:mrow>
+              <m:mo>[</m:mo>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mo>+</m:mo>
+              <m:msqrt>
+                <m:mn>2</m:mn>
+              </m:msqrt>
+              <m:mo>]</m:mo>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+            <m:mo>.</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id65839">The solution to <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> is then:</para>
+      <equation id="id65876">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>-</m:mo>
+            <m:msqrt>
+              <m:mn>2</m:mn>
+            </m:msqrt>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id65907">or</para>
+      <equation id="id65912">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>)</m:mo>
+            </m:mrow>
+            <m:mo>+</m:mo>
+            <m:msqrt>
+              <m:mn>2</m:mn>
+            </m:msqrt>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+            <m:mo>.</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id65945">This means <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:math> or <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:math>. This example demonstrates the use of <emphasis effect="italics">completing the square</emphasis> to solve a quadratic equation.</para>
+      <section id="uid21">
+        <title>Method: Solving Quadratic Equations by Completing the Square</title>
+        <list id="id66005" display="block" list-type="enumerated">
+          <item id="uid22">Write the equation in the form <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. e.g. <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></item>
+          <item id="uid23">Take the constant over to the right hand side of the equation. e.g. <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></item>
+          <item id="uid24">If necessary, make the coefficient of the <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math> term = 1, by dividing through by the existing coefficient.
+</item>
+          <item id="uid25">Take half the coefficient of the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> term, square it and add it to both sides of the equation. e.g. in <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, half of the coefficient of the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> term is 1 and <m:math overflow="scroll"><m:mrow><m:msup><m:mn>1</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Therefore we add 1 to both sides to get: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>.
+</item>
+          <item id="uid26">Write the left hand side as a perfect square: <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></item>
+          <item id="uid27">You should then be able to factorise the equation in terms of difference of squares and then solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></item>
+        </list>
+<exercise id="secfhsst_id1278"><title> Solving Quadratic Equations by Completing the Square </title>
+        <problem id="probfhsst_id1279">
+        <para id="id66376">Solve:</para>
+        <equation id="id66382">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>10</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>11</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id66415">by completing the square </para>
+        </problem>
+        <solution id="solfhsst_id1300"> <list id="listfhsst_id1300" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Write the equation in the form <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> </label>
+        <equation id="id66470">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>10</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>11</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Take the constant over to the right hand side of the equation </label>
+        <equation id="id66507">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>10</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>11</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Check that the coefficient of the <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math> term is 1. </label>
+        <para id="id66553">The coefficient of the <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math> term is 1.</para>
+        </item> <item> <label> Take half the coefficient of the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> term, square it and add it to both sides </label>
+        <para id="id66584">The coefficient of the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> term is -10. Therefore, half of the coefficient of the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> term will be <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>10</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>5</m:mn></m:mrow></m:math> and the square of it will be
+<m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math>. Therefore:</para>
+        <equation id="id66660">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>10</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>25</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>11</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>25</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the left hand side as a perfect square </label>
+        <equation id="id66701">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>36</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Factorise equation as difference of squares </label>
+        <equation id="id66740">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>36</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <equation id="id66775">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mo>[</m:mo>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>5</m:mn>
+              <m:mo>)</m:mo>
+              <m:mo>+</m:mo>
+              <m:mn>6</m:mn>
+              <m:mo>]</m:mo>
+              <m:mo>[</m:mo>
+              <m:mo>(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>5</m:mn>
+              <m:mo>)</m:mo>
+              <m:mo>-</m:mo>
+              <m:mn>6</m:mn>
+              <m:mo>]</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Solve for the unknown value </label>
+        <equation id="id66832">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>[</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>]</m:mo>
+                    <m:mo>[</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>11</m:mn>
+                    <m:mo>]</m:mo>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mspace width="1.em"/>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mi> or </m:mi>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>11</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id1482"><title> Solving Quadratic Equations by Completing the Square </title>
+        <problem id="probfhsst_id1483">
+        <para id="id66946">Solve:</para>
+        <equation id="id66952">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>8</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>16</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id66987">by completing the square </para>
+        </problem>
+        <solution id="solfhsst_id1505"> <list id="listfhsst_id1505" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Write the equation in the form <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> </label>
+        <equation id="id67043">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>8</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>16</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Take the constant over to the right hand side of the equation </label>
+        <equation id="id67082">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>8</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>16</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Check that the coefficient of the <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math> term is 1. </label>
+        <para id="id67130">The coefficient of the <m:math overflow="scroll"><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math> term is 2. Therefore, divide both sides by 2:</para>
+        <equation id="id67148">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>8</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Take half the coefficient of the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> term, square it and add it to both sides </label>
+        <para id="id67189">The coefficient of the <m:math overflow="scroll"><m:mi>x</m:mi></m:math> term is -4; <m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math> and
+<m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>. Therefore:</para>
+        <equation id="id67256">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>8</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Write the left hand side as a perfect square </label>
+        <equation id="id67296">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>12</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Factorise equation as difference of squares </label>
+        <equation id="id67336">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mrow>
+                <m:mo>[</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>+</m:mo>
+                <m:msqrt>
+                  <m:mn>12</m:mn>
+                </m:msqrt>
+                <m:mo>]</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mo>[</m:mo>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mo>-</m:mo>
+                <m:msqrt>
+                  <m:mn>12</m:mn>
+                </m:msqrt>
+                <m:mo>]</m:mo>
+              </m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Solve for the unknown value </label>
+        <equation id="id67399">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo>[</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:msqrt>
+                        <m:mn>12</m:mn>
+                      </m:msqrt>
+                      <m:mo>]</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo>[</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:msqrt>
+                        <m:mn>12</m:mn>
+                      </m:msqrt>
+                      <m:mo>]</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:msqrt>
+                      <m:mn>12</m:mn>
+                    </m:msqrt>
+                    <m:mspace width="1.em"/>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mi> or </m:mi>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mspace width="1.em"/>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:msqrt>
+                      <m:mn>12</m:mn>
+                    </m:msqrt>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> The last three steps can also be done in a different way </label>
+        <para id="id67508">Leave the left hand side written as a perfect square</para>
+        <equation id="id67512">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mn>12</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Take the square root on both sides of the equation </label>
+        <equation id="id67548">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>=</m:mo>
+              <m:mo>±</m:mo>
+              <m:msqrt>
+                <m:mn>12</m:mn>
+              </m:msqrt>
+            </m:mrow>
+          </m:math>
+        </equation>
+        </item> <item> <label> Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> </label>
+        <para id="id67584">Therefore <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>-</m:mo><m:msqrt><m:mn>12</m:mn></m:msqrt></m:mrow></m:math>    or    <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:msqrt><m:mn>12</m:mn></m:msqrt></m:mrow></m:math></para>
+        <para id="id67625">Compare to answer in step 7.
+ </para>
+        </item> </list> </solution>
+</exercise>
+<para id="eip-555"><figure id="quadratics-1" class="khanacademy">
+	  <title>Khan academy video on solving quadratics - 1</title>
+	  <media id="yt-media1" display="block" alt="video on quadratics 1">
+	  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/bNQY0z76M5A&amp;rel=0&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><section id="secfhsst_id1753"><title>Solution by Completing the Square </title><para id="id67650">Solve the following equations by completing the square:
+        <list id="id67656" display="block" list-type="enumerated">
+          <item id="uid28">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>10</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid29">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid30">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>8</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid31">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>12</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid32">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>9</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid33">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>16</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid34">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>3</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>6</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid35">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>z</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>8</m:mn>
+                <m:mi>z</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid36">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:msup>
+                  <m:mi>z</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:mn>11</m:mn>
+                <m:mi>z</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid37">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>5</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>z</m:mi>
+                <m:mo>-</m:mo>
+                <m:msup>
+                  <m:mi>z</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+        </list></para>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

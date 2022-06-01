@@ -1,0 +1,1426 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Cosine and sine identities</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38873</md:content-id>
+  <md:title>Cosine and sine identities</md:title>
+  <md:abstract/>
+  <md:uuid>dad314e8-2a82-4fb7-86cd-698bd80b8df0</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid6">
+      <title>Sine and Cosine Identities</title>
+      <para id="id332790">There are a few identities relating to the trigonometric functions that make working with triangles easier. These are:</para>
+      <list id="id332795" display="block" list-type="enumerated">
+        <item id="uid230">the sine rule
+</item>
+        <item id="uid231">the cosine rule
+</item>
+        <item id="uid232">the area rule
+</item>
+      </list>
+      <para id="id332836">and will be described and applied in this section.</para>
+      <section id="uid233">
+        <title>The Sine Rule</title>
+<definition id="fhsst_id6801"><term id="termfhsst_id6801"> The Sine Rule </term> <meaning id="meaningfhsst_id6801">
+        <para id="id332854">The sine rule applies to any triangle:
+<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow></m:math>
+where <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is the side opposite <m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> is the side opposite <m:math overflow="scroll"><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:math> and <m:math overflow="scroll"><m:mi>c</m:mi></m:math> is the side opposite <m:math overflow="scroll"><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:math>. </para>
+        </meaning></definition>
+        <para id="id333007">Consider <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>.</para>
+        <para id="id333028">
+          <figure id="id333031">
+            <media id="id333031_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_036.png" id="id333031_onlineimage" width="110"><!-- NOTE: attribute width changes image size online (pixels). original width is 110. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_036.eps" id="id333031_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id333037">The area of <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> can be written as:
+<m:math overflow="scroll"><m:mrow><m:mi> area </m:mi><m:mspace width="1.em"/><m:mi>▵</m:mi><m:mi> ABC </m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi mathvariant="normal">c</m:mi><m:mo>·</m:mo><m:mi mathvariant="normal">h</m:mi><m:mo>.</m:mo></m:mrow></m:math>
+However, <m:math overflow="scroll"><m:mi>h</m:mi></m:math> can be calculated in terms of <m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math> or <m:math overflow="scroll"><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:math> as:</para>
+        <equation id="id333137">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mover accent="true">
+                      <m:mi>A</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi>h</m:mi>
+                    <m:mi>b</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>b</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mover accent="true">
+                      <m:mi>A</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id333220">and</para>
+        <equation id="id333225">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mi>h</m:mi>
+                    <m:mi>a</m:mi>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>·</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id333308">Therefore the area of <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> is:
+<m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:mo>·</m:mo><m:mi>h</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:mo>·</m:mo><m:mi>b</m:mi><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math></para>
+        <para id="id333409">Similarly, by drawing the perpendicular between point <m:math overflow="scroll"><m:mi>B</m:mi></m:math> and line <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>C</m:mi></m:mrow></m:math> we can show that:
+<m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:mo>·</m:mo><m:mi>b</m:mi><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math></para>
+        <para id="id333500">Therefore the area of <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> is:
+<m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:mo>·</m:mo><m:mi>b</m:mi><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:mo>·</m:mo><m:mi>a</m:mi><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi><m:mo>·</m:mo><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math></para>
+        <para id="id333617">If we divide through by <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>a</m:mi><m:mo>·</m:mo><m:mi>b</m:mi><m:mo>·</m:mo><m:mi>c</m:mi></m:mrow></m:math>, we get:
+<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow></m:math></para>
+        <para id="id333712">This is known as the sine rule and applies to <emphasis effect="italics">any</emphasis> triangle, right angled or not.</para>
+<exercise id="secfhsst_id6926"><title> Lighthouses </title>
+        <problem id="probfhsst_id6927">
+        <para id="id333734">There is a coastline with two lighthouses, one on either side of a beach. The two lighthouses are <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>67</m:mn></m:mrow></m:math> km apart and one is exactly due east of the other. The lighthouses tell how close a boat is by taking bearings to the boat (remember – a bearing is an angle measured clockwise from north). These bearings are shown. Use the sine rule to calculate how far the boat is from each lighthouse.</para>
+        <para id="id333758">
+          <figure id="id333761">
+            <media id="id333761_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_037.png" id="id333761_onlineimage" width="198"><!-- NOTE: attribute width changes image size online (pixels). original width is 198. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_037.eps" id="id333761_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id6939"> <list id="listfhsst_id6939" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Determine what is given </label>
+        <para id="id333788">We can see that the two lighthouses and the boat form a triangle. Since we know the distance between the lighthouses and we have two angles we can use trigonometry to find the remaining two sides of the triangle, the distance of the boat from the two lighthouses.</para>
+        <para id="id333794">
+          <figure id="id333797">
+            <media id="id333797_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_038.png" id="id333797_onlineimage" width="145"><!-- NOTE: attribute width changes image size online (pixels). original width is 145. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_038.eps" id="id333797_printimage"/>
+            </media>
+          </figure>
+        </para>
+        </item> <item> <label> Determine what you need </label>
+        <para id="id333808">We need to know the lengths of the two sides <m:math overflow="scroll"><m:mi> AC </m:mi></m:math> and <m:math overflow="scroll"><m:mi> BC </m:mi></m:math>. We can use the sine rule to find our missing lengths.</para>
+        <equation id="id333831">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mover accent="true">
+                        <m:mi>A</m:mi>
+                        <m:mo>^</m:mo>
+                      </m:mover>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>A</m:mi>
+                      <m:mi>B</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mover accent="true">
+                        <m:mi>C</m:mi>
+                        <m:mo>^</m:mo>
+                      </m:mover>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>A</m:mi>
+                      <m:mi>B</m:mi>
+                      <m:mo>·</m:mo>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mover accent="true">
+                        <m:mi>A</m:mi>
+                        <m:mo>^</m:mo>
+                      </m:mover>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mover accent="true">
+                        <m:mi>C</m:mi>
+                        <m:mo>^</m:mo>
+                      </m:mover>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>0</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>67</m:mn>
+                        <m:mi> km </m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:msup>
+                          <m:mn>37</m:mn>
+                          <m:mo>∘</m:mo>
+                        </m:msup>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>128</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>51</m:mn>
+                    <m:mi> km </m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <equation id="id334030">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>A</m:mi>
+                      <m:mi>C</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mover accent="true">
+                        <m:mi>B</m:mi>
+                        <m:mo>^</m:mo>
+                      </m:mover>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>A</m:mi>
+                      <m:mi>B</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mover accent="true">
+                        <m:mi>C</m:mi>
+                        <m:mo>^</m:mo>
+                      </m:mover>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>A</m:mi>
+                      <m:mi>B</m:mi>
+                      <m:mo>·</m:mo>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mover accent="true">
+                        <m:mi>B</m:mi>
+                        <m:mo>^</m:mo>
+                      </m:mover>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mover accent="true">
+                        <m:mi>C</m:mi>
+                        <m:mo>^</m:mo>
+                      </m:mover>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mn>0</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>67</m:mn>
+                        <m:mi> km </m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:msup>
+                          <m:mn>15</m:mn>
+                          <m:mo>∘</m:mo>
+                        </m:msup>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mn>128</m:mn>
+                        <m:mo>∘</m:mo>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>22</m:mn>
+                    <m:mi> km </m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id7205"><title> Sine Rule </title>
+        <list id="id334252" display="block" list-type="enumerated">
+          <item id="uid234">Show that
+<m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow><m:mi>a</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:mrow><m:mi>b</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow></m:math>
+is equivalent to:
+<m:math overflow="scroll"><m:mrow><m:mfrac><m:mi>a</m:mi><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>c</m:mi><m:mrow><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:mfrac></m:mrow></m:math>
+Note: either of these two forms can be used.
+</item>
+          <item id="uid235">Find all the unknown sides and angles of the following triangles:
+<list id="id334417" display="block" list-type="enumerated"><item id="uid236"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>PQR in which <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">Q</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>64</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">R</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>24</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></item><item id="uid237"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>KLM in which <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">K</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>43</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">M</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>50</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></item><item id="uid238"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC in which <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">A</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mn>32</m:mn><m:mo>,</m:mo><m:msup><m:mn>7</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mn>70</m:mn><m:mo>,</m:mo><m:msup><m:mn>5</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>52</m:mn><m:mo>,</m:mo><m:mn>3</m:mn></m:mrow></m:math></item><item id="uid239"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>XYZ in which <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">X</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>56</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">Z</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>40</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>50</m:mn></m:mrow></m:math></item></list></item>
+          <item id="uid240">In <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC, <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">A</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>116</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>32</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi> AC </m:mi><m:mo>=</m:mo><m:mn>23</m:mn></m:mrow></m:math> m. Find the length of the side AB.
+</item>
+          <item id="uid241">In <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>RST, <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">R</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>19</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">S</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi> RT </m:mi><m:mo>=</m:mo><m:mn>120</m:mn></m:mrow></m:math> km. Find the length of the side ST.
+</item>
+          <item id="uid242">In <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>KMS, <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">K</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>20</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">M</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>100</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>23</m:mn></m:mrow></m:math> cm. Find the length of the side m.
+</item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid243">
+        <title>The Cosine Rule</title>
+<definition id="fhsst_id7227"><term id="termfhsst_id7227"> The Cosine Rule </term> <meaning id="meaningfhsst_id7227">
+        <para id="id335101">The cosine rule applies to any triangle and states that:</para>
+        <equation id="id335107">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mi>c</m:mi>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mover accent="true">
+                      <m:mi>A</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>b</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>c</m:mi>
+                    <m:mi>a</m:mi>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mover accent="true">
+                      <m:mi>B</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>c</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>a</m:mi>
+                    <m:mi>b</m:mi>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mover accent="true">
+                      <m:mi>C</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id335294">where <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is the side opposite <m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> is the side opposite <m:math overflow="scroll"><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover></m:math> and <m:math overflow="scroll"><m:mi>c</m:mi></m:math> is the side opposite <m:math overflow="scroll"><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover></m:math>. </para>
+        </meaning></definition>
+        <para id="id335378">The cosine rule relates the length of a side of a triangle to the angle opposite it and the lengths of the other two sides.</para>
+        <para id="id335383">Consider <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> which we will use to show that:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>c</m:mi><m:mo form="prefix">cos</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math></para>
+        <para id="id335460">
+          <figure id="id335463">
+            <media id="id335463_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_039.png" id="id335463_onlineimage" width="110"><!-- NOTE: attribute width changes image size online (pixels). original width is 110. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_039.eps" id="id335463_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id335470">In <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>D</m:mi><m:mi>C</m:mi><m:mi>B</m:mi></m:mrow></m:math>:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mi>c</m:mi><m:mo>-</m:mo><m:mi>d</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>
+from the theorem of Pythagoras.</para>
+        <para id="id335535">In <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math>:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>d</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>
+from the theorem of Pythagoras.</para>
+        <para id="id335589">We can eliminate <m:math overflow="scroll"><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:math> from <link target-id=""/> and <link target-id=""/> to get:</para>
+        <equation id="uid244">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>d</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>c</m:mi>
+                        <m:mo>-</m:mo>
+                        <m:mi>d</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:msup>
+                        <m:mi>c</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>-</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mi>c</m:mi>
+                      <m:mi>d</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mi>d</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>d</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow/>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>c</m:mi>
+                    <m:mi>d</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>d</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>d</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>c</m:mi>
+                    <m:mi>d</m:mi>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id335846">In order to eliminate <m:math overflow="scroll"><m:mi>d</m:mi></m:math> we look at <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow></m:math>, where we have:
+<m:math overflow="scroll"><m:mrow><m:mo form="prefix">cos</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mi>d</m:mi><m:mi>b</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:math>
+So,
+<m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo form="prefix">cos</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math>
+Substituting this into <link target-id="uid244"/>, we get:
+<m:math overflow="scroll"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>c</m:mi><m:mo form="prefix">cos</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math></para>
+        <para id="id335996">The other cases can be proved in an identical manner.</para>
+<exercise id="secfhsst_id7504"><title>  </title>
+        <problem id="probfhsst_id7505">
+        <para id="id336013">Find <m:math overflow="scroll"><m:mover accent="true"><m:mi mathvariant="normal">A</m:mi><m:mo>^</m:mo></m:mover></m:math>:</para>
+        <para id="id336036">
+          <figure id="id336039">
+            <media id="id336039_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_040.png" id="id336039_onlineimage" width="129"><!-- NOTE: attribute width changes image size online (pixels). original width is 129. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_040.eps" id="id336039_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id7517"> <list id="listfhsst_id7517" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Applying the cosine rule: </label>
+        <equation id="id336067">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mi>d</m:mi>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mover accent="true">
+                      <m:mi mathvariant="normal">A</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mover accent="true">
+                      <m:mi mathvariant="normal">A</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>b</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mi>c</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>-</m:mo>
+                      <m:msup>
+                        <m:mi>a</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>b</m:mi>
+                      <m:mi>c</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mn>8</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mn>5</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>-</m:mo>
+                      <m:msup>
+                        <m:mn>7</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo>·</m:mo>
+                      <m:mn>8</m:mn>
+                      <m:mo>·</m:mo>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mo>∴</m:mo>
+                    <m:mspace width="1.em"/>
+                    <m:mover accent="true">
+                      <m:mi mathvariant="normal">A</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo form="prefix">arccos</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mn>60</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id7676"><title> The Cosine Rule </title>
+        <list id="id336353" display="block" list-type="enumerated">
+          <item id="uid245">Solve the following triangles <emphasis effect="italics">i.e. </emphasis>find all unknown sides and angles
+<list id="id336375" display="block" list-type="enumerated"><item id="uid246"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC in which <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">A</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>70</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></item><item id="uid247"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>XYZ in which <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">Y</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>112</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></item><item id="uid248"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>RST in which RS<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>; ST<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> and RT<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></item><item id="uid249"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>KLM in which KL<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>; LM<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math> and KM<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></item><item id="uid250"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>JHK in which <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">H</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>130</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; JH<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math> and HK<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math></item><item id="uid251"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>DEF in which <m:math overflow="scroll"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>e</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></item></list></item>
+          <item id="uid252">Find the length of the third side of the <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>XYZ where:
+<list id="id336794" display="block" list-type="enumerated"><item id="uid253"><m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">X</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mn>71</m:mn><m:mo>,</m:mo><m:msup><m:mn>4</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>42</m:mn></m:mrow></m:math> km and <m:math overflow="scroll"><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>03</m:mn></m:mrow></m:math> km
+</item><item id="uid254">; <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>103</m:mn><m:mo>,</m:mo><m:mn>2</m:mn></m:mrow></m:math> cm; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">Y</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:msup><m:mn>8</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>44</m:mn><m:mo>,</m:mo><m:mn>59</m:mn></m:mrow></m:math> cm
+</item></list></item>
+          <item id="uid255">Determine the largest angle in:
+<list id="id336973" display="block" list-type="enumerated"><item id="uid256"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>JHK in which JH<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>; HK<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> and JK<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></item><item id="uid257"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>PQR where <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>50</m:mn></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>70</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>60</m:mn></m:mrow></m:math></item></list></item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid258">
+        <title>The Area Rule</title>
+<definition id="fhsst_id7692"><term id="termfhsst_id7692"> The Area Rule </term> <meaning id="meaningfhsst_id7692">
+        <para id="id337119">The area rule applies to any triangle and states that the area of a triangle is given by half the product of any two sides with the sine of the angle between them. </para>
+        </meaning></definition>
+        <para id="id337132">That means that in the <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>F</m:mi></m:mrow></m:math>, the area is given by:
+<m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>D</m:mi><m:mi>E</m:mi><m:mo>·</m:mo><m:mi>E</m:mi><m:mi>F</m:mi><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>E</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>E</m:mi><m:mi>F</m:mi><m:mo>·</m:mo><m:mi>F</m:mi><m:mi>D</m:mi><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>F</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>F</m:mi><m:mi>D</m:mi><m:mo>·</m:mo><m:mi>D</m:mi><m:mi>E</m:mi><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>D</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math></para>
+        <para id="id337259">
+          <figure id="id337263">
+            <media id="id337263_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_041.png" id="id337263_onlineimage" width="109"><!-- NOTE: attribute width changes image size online (pixels). original width is 109. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_041.eps" id="id337263_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id337269">In order show that this is true for all triangles, consider <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>.</para>
+        <para id="id337290">
+          <figure id="id337293">
+            <media id="id337293_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_042.png" id="id337293_onlineimage" width="110"><!-- NOTE: attribute width changes image size online (pixels). original width is 110. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_042.eps" id="id337293_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id337300">The area of any triangle is half the product of the base and the perpendicular height. For <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math>, this is:
+<m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:mo>·</m:mo><m:mi>h</m:mi><m:mo>.</m:mo></m:mrow></m:math>
+However, <m:math overflow="scroll"><m:mi>h</m:mi></m:math> can be written in terms of <m:math overflow="scroll"><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:math> as:
+<m:math overflow="scroll"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math>
+So, the area of <m:math overflow="scroll"><m:mrow><m:mi>▵</m:mi><m:mi>A</m:mi><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow></m:math> is:
+<m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>c</m:mi><m:mo>·</m:mo><m:mi>b</m:mi><m:mo form="prefix">sin</m:mo><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover><m:mo>.</m:mo></m:mrow></m:math></para>
+        <para id="id337455">Using an identical method, the area rule can be shown for the other two angles.</para>
+<exercise id="secfhsst_id7721"><title> The Area Rule </title>
+        <problem id="probfhsst_id7722">
+        <para id="id337472">Find the area of <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC:</para>
+        <para id="id337487">
+          <figure id="id337490">
+            <media id="id337490_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C17_043.png" id="id337490_onlineimage" width="149"><!-- NOTE: attribute width changes image size online (pixels). original width is 149. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_043.eps" id="id337490_printimage"/>
+            </media>
+          </figure>
+        </para>
+        
+        </problem>
+        <solution id="solfhsst_id7734"> <list id="listfhsst_id7734" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Decide what information you have </label>
+        <para id="id337518"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC is isosceles, therefore AB<m:math overflow="scroll"><m:mo>=</m:mo></m:math>AC<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mover accent="true"><m:mi mathvariant="normal">B</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>50</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Hence <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">A</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:msup><m:mn>50</m:mn><m:mo>∘</m:mo></m:msup><m:mo>-</m:mo><m:msup><m:mn>50</m:mn><m:mo>∘</m:mo></m:msup><m:mo>=</m:mo><m:msup><m:mn>80</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>. Now we can use the area rule to find the area:</para>
+        <equation id="id337651">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>A</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mi>c</m:mi>
+                    <m:mi>b</m:mi>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mover accent="true">
+                      <m:mi mathvariant="normal">A</m:mi>
+                      <m:mo>^</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mo>·</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo>·</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:msup>
+                      <m:mn>80</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd/>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mn>24</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>13</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id7806"><title> The Area Rule </title>
+        <para id="id337784">Draw sketches of the figures you use in this exercise.</para>
+        <list id="id337790" display="block" list-type="enumerated">
+          <item id="uid259">Find the area of <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>PQR in which:
+<list id="id337815" display="block" list-type="enumerated"><item id="uid260"><m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">P</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>40</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math></item><item id="uid261"><m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">Q</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></item><item id="uid262"><m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">R</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>110</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math></item></list></item>
+          <item id="uid263">Find the area of:
+<list id="id338030" display="block" list-type="enumerated"><item id="uid264"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>XYZ with XY<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> cm; XZ<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> cm and <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">Z</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>28</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item><item id="uid265"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>PQR with PR<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>52</m:mn></m:mrow></m:math> cm; PQ<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>29</m:mn></m:mrow></m:math> cm and <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">P</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mn>58</m:mn><m:mo>,</m:mo><m:msup><m:mn>9</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item><item id="uid266"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>EFG with FG<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math> cm; EG<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>9</m:mn></m:mrow></m:math> cm and <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">G</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>125</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math></item></list></item>
+          <item id="uid267">Determine the area of a parallelogram in which two adjacent sides are 10 cm and 13 cm and the angle between them is <m:math overflow="scroll"><m:msup><m:mn>55</m:mn><m:mo>∘</m:mo></m:msup></m:math>.
+</item>
+          <item id="uid268">If the area of <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC is 5000 m<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math> with <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>150</m:mn></m:mrow></m:math> m and <m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>70</m:mn></m:mrow></m:math> m, what are the two possible sizes of <m:math overflow="scroll"><m:mover accent="true"><m:mi mathvariant="normal">C</m:mi><m:mo>^</m:mo></m:mover></m:math>?
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+    <section id="id338382">
+      <title>Summary of the Trigonometric Rules and Identities</title>
+      <table id="id338389" summary="">
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Pythagorean Identity</entry>
+              <entry>Ratio Identity</entry>
+            </row>
+            <row>
+              <entry/>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mo form="prefix">cos</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mi>θ</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mo form="prefix">sin</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mi>θ</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">tan</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo form="prefix">sin</m:mo>
+                        <m:mi>θ</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo form="prefix">cos</m:mo>
+                        <m:mi>θ</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      <table id="id338500" summary="">
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>Odd/Even Identities</entry>
+              <entry>Periodicity Identities</entry>
+              <entry>Cofunction Identities</entry>
+            </row>
+            <row>
+              <entry/>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>±</m:mo>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:msup>
+                      <m:mn>90</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>±</m:mo>
+                    <m:msup>
+                      <m:mn>360</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mo>(</m:mo>
+                    <m:msup>
+                      <m:mn>90</m:mn>
+                      <m:mo>∘</m:mo>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mi>θ</m:mi>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mo form="prefix">sin</m:mo>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry/>
+            </row>
+            <row>
+              <entry>Sine Rule</entry>
+              <entry>Area Rule</entry>
+              <entry>Cosine Rule</entry>
+            </row>
+            <row>
+              <entry/>
+            </row>
+            <row>
+              <entry/>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi> Area </m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mi> bc </m:mi>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi mathvariant="normal">A</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>b</m:mi>
+                    <m:mi>c</m:mi>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo form="prefix">sin</m:mo>
+                        <m:mi>A</m:mi>
+                      </m:mrow>
+                      <m:mi>a</m:mi>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo form="prefix">sin</m:mo>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+                      <m:mi>b</m:mi>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo form="prefix">sin</m:mo>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                      <m:mi>c</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi> Area </m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mi> ac </m:mi>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi mathvariant="normal">B</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>a</m:mi>
+                    <m:mi>c</m:mi>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>B</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi> Area </m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mi> ab </m:mi>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi mathvariant="normal">C</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>c</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mi>a</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:msup>
+                      <m:mi>b</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>a</m:mi>
+                    <m:mi>b</m:mi>
+                    <m:mo form="prefix">cos</m:mo>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+    </section>
+    <section id="cid7">
+      <title>Exercises</title>
+      <list id="id339123" display="block" list-type="enumerated">
+        <item id="uid269">Q is a ship at a point 10 km due South of another ship P. R is a lighthouse on the coast such that <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">P</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mover accent="true"><m:mi mathvariant="normal">Q</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>50</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>.
+Determine:
+<list id="id339182" display="block" list-type="enumerated"><item id="uid270">the distance QR
+</item><item id="uid271">the shortest distance from the lighthouse to the line joining the two ships (PQ).
+</item></list><figure id="id339212"><media id="id339212_media" alt=""><image mime-type="image/png" src="../../media/MG11C17_044.png" id="id339212_onlineimage" width="105"><!-- NOTE: attribute width changes image size online (pixels). original width is 105. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_044.eps" id="id339212_printimage"/></media></figure></item>
+        <item id="uid272">WXYZ is a trapezium (WX<m:math overflow="scroll"><m:mo>∥</m:mo></m:math>XZ) with WX<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> m; YZ<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math> m;<m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">Z</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>120</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi mathvariant="normal">W</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:msup><m:mn>30</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math><list id="id339325" display="block" list-type="enumerated"><item id="uid273">Determine the distances XZ and XY.
+</item><item id="uid274">Find the angle <m:math overflow="scroll"><m:mover accent="true"><m:mi mathvariant="normal">C</m:mi><m:mo>^</m:mo></m:mover></m:math>.
+</item></list><figure id="id339373"><media id="id339373_media" alt=""><image mime-type="image/png" src="../../media/MG11C17_045.png" id="id339373_onlineimage" width="104"><!-- NOTE: attribute width changes image size online (pixels). original width is 104. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_045.eps" id="id339373_printimage"/></media></figure></item>
+        <item id="uid275">On a flight from Johannesburg to Cape Town, the pilot discovers that he has been flying <m:math overflow="scroll"><m:msup><m:mn>3</m:mn><m:mo>∘</m:mo></m:msup></m:math> off course. At this point the plane is 500 km from Johannesburg. The direct distance between Cape Town and Johannesburg airports is 1 552 km. Determine, to the nearest km:
+<list id="id339410" display="block" list-type="enumerated"><item id="uid276">The distance the plane has to travel to get to Cape Town and hence the extra distance that the plane has had to travel due to the pilot's error.
+</item><item id="uid277">The correction, to one hundredth of a degree, to the plane's heading (or direction).
+</item></list></item>
+        <item id="uid278">ABCD is a trapezium (ie. AB<m:math overflow="scroll"><m:mo>∥</m:mo></m:math>CD). AB<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mrow><m:mi mathvariant="normal">B</m:mi><m:mover accent="true"><m:mi mathvariant="normal">A</m:mi><m:mo>^</m:mo></m:mover><m:mi mathvariant="normal">D</m:mi></m:mrow><m:mo>=</m:mo><m:mi mathvariant="normal">a</m:mi></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mrow><m:mi mathvariant="normal">B</m:mi><m:mover accent="true"><m:mi mathvariant="normal">C</m:mi><m:mo>^</m:mo></m:mover><m:mi mathvariant="normal">D</m:mi></m:mrow><m:mo>=</m:mo><m:mi mathvariant="normal">b</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mrow><m:mi mathvariant="normal">B</m:mi><m:mover accent="true"><m:mi mathvariant="normal">D</m:mi><m:mo>^</m:mo></m:mover><m:mi mathvariant="normal">C</m:mi></m:mrow><m:mo>=</m:mo><m:mi mathvariant="normal">c</m:mi></m:mrow></m:math>.
+Find an expression for the length of CD in terms of <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> and <m:math overflow="scroll"><m:mi>c</m:mi></m:math>.
+<figure id="id339615"><media id="id339615_media" alt=""><image mime-type="image/png" src="../../media/MG11C17_046.png" id="id339615_onlineimage" width="174"><!-- NOTE: attribute width changes image size online (pixels). original width is 174. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_046.eps" id="id339615_printimage"/></media></figure></item>
+        <item id="uid279">A surveyor is trying to determine the distance between points X and Z. However the distance cannot be determined directly as a ridge lies between the two points. From a point Y which is equidistant from X and Z, he measures the angle <m:math overflow="scroll"><m:mrow><m:mi mathvariant="normal">X</m:mi><m:mover accent="true"><m:mi mathvariant="normal">Y</m:mi><m:mo>^</m:mo></m:mover><m:mi mathvariant="normal">Z</m:mi></m:mrow></m:math>.
+<list id="id339662" display="block" list-type="enumerated"><item id="uid280">If XY<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mrow><m:mi mathvariant="normal">X</m:mi><m:mover accent="true"><m:mi mathvariant="normal">Y</m:mi><m:mo>^</m:mo></m:mover><m:mi mathvariant="normal">Z</m:mi></m:mrow><m:mo>=</m:mo><m:mi>θ</m:mi></m:mrow></m:math>, show that XZ<m:math overflow="scroll"><m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mo form="prefix">cos</m:mo><m:mi>θ</m:mi><m:mo>)</m:mo></m:mrow></m:msqrt></m:mrow></m:math>.
+</item><item id="uid281">Calculate XZ (to the nearest kilometre) if <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>240</m:mn></m:mrow></m:math> km and <m:math overflow="scroll"><m:mrow><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mn>132</m:mn><m:mo>∘</m:mo></m:msup></m:mrow></m:math>.
+</item></list><figure id="id339803"><media id="id339803_media" alt=""><image mime-type="image/png" src="../../media/MG11C17_047.png" id="id339803_onlineimage" width="134"><!-- NOTE: attribute width changes image size online (pixels). original width is 134. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_047.eps" id="id339803_printimage"/></media></figure></item>
+        <item id="uid282">Find the area of WXYZ (to two decimal places):
+<figure id="id339825"><media id="id339825_media" alt=""><image mime-type="image/png" src="../../media/MG11C17_048.png" id="id339825_onlineimage" width="132"><!-- NOTE: attribute width changes image size online (pixels). original width is 132. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_048.eps" id="id339825_printimage"/></media></figure></item>
+        <item id="uid283">Find the area of the shaded triangle in terms of <m:math overflow="scroll"><m:mi>x</m:mi></m:math>, <m:math overflow="scroll"><m:mi>α</m:mi></m:math>, <m:math overflow="scroll"><m:mi>β</m:mi></m:math>, <m:math overflow="scroll"><m:mi>θ</m:mi></m:math> and <m:math overflow="scroll"><m:mi>φ</m:mi></m:math>:
+<figure id="id339892"><media id="id339892_media" alt=""><image mime-type="image/png" src="../../media/MG11C17_049.png" id="id339892_onlineimage" width="166"><!-- NOTE: attribute width changes image size online (pixels). original width is 166. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C17_049.eps" id="id339892_printimage"/></media></figure></item>
+      </list>
+    </section>
+  </content>
+</document>

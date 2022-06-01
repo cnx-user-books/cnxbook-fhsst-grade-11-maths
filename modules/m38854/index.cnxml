@@ -1,0 +1,396 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Graphical solution</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38854</md:content-id>
+  <md:title>Graphical solution</md:title>
+  <md:abstract/>
+  <md:uuid>aaacf6cb-4fec-4c5e-80d5-d11df9d87be4</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid1">
+      <title>Introduction</title>
+      <para id="id325377">In grade 10, you learnt how to solve sets of simultaneous equations where both equations were linear (i.e. had the highest power equal to 1). In this chapter, you will learn how to solve sets of simultaneous equations where one is linear and one is quadratic. As in Grade 10, the solution will be found both algebraically and graphically.</para>
+      <para id="id325383">The only difference between a system of linear simultaneous equations and a system of simultaneous equations with one linear and one quadratic equation, is that the second system will have at most two solutions.</para>
+      <para id="id325388">An example of a system of simultaneous equations with one linear equation and one quadratic equation is:</para>
+      <equation id="uid1">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+    </section>
+    <section id="cid2">
+      <title>Graphical Solution</title>
+      <para id="id325798">The method of graphically finding the solution to one linear and one quadratic equation is identical to systems of linear simultaneous equations.</para>
+      <section id="uid2">
+        <title>Method: Graphical solution to a system of simultaneous equations
+with one linear and one quadratic equation</title>
+        <list id="id325812" display="block" list-type="enumerated">
+          <item id="uid3">Make <m:math overflow="scroll"><m:mi>y</m:mi></m:math> the subject of each equation.
+</item>
+          <item id="uid4">Draw the graphs of each equation as defined above.
+</item>
+          <item id="uid5">The solution of the set of simultaneous equations is given by the intersection points of the two graphs.
+</item>
+        </list>
+        <para id="id325859">For this example, making <m:math overflow="scroll"><m:mi>y</m:mi></m:math> the subject of each equation, gives:</para>
+        <equation id="id325870">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id325922">Plotting the graph of each equation, gives a straight line for the first equation and a parabola for the second equation.</para>
+        <figure id="uid6">
+          <media id="uid6_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C9_001.png" id="uid6_onlineimage" width="170"><!-- NOTE: attribute width changes image size online (pixels). original width is 170. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C9_001.eps" id="uid6_printimage"/>
+          </media>
+        </figure>
+        <para id="id325934">The parabola and the straight line intersect at two points: (2,0) and (-4,-12). Therefore, the solutions to the system of equations in <link target-id="uid1"/> is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math></para>
+<exercise id="secfhsst_id148"><title> Simultaneous Equations </title>
+        <problem id="probfhsst_id149">
+        <para id="id326178">Solve graphically:</para>
+        <equation id="id326183">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        
+        </problem>
+        <solution id="solfhsst_id197"> <list id="listfhsst_id197" list-type="enumerated" number-style="arabic" class="stepwise">
+        <item> <label> Make <m:math overflow="scroll"><m:mi>y</m:mi></m:math> the subject of the equation </label>
+        <para id="id326279">For the first equation:</para>
+        <equation id="id326283">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>-</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        <para id="id326348">and for the second equation:</para>
+        <equation id="id326354">
+          <m:math overflow="scroll" mode="display">
+            <m:mtable displaystyle="true">
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>-</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mn>0</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd columnalign="right">
+                  <m:mi>y</m:mi>
+                </m:mtd>
+                <m:mtd>
+                  <m:mo>=</m:mo>
+                </m:mtd>
+                <m:mtd columnalign="left">
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+          </m:math>
+        </equation>
+        </item> <item> <label> Draw the graphs corresponding to each equation. </label>
+        <para id="id326419">
+          <figure id="id326422">
+            <media id="id326422_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C9_002.png" id="id326422_onlineimage" width="187"><!-- NOTE: attribute width changes image size online (pixels). original width is 187. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C9_002.eps" id="id326422_printimage"/>
+            </media>
+          </figure>
+        </para>
+        </item> <item> <label> Find the intersection of the graphs. </label>
+        <para id="id326432">The graphs intersect at <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>27</m:mn><m:mo>)</m:mo></m:mrow></m:math> and at <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        </item> <item> <label> Write the solution of the system of simultaneous equations as given by the intersection of the graphs. </label>
+        <para id="id326477">The first solution is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>27</m:mn></m:mrow></m:math>. The second solution is <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. </para>
+        </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id301"><title> Graphical Solution </title>
+        <para id="id326553">Solve the following systems of equations graphically. Leave your answer in
+surd form, where appropriate.</para>
+        <list id="id326560" display="block" list-type="enumerated">
+          <item id="uid7">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>b</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>-</m:mo>
+                <m:mi>a</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:mi>a</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid8">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>-</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid9">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>6</m:mn>
+                <m:mo>-</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>12</m:mn>
+                <m:mo>-</m:mo>
+                <m:mn>2</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid10">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>y</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>14</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>-</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+          <item id="uid11">
+            <m:math overflow="scroll">
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>-</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>25</m:mn>
+                <m:mo>-</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>
+          </item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+
+  </content>
+</document>

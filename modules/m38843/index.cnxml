@@ -1,0 +1,322 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Finding the equation</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38843</md:content-id>
+  <md:title>Finding the equation</md:title>
+  <md:abstract/>
+  <md:uuid>af57b14c-6c08-4851-aade-a12e86c50883</md:uuid>
+</metadata>
+
+<content>
+<section id="cid6">
+      <title>Finding an equation when you know its roots</title>
+      <para id="id72036">We have mentioned before that the <emphasis effect="italics">roots</emphasis> of a quadratic equation are the solutions or answers you get from solving the quadatic equation. Working back from the answers, will take you to an equation.</para>
+<exercise id="secfhsst_id3098"><title> Find an equation when roots are given </title>
+      <problem id="probfhsst_id3099">
+      <para id="id72060">Find an equation with roots 13 and -5 </para>
+      </problem>
+      <solution id="solfhsst_id3102"> <list id="listfhsst_id3102" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Write down as the product of two brackets </label>
+      <para id="id72084">The step before giving the solutions would be:</para>
+      <equation id="id72088">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>13</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>5</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id72124">Notice that the signs in the brackets are opposite of the given roots.</para>
+      </item> <item> <label> Remove brackets </label>
+      <equation id="id72133">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mn>8</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>65</m:mn>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id72166">Of course, there would be other possibilities as well when each term on each side of the <emphasis effect="italics">equal to sign</emphasis> is multiplied by a constant. </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id3145"><title> Fraction roots </title>
+      <problem id="probfhsst_id3146">
+      <para id="id72202">Find an equation with roots <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> and 4 </para>
+      </problem>
+      <solution id="solfhsst_id3149"> <list id="listfhsst_id3149" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Product of two brackets </label>
+      <para id="id72242">Notice that if <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> then <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+      <para id="id72286">Therefore the two brackets will be:</para>
+      <equation id="id72292">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Remove brackets </label>
+      <para id="id72333">The equation is:</para>
+      <equation id="id72336">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mn>5</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>12</m:mn>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id3195"><title>
+      Theory of Quadratic Equations - Advanced </title>
+      <para id="id72399">This section is not in the syllabus, but it gives one a good understanding about some of the solutions of the quadratic equations.</para>
+      <section id="id72406">
+        <title>What is the Discriminant of a Quadratic Equation?</title>
+        <para id="id72413">Consider a general quadratic function of the form <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>. The <emphasis effect="italics">discriminant</emphasis> is defined as:</para>
+        <equation id="uid59">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>Δ</m:mi>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>-</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>a</m:mi>
+              <m:mi>c</m:mi>
+              <m:mo>.</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id72499">This is the expression under the square root in the formula for the roots of this function. We have already seen that whether the roots exist or not depends on whether this factor <m:math overflow="scroll"><m:mi>Δ</m:mi></m:math> is negative or positive.</para>
+      </section>
+      <section id="id72517">
+        <title>The Nature of the Roots</title>
+        <section id="id72523">
+          <title>Real Roots (<m:math overflow="scroll"><m:mrow><m:mi>Δ</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math>)</title>
+          <para id="id72545">Consider <m:math overflow="scroll"><m:mrow><m:mi>Δ</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math> for some quadratic function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>. In this case there are solutions to the equation <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> given
+by the formula</para>
+          <equation id="uid60">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>±</m:mo>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>b</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>-</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:mi>a</m:mi>
+                        <m:mi>c</m:mi>
+                      </m:mrow>
+                    </m:msqrt>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>a</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mo>±</m:mo>
+                    <m:msqrt>
+                      <m:mi>Δ</m:mi>
+                    </m:msqrt>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>a</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+          </equation>
+          <para id="id72695">If the expression under the square root is non-negative then the square root exists. These are the roots of the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math>.</para>
+          <para id="id72719">There various possibilities are summarised in the figure below.</para>
+          <para id="id72723"><figure id="id72726"><media id="id72726_media" alt="">
+                <image mime-type="image/png" src="../../media/MG11C7_001.png" id="id72726_onlineimage" width="506"><!-- NOTE: attribute width changes image size online (pixels). original width is 196. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/MG11C7_001.eps" id="id72726_printimage"/>
+              </media>
+            </figure>
+          </para>
+        </section>
+        <section id="id72733">
+          <title>Equal Roots (<m:math overflow="scroll"><m:mrow><m:mi>Δ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>)</title>
+          <para id="id72755">If <m:math overflow="scroll"><m:mrow><m:mi>Δ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then the roots are equal and, from the formula, these
+are given by</para>
+          <equation id="uid61">
+            <m:math overflow="scroll" mode="display">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>-</m:mo>
+                <m:mfrac>
+                  <m:mi>b</m:mi>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>a</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+          </equation>
+        </section>
+        <section id="id72804">
+          <title>Unequal Roots (<m:math overflow="scroll"><m:mrow><m:mi>Δ</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>)</title>
+          <para id="id72825">There will be 2 unequal roots if <m:math overflow="scroll"><m:mrow><m:mi>Δ</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>. The roots of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> are <emphasis effect="bold">rational</emphasis> if <m:math overflow="scroll"><m:mi>Δ</m:mi></m:math> is a perfect square (a number which is the square of a rational number), since, in this case, <m:math overflow="scroll"><m:msqrt><m:mi>Δ</m:mi></m:msqrt></m:math> is rational. Otherwise, if <m:math overflow="scroll"><m:mi>Δ</m:mi></m:math> is not a perfect square, then the roots are <emphasis effect="bold">irrational</emphasis>.</para>
+        </section>
+        <section id="id72901">
+          <title>Imaginary Roots (<m:math overflow="scroll"><m:mrow><m:mi>Δ</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>)</title>
+          <para id="id72923">If <m:math overflow="scroll"><m:mrow><m:mi>Δ</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then the solution to <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> contains the square root of a negative number and therefore there are no real solutions. We therefore say that the roots of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> are <emphasis effect="italics">imaginary</emphasis> (the graph of the function <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> does not intersect the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis).
+ </para>
+</section>
+<para id="eip-916"><figure id="quadratics-4" class="khanacademy">
+	  <title>Khan academy video on quadratics - 4</title>
+	  <media id="yt-media4" display="block" alt="video on quadratics 4">
+	  <flash id="yt-video4" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/JBSDQLZtjFo&amp;rel=0&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><section id="secfhsst_id3313"><title>
+          Theory of Quadratics - advanced exercises </title>
+<section id="secfhsst_id3315"><title> From past papers </title>
+          <list id="id73057" display="block" list-type="enumerated">
+            <item id="uid62">[IEB, Nov. 2001, HG] Given:    <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mi>k</m:mi><m:mrow><m:mo>(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace width="2.em"/><m:mrow><m:mo>(</m:mo><m:mi>k</m:mi><m:mo>≠</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math><list id="id73148" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid63">Show that the discriminant is given by:
+<equation id="id73163"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>Δ</m:mi><m:mo>=</m:mo><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>b</m:mi><m:mi>k</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></equation></item><item id="uid64">If <m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, discuss the nature of the roots of the equation.
+</item><item id="uid65">If <m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, find the value(s) of <m:math overflow="scroll"><m:mi>k</m:mi></m:math> for which the roots are equal.
+</item></list></item>
+            <item id="uid66">[IEB, Nov. 2002, HG] Show that <m:math overflow="scroll"><m:mrow><m:msup><m:mi>k</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mi>k</m:mi><m:mi>x</m:mi><m:mo>-</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> has non-real roots for all real values for <m:math overflow="scroll"><m:mi>k</m:mi></m:math>.
+</item>
+            <item id="uid67">[IEB, Nov. 2003, HG] The equation <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>k</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> has real roots.
+<list id="id73386" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid68">Find the largest integral value of <m:math overflow="scroll"><m:mi>k</m:mi></m:math>.
+</item><item id="uid69">Find one rational value of <m:math overflow="scroll"><m:mi>k</m:mi></m:math>, for which the above equation has rational roots.
+</item></list></item>
+            <item id="uid70">[IEB, Nov. 2003, HG] In the quadratic equation <m:math overflow="scroll"><m:mrow><m:mi>p</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>q</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math overflow="scroll"><m:mi>p</m:mi></m:math>, <m:math overflow="scroll"><m:mi>q</m:mi></m:math> and <m:math overflow="scroll"><m:mi>r</m:mi></m:math> are positive real numbers and form a geometric sequence. Discuss the nature of the roots.
+</item>
+            <item id="uid71">[IEB, Nov. 2004, HG] Consider the equation:
+<equation id="id73516"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mstyle><m:mspace width="2.em"/><m:mi> where </m:mi><m:mspace width="0.277778em"/><m:mspace width="0.277778em"/><m:mi>x</m:mi><m:mo>≠</m:mo><m:mstyle scriptlevel="0" displaystyle="false"><m:mfrac><m:mn>5</m:mn><m:mn>2</m:mn></m:mfrac></m:mstyle></m:mrow></m:math></equation><list id="id73588" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid72">Find a value of <m:math overflow="scroll"><m:mi>k</m:mi></m:math> for which the roots are equal.
+</item><item id="uid73">Find an integer <m:math overflow="scroll"><m:mi>k</m:mi></m:math> for which the roots of the equation will be rational and unequal.
+</item></list></item>
+            <item id="uid74">[IEB, Nov. 2005, HG]
+<list id="id73647" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid75">Prove that the roots of the equation <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>)</m:mo></m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>-</m:mo><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> are real for all real values of <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> and <m:math overflow="scroll"><m:mi>p</m:mi></m:math>.
+</item><item id="uid76">When will the roots of the equation be equal?
+</item></list></item>
+            <item id="uid77">[IEB, Nov. 2005, HG] If <m:math overflow="scroll"><m:mi>b</m:mi></m:math> and <m:math overflow="scroll"><m:mi>c</m:mi></m:math> can take on only the values 1, 2 or 3, determine all pairs (<m:math overflow="scroll"><m:mrow><m:mi>b</m:mi><m:mo>;</m:mo><m:mspace width="0.222222em"/><m:mi>c</m:mi></m:mrow></m:math>) such that <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> has real roots.
+</item>
+          </list>
+          
+</section>
+          
+</section>
+        </section>
+      </section>
+    </section>
+    <section id="cid7">
+      <title>End of Chapter Exercises</title>
+      <list id="id73861" display="block" list-type="enumerated">
+        <item id="uid78">Solve: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>    (Give your answer correct to two decimal places.)
+</item>
+        <item id="uid79">Solve: <m:math overflow="scroll"><m:mrow><m:mn>16</m:mn><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mrow></m:math></item>
+        <item id="uid80">Solve: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mn>12</m:mn><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mstyle><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math>    (Hint: Let <m:math overflow="scroll"><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mi>k</m:mi></m:mrow></m:math> and solve for <m:math overflow="scroll"><m:mi>k</m:mi></m:math> first and use the answer to solve <m:math overflow="scroll"><m:mi>y</m:mi></m:math>.)
+</item>
+        <item id="uid81">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></item>
+        <item id="uid82">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>:
+<list id="id74139" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid83"><m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>14</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></item><item id="uid84"><m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>    (Show your answer correct to ONE decimal place.)
+</item><item id="uid85"><m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mn>6</m:mn><m:mi>x</m:mi></m:mfrac></m:mstyle></m:mrow></m:math>    (correct to 2 decimal places)
+</item><item id="uid86"><m:math overflow="scroll"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mstyle><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></item></list></item>
+        <item id="uid87">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> by completing the square: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>p</m:mi><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></item>
+        <item id="uid88">The equation <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> has roots <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mstyle scriptlevel="0" displaystyle="false"><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mstyle></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow></m:math>. Find one set of possible values for <m:math overflow="scroll"><m:mi>a</m:mi></m:math>, <m:math overflow="scroll"><m:mi>b</m:mi></m:math> and <m:math overflow="scroll"><m:mi>c</m:mi></m:math>.
+</item>
+        <item id="uid89">The two roots of the equation <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>p</m:mi><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> differ by 5. Calculate the value of <m:math overflow="scroll"><m:mi>p</m:mi></m:math>.
+</item>
+        <item id="uid90"> An equation of the form <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> is written
+on the board. Saskia and Sven copy it down incorrectly. Saskia has
+a mistake in the constant term and obtains the solutions -4 and 2.
+Sven has a mistake in the coefficient of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> and obtains the solutions
+1 and -15. Determine the correct equation that was on the
+board.
+</item>
+        <item id="uid91">Bjorn stumbled across the following formula to solve
+the quadratic equation <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> in a foreign textbook.
+<equation id="id74630"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>c</m:mi></m:mrow><m:mrow><m:mo>-</m:mo><m:mi>b</m:mi><m:mo>±</m:mo><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mstyle></m:mrow></m:math></equation><list id="id74682" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid92">Use this formula to solve the equation:
+<equation id="id74697"><m:math overflow="scroll" mode="display"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></equation></item><item id="uid93">Solve the equation again, using factorisation, to see if the formula works for this equation.
+</item><item id="uid94">Trying to derive this formula to prove that it always works, Bjorn got stuck along the way. His attempt his shown
+below:
+<equation id="id74755"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd/></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mi>b</m:mi><m:mi>x</m:mi></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mi>c</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mstyle></m:mrow></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd><m:mi> Divided by</m:mi><m:mspace width="2pt"/><m:msup><m:mi mathvariant="normal">x</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="2pt"/><m:mi> where </m:mi><m:mspace width="2pt"/><m:mi mathvariant="normal">x</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mi>c</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mi>b</m:mi><m:mi>x</m:mi></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mi>a</m:mi></m:mrow></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd><m:mi> Rearranged </m:mi></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mi>b</m:mi><m:mrow><m:mi>c</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mi>a</m:mi><m:mi>c</m:mi></m:mfrac></m:mstyle></m:mrow></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd><m:mtd><m:mi> Divided by</m:mi><m:mspace width="2pt"/><m:mi mathvariant="normal">c</m:mi><m:mspace width="2pt"/><m:mi> where </m:mi><m:mspace width="2pt"/><m:mi mathvariant="normal">c</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mi>b</m:mi><m:mrow><m:mi>c</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mstyle></m:mrow></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>-</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mi>a</m:mi><m:mi>c</m:mi></m:mfrac></m:mstyle></m:mtd><m:mtd><m:mi> Subtracted </m:mi><m:mspace width="2pt"/><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mi mathvariant="normal">a</m:mi><m:mi mathvariant="normal">c</m:mi></m:mfrac></m:mstyle><m:mspace width="2pt"/><m:mrow><m:mi> from both sides</m:mi></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right"><m:mrow><m:mo>∴</m:mo><m:mspace width="3pt"/><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mi>b</m:mi><m:mrow><m:mi>c</m:mi><m:mi>x</m:mi></m:mrow></m:mfrac></m:mstyle></m:mrow></m:mtd><m:mtd><m:mo>+</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>...</m:mo></m:mtd><m:mtd><m:mi> Got stuck</m:mi></m:mtd></m:mtr></m:mtable></m:math></equation>
+Complete his derivation.
+</item></list></item>
+      </list>
+    </section>
+  </content>
+</document>

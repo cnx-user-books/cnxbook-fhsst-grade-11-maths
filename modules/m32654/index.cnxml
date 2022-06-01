@@ -1,0 +1,523 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Independent and Dependent Events</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32654</md:content-id>
+  <md:title>Independent and Dependent Events</md:title>
+  <md:abstract/>
+  <md:uuid>446d3625-d8d9-4718-9e5f-5cb1977eb5b8</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id175917">In probability theory event are either independent or dependent. This chapter describes the differences and how each type of event is worked with.</para>
+    </section>
+    <section id="cid3">
+      <title>Definitions</title>
+      <para id="id175930">Two events are independent if knowing something about the value of one event does not give any information about the value of the second event. For example, the event of getting a "1" when a die is rolled and the event of getting a "1" the second time it is thrown are independent.</para>
+<definition id="fhsst_id73"><term id="termfhsst_id73"> Independent Events </term> <meaning id="meaningfhsst_id73">
+      <para id="id176280">Two events <m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math> are independent if when one of them happens, it doesn't affect whether the one happens or not. </para>
+      </meaning></definition>
+      <para id="id176308">The probability of two independent events occurring, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:math>, is given by:</para>
+      <equation id="uid1">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>∩</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>A</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>×</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>(</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+<exercise id="secfhsst_id99"><title> Independent Events </title>
+      <problem id="probfhsst_id100">
+      <para id="id176390">What is the probability of rolling a 1 and then rolling a 6 on a fair die? </para>
+      </problem>
+      <solution id="solfhsst_id103"> <list id="listfhsst_id103" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identify the two events and determine whether the events are independent or not </label>
+      <para id="id176413">Event <m:math overflow="scroll"><m:mi>A</m:mi></m:math> is rolling a 1 and event <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is rolling a 6. Since the outcome of the first event does not affect the outcome of the second event, the events are independent.</para>
+      </item> <item> <label> Determine the probability of the specific outcomes occurring, for each event </label>
+      <para id="id176437">The probability of rolling a 1 is <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:math> and the probability of rolling a 6 is <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:math>.</para>
+      <para id="id176465">Therefore, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:math>.</para>
+      </item> <item> <label> Use equation <link target-id="uid1"/> to determine the probability of the two events occurring together. </label>
+      <equation id="id176527">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mi>A</m:mi>
+                  <m:mo>∩</m:mo>
+                  <m:mi>B</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mi>A</m:mi>
+                  <m:mo>)</m:mo>
+                  <m:mo>×</m:mo>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mi>B</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>6</m:mn>
+                  </m:mfrac>
+                  <m:mo>×</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>6</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>36</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id176622">The probability of rolling a 1 and then rolling a 6 on a fair die is <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>36</m:mn></m:mfrac></m:math>. </para>
+      </item> </list> </solution>
+</exercise>
+      <para id="id176649">Consequently, two events are dependent if the outcome of the first event affects the outcome of the second event.</para>
+<exercise id="secfhsst_id179"><title> Dependent Events </title>
+      <problem id="probfhsst_id180">
+      <para id="id176666">A cloth bag has four coins, one R1 coin, two R2 coins and one R5 coin. What is the probability of first selecting a R1 coin followed by selecting a R2 coin? </para>
+      </problem>
+      <solution id="solfhsst_id183"> <list id="listfhsst_id183" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identify the two events and determine whether the events are independent or not </label>
+      <para id="id176689">Event <m:math overflow="scroll"><m:mi>A</m:mi></m:math> is selecting a R1 coin and event <m:math overflow="scroll"><m:mi>B</m:mi></m:math> is next selecting a R2. Since the outcome of the first event affects the outcome of the second event (because there are less coins to choose from after the first coin has been selected), the events are dependent.</para>
+      </item> <item> <label> Determine the probability of the specific outcomes occurring, for each event </label>
+      <para id="id176714">The probability of first selecting a R1 coin is <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:math> and the probability of next selecting a R2 coin is <m:math overflow="scroll"><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math> (because after the R1 coin has been selected, there are only three coins to choose from).</para>
+      <para id="id176744">Therefore, <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>.</para>
+      </item> <item> <label> Use equation <link target-id="uid1"/> to determine the probability of the two events occurring together. </label>
+      <para id="id176806">The same equation as for independent events are used, but the probabilities are calculated differently.</para>
+      <equation id="id176810">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mi>A</m:mi>
+                  <m:mo>∩</m:mo>
+                  <m:mi>B</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mi>A</m:mi>
+                  <m:mo>)</m:mo>
+                  <m:mo>×</m:mo>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mi>B</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>4</m:mn>
+                  </m:mfrac>
+                  <m:mo>×</m:mo>
+                  <m:mfrac>
+                    <m:mn>2</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>2</m:mn>
+                  <m:mn>12</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>6</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id176919">The probability of first selecting a R1 coin followed by selecting a R2 coin is <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:math>. </para>
+      </item> </list> </solution>
+</exercise>
+      <section id="uid2">
+        <title>Identification of Independent and Dependent Events</title>
+        <section id="uid3">
+          <title>Use of a Contingency Table</title>
+          <para id="id176964">A two-way contingency table (studied in an earlier grade) can be used to determine whether events are independent or dependent.</para>
+<definition id="fhsst_id276"><term id="termfhsst_id276"> two-way contingency table </term> <meaning id="meaningfhsst_id276">
+          <para id="id176974">A two-way contingency table is used to represent possible outcomes when two events are combined in a statistical analysis. </para>
+          </meaning></definition>
+          <para id="id176986">For example we can draw and analyse a two-way contingency table to solve the following problem.</para>
+<exercise id="secfhsst_id280"><title> Contingency Tables </title>
+          <problem id="probfhsst_id281">
+          <para id="id177002">A medical trial into the effectiveness of a new medication was carried out. 120 males and 90 females responded. Out of these 50 males and 40 females responded positively to the medication.</para>
+          <list id="id177009" display="block" list-type="enumerated">
+            <item id="uid4">Was the medication's success independent of gender? Explain.
+</item>
+            <item id="uid5">Give a table for the independence of gender results.
+</item>
+          </list>
+          
+          </problem>
+          <solution id="solfhsst_id291"> <list id="listfhsst_id291" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Draw a contingency table </label>
+          <table id="id177056" summary="">
+            <tgroup cols="4">
+              <tbody>
+                <row>
+                  <entry/>
+                  <entry>Male</entry>
+                  <entry>Female</entry>
+                  <entry>Totals</entry>
+                </row>
+                <row>
+                  <entry>Positive result</entry>
+                  <entry>50</entry>
+                  <entry>40</entry>
+                  <entry>90</entry>
+                </row>
+                <row>
+                  <entry>No Positive result</entry>
+                  <entry>70</entry>
+                  <entry>50</entry>
+                  <entry>120</entry>
+                </row>
+                <row>
+                  <entry>Totals</entry>
+                  <entry>120</entry>
+                  <entry>90</entry>
+                  <entry>210</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <!--empty paragraphs get left behind.-->
+          </item> <item> <label> Work out probabilities </label>
+          <para id="id177202">P(male).P(positive result)=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>120</m:mn><m:mn>210</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>57</m:mn></m:mrow></m:math></para>
+          <para id="id175840">P(female).P(positive result)=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>90</m:mn><m:mn>210</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>43</m:mn></m:mrow></m:math></para>
+          <para id="id177432">P(male and positive result)=<m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>50</m:mn><m:mn>210</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>24</m:mn></m:mrow></m:math></para>
+          </item> <item> <label> Draw conclusion </label>
+          <para id="id177461">P(male and positive result) is the observed probability and P(male).P(positive result) is the expected probability. These two are quite different. So there is no evidence that the medication's success is independent of gender.</para>
+          </item> <item> <label> Gender-independent results </label>
+          <para id="id177470">To get gender independence we need the positive results in the same ratio as the gender. The gender ratio is: 120:90, or 4:3, so the number in the male and positive column would have to be <m:math overflow="scroll"><m:mfrac><m:mn>4</m:mn><m:mn>7</m:mn></m:mfrac></m:math> of the total number of patients responding positively which gives 51,4. This leads to the following table:</para>
+          <table id="id177488" summary="">
+            <tgroup cols="4">
+              <tbody>
+                <row>
+                  <entry/>
+                  <entry>Male</entry>
+                  <entry>Female</entry>
+                  <entry>Totals</entry>
+                </row>
+                <row>
+                  <entry>Positive result</entry>
+                  <entry>51,4</entry>
+                  <entry>38,6</entry>
+                  <entry>90</entry>
+                </row>
+                <row>
+                  <entry>No Positive result</entry>
+                  <entry>68,6</entry>
+                  <entry>51,4</entry>
+                  <entry>120</entry>
+                </row>
+                <row>
+                  <entry>Totals</entry>
+                  <entry>120</entry>
+                  <entry>90</entry>
+                  <entry>210</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <!--empty paragraphs get left behind.-->
+          
+          </item> </list> </solution>
+</exercise>
+        </section>
+        <section id="uid6">
+          <title>Use of a Venn Diagram</title>
+          <para id="id177653">We can also use Venn diagrams to check whether events are dependent or independent.</para>
+<definition id="fhsst_id370"><term id="termfhsst_id370"> Independent events </term> <meaning id="meaningfhsst_id370">
+          <para id="id177663">Events are said to be independent if the result or outcome of one event does not affect the result or outcome of the other event. So P(A/C)=P(A), where P(A/C) represents the probability of event A after event C has occured. </para>
+          </meaning></definition>
+<definition id="fhsst_id373"><term id="termfhsst_id373"> Dependent events </term> <meaning id="meaningfhsst_id373">
+          <para id="id177682">Two events are dependent if the outcome of one event is affected by the outcome of the other event i.e. <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>/</m:mo><m:mi>C</m:mi><m:mo>)</m:mo><m:mo>≠</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:mrow></m:math> </para>
+          </meaning></definition>
+          <para id="id177723">.
+Also note that <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>/</m:mo><m:mi>C</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>C</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>C</m:mi><m:mo>)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>.
+For example, we can draw a Venn diagram and a contingency table to illustrate and analyse the following example.</para>
+<exercise id="secfhsst_id379"><title> Venn diagrams and events </title>
+          <problem id="probfhsst_id380">
+          <para id="id177790">A school decided that its uniform needed upgrading. The colours on offer were beige or blue or beige and blue. 40% of the school wanted beige, 55% wanted blue and 15% said a combination would be fine. Are the two events independent?
+ </para>
+          </problem>
+          <solution id="solfhsst_id384"> <list id="listfhsst_id384" list-type="enumerated" number-style="arabic" class="stepwise">
+          <item> <label> Draw a Venn diagram </label>
+          <para id="id177814">
+            <figure id="id177815">
+              <media id="id177815_media" alt="">
+                <image mime-type="image/png" src="../../media/MG11C19_001.png" id="id177815_onlineimage" width="286"><!-- NOTE: attribute width changes image size online (pixels). original width is 286. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/MG11C19_001.eps" id="id177815_printimage"/>
+              </media>
+            </figure>
+          </para>
+          </item> <item> <label> Draw up a contingency table </label>
+          <table id="id177825" summary="">
+            <tgroup cols="4">
+              <tbody>
+                <row>
+                  <entry/>
+                  <entry>Beige</entry>
+                  <entry>Not Beige</entry>
+                  <entry>Totals</entry>
+                </row>
+                <row>
+                  <entry>Blue</entry>
+                  <entry>0,15</entry>
+                  <entry>0,4</entry>
+                  <entry>0,55</entry>
+                </row>
+                <row>
+                  <entry>Not Blue</entry>
+                  <entry>0,25</entry>
+                  <entry>0,2</entry>
+                  <entry>0,35</entry>
+                </row>
+                <row>
+                  <entry>Totals</entry>
+                  <entry>0,40</entry>
+                  <entry>0,6</entry>
+                  <entry>1</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <!--empty paragraphs get left behind.-->
+          </item> <item> <label> Work out the probabilities </label>
+          <para id="id177984">P(Blue)=0,4, P(Beige)=0,55, P(Both)=0,15, P(Neither)=0,20</para>
+          <para id="id177988">Probability of choosing beige after blue is:</para>
+          <equation id="id177994">
+            <m:math overflow="scroll" mode="display">
+              <m:mtable displaystyle="true">
+                <m:mtr>
+                  <m:mtd columnalign="right">
+                    <m:mrow>
+                      <m:mi>P</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>B</m:mi>
+                      <m:mi>e</m:mi>
+                      <m:mi>i</m:mi>
+                      <m:mi>g</m:mi>
+                      <m:mi>e</m:mi>
+                      <m:mo>/</m:mo>
+                      <m:mi>B</m:mi>
+                      <m:mi>l</m:mi>
+                      <m:mi>u</m:mi>
+                      <m:mi>e</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mtd>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>P</m:mi>
+                        <m:mo>(</m:mo>
+                        <m:mi>B</m:mi>
+                        <m:mi>e</m:mi>
+                        <m:mi>i</m:mi>
+                        <m:mi>g</m:mi>
+                        <m:mi>e</m:mi>
+                        <m:mo>∩</m:mo>
+                        <m:mi>B</m:mi>
+                        <m:mi>l</m:mi>
+                        <m:mi>u</m:mi>
+                        <m:mi>e</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>P</m:mi>
+                        <m:mo>(</m:mo>
+                        <m:mi>B</m:mi>
+                        <m:mi>l</m:mi>
+                        <m:mi>u</m:mi>
+                        <m:mi>e</m:mi>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>15</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>55</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd/>
+                  <m:mtd>
+                    <m:mo>=</m:mo>
+                  </m:mtd>
+                  <m:mtd columnalign="left">
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>27</m:mn>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:math>
+          </equation>
+          </item> <item> <label> Solve the problem </label>
+          <para id="id178139">Since <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mi>e</m:mi><m:mi>i</m:mi><m:mi>g</m:mi><m:mi>e</m:mi><m:mo>/</m:mo><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mo>)</m:mo><m:mo>≠</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mi>e</m:mi><m:mi>i</m:mi><m:mi>g</m:mi><m:mi>e</m:mi><m:mo>)</m:mo></m:mrow></m:math> the events are statistically dependent.
+ </para>
+          </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id523"><title>
+          Applications of Probability Theory </title>
+          <para id="id178222">Two major applications of probability theory in everyday life are in risk assessment and in trade on commodity markets. Governments typically apply probability methods in environmental regulation where it is called “pathway analysis”, and are often measuring well-being using methods that are stochastic in nature, and choosing projects to undertake based on statistical analyses of their probable effect on the population as a whole. It is not correct to say that statistics are involved in the modelling itself, as typically the assessments of risk are one-time and thus require more fundamental probability models, e.g. “the probability of another 9/11”. A law of small numbers tends to apply to all such choices and perception of the effect of such choices, which makes probability measures a political matter.</para>
+          <para id="id176206">A good example is the effect of the perceived probability of any widespread Middle East conflict on oil prices - which have ripple effects in the economy as a whole. An assessment by a commodity trade that a war is more likely vs. less likely sends prices up or down, and signals other traders of that opinion. Accordingly, the probabilities are not assessed independently nor necessarily very rationally. The theory of behavioral finance emerged to describe the effect of such groupthink on pricing, on policy, and on peace and conflict.</para>
+          <para id="id176214">It can reasonably be said that the discovery of rigorous methods to assess and combine probability assessments has had a profound effect on modern society. A good example is the application of game theory, itself based strictly on probability, to the Cold War and the mutual assured destruction doctrine. Accordingly, it may be of some importance to most citizens to understand how odds and probability assessments are made, and how they contribute to reputations and to decisions, especially in a democracy.</para>
+          <para id="id176221">Another significant application of probability theory in everyday life is reliability. Many consumer products, such as automobiles and consumer electronics, utilize reliability theory in the design of the product in order to reduce the probability of failure. The probability of failure is also closely associated with the product's warranty.
+ </para>
+</section>
+        </section>
+      </section>
+    </section>
+    <section id="cid4">
+      <title>End of Chapter Exercises</title>
+      <list id="id176243" display="block" list-type="enumerated">
+        <item id="uid7">In each of the following contingency tables give the expected numbers for the events to be perfectly independent and decide if the events are independent or dependent.
+<list id="id176260" display="block" list-type="enumerated"><item id="uid8"><table id="id176271" summary=""><tgroup cols="4"><tbody><row><entry/><entry>Brown eyes</entry><entry>Not Brown eyes</entry><entry>Totals</entry></row><row><entry>Black hair</entry><entry>50</entry><entry>30</entry><entry>80</entry></row><row><entry>Red hair</entry><entry>70</entry><entry>80</entry><entry>150</entry></row><row><entry>Totals</entry><entry>120</entry><entry>110</entry><entry>230</entry></row></tbody></tgroup></table></item><item id="uid9"><table id="id178531" summary=""><tgroup cols="4"><tbody><row><entry/><entry>Point A</entry><entry>Point B</entry><entry>Totals</entry></row><row><entry>Busses left late</entry><entry>15</entry><entry>40</entry><entry>55</entry></row><row><entry>Busses left on time</entry><entry>25</entry><entry>20</entry><entry>45</entry></row><row><entry>Totals</entry><entry>40</entry><entry>60</entry><entry>100</entry></row></tbody></tgroup></table></item><item id="uid10"><table id="id178693" summary=""><tgroup cols="4"><tbody><row><entry/><entry>Durban</entry><entry>Bloemfontein</entry><entry>Totals</entry></row><row><entry>Liked living there</entry><entry>130</entry><entry>30</entry><entry>160</entry></row><row><entry>Did not like living there</entry><entry>140</entry><entry>200</entry><entry>340</entry></row><row><entry>Totals</entry><entry>270</entry><entry>230</entry><entry>500</entry></row></tbody></tgroup></table></item><item id="uid11"><table id="id178856" summary=""><tgroup cols="4"><tbody><row><entry/><entry>Multivitamin A</entry><entry>Multivitamin B</entry><entry>Totals</entry></row><row><entry>Improvement in health</entry><entry>400</entry><entry>300</entry><entry>700</entry></row><row><entry>No improvement in health</entry><entry>140</entry><entry>120</entry><entry>260</entry></row><row><entry>Totals</entry><entry>540</entry><entry>420</entry><entry>960</entry></row></tbody></tgroup></table></item></list></item>
+        <item id="uid12">A study was undertaken to see how many people in Port Elizabeth owned either a Volkswagen or a Toyota. 3% owned both, 25% owned a Toyota and 60% owned a Volkswagen. Draw a contingency table to show all events and decide if car ownership is independent.
+</item>
+        <item id="uid13">Jane invested in the stock market. The probability that she will not lose all her money is 0,32. What is the probability that she will lose all her money? Explain.
+</item>
+        <item id="uid14">If D and F are mutually exclusive events, with P(D<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>)=0,3 and P(D or F)=0,94, find P(F).
+</item>
+        <item id="uid15">A car sales person has pink, lime-green and purple models of car A and purple, orange and multicolour models of car B. One dark night a thief steals a car.
+<list id="id179079" display="block" list-type="enumerated"><item id="uid16">What is the experiment and sample space?
+</item><item id="uid17">Draw a Venn diagram to show this.
+</item><item id="uid18">What is the probability of stealing either a model of A or a model of B?
+</item><item id="uid19">What is the probability of stealing both a model of A and a model of B?
+</item></list></item>
+        <item id="uid20">The probability of Event X is 0,43 and the probability of Event Y is 0,24. The probability of both occuring together is 0,10. What is the probability that X or Y will occur (this inculdes X and Y occuring simultaneously)?
+</item>
+        <item id="uid21">P(H)=0,62, P(J)=0,39 and P(H and J)=0,31. Calculate:
+<list id="id179160" display="block" list-type="enumerated"><item id="uid22">P(H<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>)
+</item><item id="uid23">P(H or J)
+</item><item id="uid24">P(H<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math> or J<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>)
+</item><item id="uid25">P(H<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math> or J)
+</item><item id="uid26">P(H<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math> and J<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>)
+</item></list></item>
+        <item id="uid27">The last ten letters of the alphabet were placed in a hat and people were asked to pick one of them. Event D is picking a vowel, Event E is picking a consonant and Event F is picking the last four letters. Calculate the following probabilities:
+<list id="id179317" display="block" list-type="enumerated"><item id="uid28">P(F<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>)
+</item><item id="uid29">P(F or D)
+</item><item id="uid30">P(neither E nor F)
+</item><item id="uid31">P(D and E)
+</item><item id="uid32">P(E and F)
+</item><item id="uid33">P(E and D<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>)
+</item></list></item>
+        <item id="uid34">At Dawnview High there are 400 Grade 12's. 270 do Computer Science, 300 do English and 50 do Typing. All those doing Computer Science do English, 20 take Computer Science and Typing and 35 take English and Typing. Using a Venn diagram calculate the probability that a pupil drawn at random will take:
+<list id="id179435" display="block" list-type="enumerated"><item id="uid35">English, but not Typing or Computer Science
+</item><item id="uid36">English but not Typing
+</item><item id="uid37">English and Typing but not Computer Science
+</item><item id="uid38">English or Typing
+</item></list></item>
+      </list>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,430 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Distribution of data</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38861</md:content-id>
+  <md:title>Distribution of data</md:title>
+  <md:abstract/>
+  <md:uuid>f02dc5eb-957f-48c5-9d5b-cdfa96099a41</md:uuid>
+</metadata>
+
+<content>
+
+    <section id="cid5">
+      <title>Distribution of Data</title>
+      <section id="uid66">
+        <title>Symmetric and Skewed Data</title>
+        <para id="id167262">The shape of a data set is important to know.</para>
+<definition id="fhsst_id1155"><term id="termfhsst_id1155"> Shape of a data set </term> <meaning id="meaningfhsst_id1155">
+        <para id="id167272">This describes how the data is distributed relative to the mean and median. </para>
+        </meaning></definition>
+        <list id="id167284" display="block" list-type="bulleted">
+          <item id="uid67">Symmetrical data sets are balanced on either side of the median.
+<figure id="id167304"><media id="id167304_media" alt=""><image mime-type="image/png" src="../../media/MG11C18_005.png" id="id167304_onlineimage" width="229"><!-- NOTE: attribute width changes image size online (pixels). original width is 229. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C18_005.eps" id="id167304_printimage"/></media></figure></item>
+          <item id="uid68">Skewed data is spread out on one side more than on the other. It can be skewed right or skewed left.
+<figure id="id167326"><media id="id167326_media" alt=""><image mime-type="image/png" src="../../media/MG11C18_006.png" id="id167326_onlineimage" width="234"><!-- NOTE: attribute width changes image size online (pixels). original width is 234. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C18_006.eps" id="id167326_printimage"/></media></figure></item>
+        </list>
+      </section>
+      <section id="uid69">
+        <title>Relationship of the Mean, Median, and Mode</title>
+        <para id="id167344">The relationship of the mean, median, and mode to each other can provide some information about the relative shape of the data distribution. If the mean, median, and mode are approximately equal to each other, the distribution can be assumed to be approximately symmetrical.
+With both the mean and median known, the following can be concluded:</para>
+        <list id="id167350" display="block" list-type="bulleted">
+          <item id="uid70">(mean - median) <m:math overflow="scroll"><m:mrow><m:mo>≈</m:mo><m:mn>0</m:mn></m:mrow></m:math> then the data is symmetrical
+</item>
+          <item id="uid71">(mean - median) <m:math overflow="scroll"><m:mrow><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> then the data is positively skewed (skewed to the right). This means that the median is close to the start of the data set.
+</item>
+          <item id="uid72">(mean - median) <m:math overflow="scroll"><m:mrow><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> then the data is negatively skewed (skewed to the left). This means that the median is close to the end of the data set.
+</item>
+        </list>
+<section id="secfhsst_id1177"><title> Distribution of Data </title>
+        <list id="id167438" display="block" list-type="enumerated">
+          <item id="uid73">Three sets of 12 pupils each had test score recorded. The test was out of 50. Use the given data to answer the following questions.
+<table id="uid74" summary=""><tgroup cols="3"><tbody><row><entry>Set 1</entry><entry>Set 2</entry><entry>Set 3</entry></row><row><entry>25</entry><entry>32</entry><entry>43</entry></row><row><entry>47</entry><entry>34</entry><entry>47</entry></row><row><entry>15</entry><entry>35</entry><entry>16</entry></row><row><entry>17</entry><entry>32</entry><entry>43</entry></row><row><entry>16</entry><entry>25</entry><entry>38</entry></row><row><entry>26</entry><entry>16</entry><entry>44</entry></row><row><entry>24</entry><entry>38</entry><entry>42</entry></row><row><entry>27</entry><entry>47</entry><entry>50</entry></row><row><entry>22</entry><entry>43</entry><entry>50</entry></row><row><entry>24</entry><entry>29</entry><entry>44</entry></row><row><entry>12</entry><entry>18</entry><entry>43</entry></row><row><entry>31</entry><entry>25</entry><entry>42</entry></row></tbody></tgroup><caption>Cumulative Frequencies for Data Set 2. </caption></table><list id="id167826" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid75">For each of the sets calculate the mean and the five number summary.
+</item><item id="uid76">For each of the classes find the difference between the mean and the median. Make box and whisker plots on the same set of axes.
+</item><item id="uid77">State which of the three are skewed (either right or left).
+</item><item id="uid78">Is set A skewed or symmetrical?
+</item><item id="uid79">Is set C symmetrical? Why or why not?
+</item></list></item>
+          <item id="uid80">Two data sets have the same range and interquartile range, but one is skewed right and the other is skewed left. Sketch the box and whisker plots and then invent data (6 points in each set) that meets the requirements.
+</item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+    <section id="cid6">
+      <title>Scatter Plots</title>
+      <para id="id167927">A scatter-plot is a graph that shows the relationship between two variables. We say this is bivariate data and we plot the data from two different sets using ordered pairs. For example, we could have mass on the horizontal axis (first variable) and height on the second axis (second variable), or we could have current on the horizontal axis and voltage on the vertical axis.</para>
+      <para id="id162655">Ohm's Law is an important relationship in physics. Ohm's law describes the relationship between current and voltage in a conductor, like a piece of wire. When we measure the voltage (dependent variable) that results from a certain current (independent variable) in a wire, we get the data points as shown in <link target-id="uid81"/>.</para>
+      <table id="uid81" summary="Values of current and voltage measured in a wire.">
+<tgroup cols="4"><tbody>
+            <row>
+              <entry>
+                <emphasis effect="bold">Current</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Voltage</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Current</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Voltage</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>0</entry>
+              <entry>0,4</entry>
+              <entry>2,4</entry>
+              <entry>1,4</entry>
+            </row>
+            <row>
+              <entry>0,2</entry>
+              <entry>0,3</entry>
+              <entry>2,6</entry>
+              <entry>1,6</entry>
+            </row>
+            <row>
+              <entry>0,4</entry>
+              <entry>0,6</entry>
+              <entry>2,8</entry>
+              <entry>1,9</entry>
+            </row>
+            <row>
+              <entry>0,6</entry>
+              <entry>0,6</entry>
+              <entry>3</entry>
+              <entry>1,9</entry>
+            </row>
+            <row>
+              <entry>0,8</entry>
+              <entry>0,4</entry>
+              <entry>3,2</entry>
+              <entry>2</entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>1</entry>
+              <entry>3,4</entry>
+              <entry>1,9</entry>
+            </row>
+            <row>
+              <entry>1,2</entry>
+              <entry>0,9</entry>
+              <entry>3,6</entry>
+              <entry>2,1</entry>
+            </row>
+            <row>
+              <entry>1,4</entry>
+              <entry>0,7</entry>
+              <entry>3,8</entry>
+              <entry>2,1</entry>
+            </row>
+            <row>
+              <entry>1,6</entry>
+              <entry>1</entry>
+              <entry>4</entry>
+              <entry>2,4</entry>
+            </row>
+            <row>
+              <entry>1,8</entry>
+              <entry>1,1</entry>
+              <entry>4,2</entry>
+              <entry>2,4</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>1,3</entry>
+              <entry>4,4</entry>
+              <entry>2,5</entry>
+            </row>
+            <row>
+              <entry>2,2</entry>
+              <entry>1,1</entry>
+              <entry>4,6</entry>
+              <entry>2,5</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>Values of current and voltage measured in a wire.</caption>
+</table>
+      <para id="id168521">When we plot this data as points, we get the scatter plot shown in <link target-id="id168531"/>.</para>
+      <para id="id168528">
+        <figure id="id168531">
+          <media id="id168531_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C18_007.png" id="id168531_onlineimage" width="170"><!-- NOTE: attribute width changes image size online (pixels). original width is 170. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C18_007.eps" id="id168531_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id168538">If we are to come up with a function that best describes the data, we would have to say that a straight line best describes this data.</para>
+<section id="secfhsst_id1300"><title>
+      Ohm's Law </title>
+      <para id="id168554">Ohm's Law describes the relationship between current and voltage in a conductor. The gradient of the graph of voltage vs. current is known as the <emphasis effect="italics">resistance</emphasis> of the conductor. </para>
+</section>
+<section id="secfhsst_id1304"><title> Research Project : Scatter Plot </title>
+      <para id="id168580">The function that best describes a set of data can take any form. We will restrict ourselves to the forms already studied, that is, linear, quadratic or exponential.
+Plot the following sets of data as scatter plots and deduce the type of function that best describes the data. The type of function can either be quadratic or exponential.</para>
+      <list id="id168588" display="block" list-type="enumerated">
+        <item id="uid82">
+          <table id="id168599" summary="data set for exercise 1">
+<tgroup cols="8"><tbody>
+                <row>
+                  <entry>
+                    <emphasis effect="bold">x</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">y</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">x</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">y</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">x</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">y</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">x</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">y</emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>-5</entry>
+                  <entry>9,8</entry>
+                  <entry>0</entry>
+                  <entry>14,2</entry>
+                  <entry>-2,5</entry>
+                  <entry>11,9</entry>
+                  <entry>2,5</entry>
+                  <entry>49,3</entry>
+                </row>
+                <row>
+                  <entry>-4,5</entry>
+                  <entry>4,4</entry>
+                  <entry>0,5</entry>
+                  <entry>22,5</entry>
+                  <entry>-2</entry>
+                  <entry>6,9</entry>
+                  <entry>3</entry>
+                  <entry>68,9</entry>
+                </row>
+                <row>
+                  <entry>-4</entry>
+                  <entry>7,6</entry>
+                  <entry>1</entry>
+                  <entry>21,5</entry>
+                  <entry>-1,5</entry>
+                  <entry>8,2</entry>
+                  <entry>3,5</entry>
+                  <entry>88,4</entry>
+                </row>
+                <row>
+                  <entry>-3,5</entry>
+                  <entry>7,9</entry>
+                  <entry>1,5</entry>
+                  <entry>27,5</entry>
+                  <entry>-1</entry>
+                  <entry>7,8</entry>
+                  <entry>4</entry>
+                  <entry>117,2</entry>
+                </row>
+                <row>
+                  <entry>-3</entry>
+                  <entry>7,5</entry>
+                  <entry>2</entry>
+                  <entry>41,9</entry>
+                  <entry>-0,5</entry>
+                  <entry>14,4</entry>
+                  <entry>4,5</entry>
+                  <entry>151,4</entry>
+                </row>
+              </tbody>
+            
+</tgroup>
+</table>
+        </item>
+        <item id="uid83">
+          <table id="id169049" summary="data set for exercise 2">
+<tgroup cols="8"><tbody>
+                <row>
+                  <entry>
+                    <emphasis effect="bold">x</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">y</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">x</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">y</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">x</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">y</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">x</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis effect="bold">y</emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>-5</entry>
+                  <entry>75</entry>
+                  <entry>0</entry>
+                  <entry>5</entry>
+                  <entry>-2,5</entry>
+                  <entry>27,5</entry>
+                  <entry>2,5</entry>
+                  <entry>7,5</entry>
+                </row>
+                <row>
+                  <entry>-4,5</entry>
+                  <entry>63,5</entry>
+                  <entry>0,5</entry>
+                  <entry>3,5</entry>
+                  <entry>-2</entry>
+                  <entry>21</entry>
+                  <entry>3</entry>
+                  <entry>11</entry>
+                </row>
+                <row>
+                  <entry>-4</entry>
+                  <entry>53</entry>
+                  <entry>1</entry>
+                  <entry>3</entry>
+                  <entry>-1,5</entry>
+                  <entry>15,5</entry>
+                  <entry>3,5</entry>
+                  <entry>15,5</entry>
+                </row>
+                <row>
+                  <entry>-3,5</entry>
+                  <entry>43,5</entry>
+                  <entry>1,5</entry>
+                  <entry>3,5</entry>
+                  <entry>-1</entry>
+                  <entry>11</entry>
+                  <entry>4</entry>
+                  <entry>21</entry>
+                </row>
+                <row>
+                  <entry>-3</entry>
+                  <entry>35</entry>
+                  <entry>2</entry>
+                  <entry>5</entry>
+                  <entry>-0,5</entry>
+                  <entry>7,5</entry>
+                  <entry>4,5</entry>
+                  <entry>27,5</entry>
+                </row>
+              </tbody>
+            
+</tgroup>
+</table>
+        </item>
+        <item id="uid84">
+          <table id="id169498" summary="">
+            <tgroup cols="9">
+              <tbody>
+                <row>
+                  <entry>Height (cm)</entry>
+                  <entry>147</entry>
+                  <entry>150</entry>
+                  <entry>152</entry>
+                  <entry>155</entry>
+                  <entry>157</entry>
+                  <entry>160</entry>
+                  <entry>163</entry>
+                  <entry>165</entry>
+                </row>
+                <row>
+                  <entry/>
+                  <entry>168</entry>
+                  <entry>170</entry>
+                  <entry>173</entry>
+                  <entry>175</entry>
+                  <entry>178</entry>
+                  <entry>180</entry>
+                  <entry>183</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry>Weight (kg)</entry>
+                  <entry>52</entry>
+                  <entry>53</entry>
+                  <entry>54</entry>
+                  <entry>56</entry>
+                  <entry>57</entry>
+                  <entry>59</entry>
+                  <entry>60</entry>
+                  <entry>61</entry>
+                </row>
+                <row>
+                  <entry/>
+                  <entry>63</entry>
+                  <entry>64</entry>
+                  <entry>66</entry>
+                  <entry>68</entry>
+                  <entry>70</entry>
+                  <entry>72</entry>
+                  <entry>74</entry>
+                  <entry/>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </item>
+      </list>
+      
+</section>
+<definition id="fhsst_id1531"><term id="termfhsst_id1531"> outlier </term> <meaning id="meaningfhsst_id1531">
+      <para id="id169816">A point on a scatter plot which is widely separated from the other points or a result differing greatly from others in the same sample is called an outlier. </para>
+      </meaning></definition>
+<para id="eip-912">The following simulation allows you to plot scatter plots and fit a curve to the plot. Ignore the error bars (blue lines) on the points.
+ <figure id="curve-fitting" class="phetsim">
+	  <title>Phet simulation for scatter plots</title>
+	  <media id="phet_sim" display="block" alt="scatter plots phet simulation">
+	  <flash id="phet-simulation" mime-type="application/x-shockwave-flash" src="curve-fitting.swf" width="425" height="344">
+	  </flash>
+	  </media>
+	  </figure></para><section id="secfhsst_id1534"><title> Scatter Plots </title>
+      <list id="id169836" display="block" list-type="enumerated">
+        <item id="uid85">A class's results for a test were recorded along with the amount of time spent studying for it. The results are given below.
+<table id="id169852" summary=""><tgroup cols="2"><tbody><row><entry>Score (percent)</entry><entry>Time spent studying (minutes)</entry></row><row><entry>67</entry><entry>100</entry></row><row><entry>55</entry><entry>85</entry></row><row><entry>70</entry><entry>150</entry></row><row><entry>90</entry><entry>180</entry></row><row><entry>45</entry><entry>70</entry></row><row><entry>75</entry><entry>160</entry></row><row><entry>50</entry><entry>80</entry></row><row><entry>60</entry><entry>90</entry></row><row><entry>84</entry><entry>110</entry></row><row><entry>30</entry><entry>60</entry></row><row><entry>66</entry><entry>96</entry></row><row><entry>96</entry><entry>200</entry></row></tbody></tgroup></table><list id="id170112" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid86">Draw a diagram labelling horizontal and vertical axes.
+</item><item id="uid87">State with reasons, the cause or independent variable and the effect or dependent variable.
+</item><item id="uid88">Plot the data pairs
+</item><item id="uid89">What do you observe about the plot?
+</item><item id="uid90">Is there any pattern emerging?
+</item></list></item>
+        <item id="uid91">The rankings of eight tennis players is given along with the time they spend practising.
+<table id="id170191" summary=""><tgroup cols="2"><tbody><row><entry>Practice time (min)</entry><entry>Ranking</entry></row><row><entry>154</entry><entry>5</entry></row><row><entry>390</entry><entry>1</entry></row><row><entry>130</entry><entry>6</entry></row><row><entry>70</entry><entry>8</entry></row><row><entry>240</entry><entry>3</entry></row><row><entry>280</entry><entry>2</entry></row><row><entry>175</entry><entry>4</entry></row><row><entry>103</entry><entry>7</entry></row></tbody></tgroup></table><list id="id170377" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid92">Construct a scatter plot and explain how you chose the dependent (cause) and independent (effect) variables.
+</item><item id="uid93">What pattern or trend do you observe?
+</item></list></item>
+        <item id="uid94">Eight childrens sweet consumption and sleep habits were recorded. The data is given in the following table.
+<table id="id170420" summary="data for childrens sweet consumption">
+<tgroup cols="2"><tbody><row><entry>Number of sweets (per week)</entry><entry>Average sleeping time (per day)</entry></row><row><entry>15</entry><entry>4</entry></row><row><entry>12</entry><entry>4,5</entry></row><row><entry>5</entry><entry>8</entry></row><row><entry>3</entry><entry>8,5</entry></row><row><entry>18</entry><entry>3</entry></row><row><entry>23</entry><entry>2</entry></row><row><entry>11</entry><entry>5</entry></row><row><entry>4</entry><entry>8</entry></row></tbody>
+</tgroup>
+</table><list id="id170604" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid95">What is the dependent (cause) variable?
+</item><item id="uid96">What is the independent (effect) variable?
+</item><item id="uid97">Construct a scatter plot of the data.
+</item><item id="uid98">What trend do you observe?
+</item></list></item>
+      </list>
+      
+</section>
+    </section>
+ 
+  </content>
+</document>

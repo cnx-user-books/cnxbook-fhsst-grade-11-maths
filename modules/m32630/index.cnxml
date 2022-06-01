@@ -1,0 +1,687 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Error Margins</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32630</md:content-id>
+  <md:title>Error Margins</md:title>
+  <md:abstract/>
+  <md:uuid>36bfd083-7a4a-4889-b660-d0c23ed88ec5</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid1">
+      <title>Error Margins - Grade 11</title>
+      <para id="id227414">We have seen that numbers are either rational or irrational and we have see how to round-off numbers. However, in a calculation that has many steps, it is best to leave the rounding off right until the end.</para>
+      <para id="id227420">For example, if you were asked to write
+<m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo>+</m:mo><m:msqrt><m:mn>12</m:mn></m:msqrt></m:mrow></m:math>
+as a decimal number correct to two decimal places, there are two ways of doing this.</para>
+      <para id="id227780">
+        <emphasis effect="bold">Method 1</emphasis>
+      </para>
+      <equation id="id227787">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:msqrt>
+                    <m:mn>3</m:mn>
+                  </m:msqrt>
+                  <m:mo>+</m:mo>
+                  <m:msqrt>
+                    <m:mn>12</m:mn>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:msqrt>
+                    <m:mn>3</m:mn>
+                  </m:msqrt>
+                  <m:mo>+</m:mo>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mo>·</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:msqrt>
+                    <m:mn>3</m:mn>
+                  </m:msqrt>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:msqrt>
+                    <m:mn>3</m:mn>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:msqrt>
+                    <m:mn>3</m:mn>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>732050808</m:mn>
+                  <m:mo>...</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>8</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>660254038</m:mn>
+                  <m:mo>...</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>8</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>66</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id227932">
+        <emphasis effect="bold">Method 2</emphasis>
+      </para>
+      <equation id="id227938">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:msqrt>
+                    <m:mn>3</m:mn>
+                  </m:msqrt>
+                  <m:mo>+</m:mo>
+                  <m:msqrt>
+                    <m:mn>12</m:mn>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>73</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>46</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>19</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>46</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>8</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>65</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id228031">In the example we see that Method 1 gives 8,66 as an answer while Method 2 gives 8,65 as an answer. The answer of Method 1 is more accurate because the expression was simplified as much as possible before the answer was rounded-off.</para>
+      <para id="id228037">In general, it is best to simplify any expression as much as possible, before using your calculator to work out the answer in decimal notation.</para>
+<note id="notfhsst_id257" type="tip"><title>Simplification and Accuracy</title>It is best to simplify all expressions as much as possible before rounding-off answers. This maintains the accuracy of your answer.</note>
+      
+<exercise id="secfhsst_id259"><title> Simplification and Accuracy </title>
+      <problem id="probfhsst_id260">
+      <para id="id228063">Calculate <m:math overflow="scroll"><m:mrow><m:mroot><m:mn>54</m:mn><m:mn>3</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mn>16</m:mn><m:mn>3</m:mn></m:mroot></m:mrow></m:math>. Write the answer to three decimal places. </para>
+      </problem>
+      <solution id="solfhsst_id263"> <list id="listfhsst_id263" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Simplify the expression </label>
+      <equation id="id228107">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mroot>
+                    <m:mn>54</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                  <m:mo>+</m:mo>
+                  <m:mroot>
+                    <m:mn>16</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mroot>
+                    <m:mrow>
+                      <m:mn>27</m:mn>
+                      <m:mo>·</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                  <m:mo>+</m:mo>
+                  <m:mroot>
+                    <m:mrow>
+                      <m:mn>8</m:mn>
+                      <m:mo>·</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mroot>
+                    <m:mn>27</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                  <m:mo>·</m:mo>
+                  <m:mroot>
+                    <m:mn>2</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                  <m:mo>+</m:mo>
+                  <m:mroot>
+                    <m:mn>8</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                  <m:mo>·</m:mo>
+                  <m:mroot>
+                    <m:mn>2</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mroot>
+                    <m:mn>2</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mroot>
+                    <m:mn>2</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mroot>
+                    <m:mn>2</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Convert any irrational numbers to decimal numbers </label>
+      <equation id="id228263">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mroot>
+                    <m:mn>2</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mroot>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>25992105</m:mn>
+                  <m:mo>...</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>6</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>299605249</m:mn>
+                  <m:mo>...</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>6</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>300</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Write the final answer to the required number of decimal places. </label>
+      <equation id="id228346"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>6</m:mn>
+            <m:mo>,</m:mo>
+            <m:mn>299605249</m:mn>
+            <m:mo>...</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>6</m:mn>
+            <m:mo>,</m:mo>
+            <m:mn>300</m:mn>
+            <m:mspace width="1.em"/>
+            <m:mrow>
+              <m:mi> to three decimal places</m:mi>
+            </m:mrow>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id228384"><m:math overflow="scroll"><m:mrow><m:mo>∴</m:mo><m:mspace width="1.em"/><m:mroot><m:mn>54</m:mn><m:mn>3</m:mn></m:mroot><m:mo>+</m:mo><m:mroot><m:mn>16</m:mn><m:mn>3</m:mn></m:mroot><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>300</m:mn></m:mrow></m:math> to three decimal places. </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id458"><title> Simplification and Accuracy 2 </title>
+      <problem id="probfhsst_id459">
+      <para id="id228447">Calculate <m:math overflow="scroll"><m:mrow><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msqrt><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msqrt></m:mrow></m:math> if <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow></m:math>. Write the answer to two decimal places. </para>
+      </problem>
+      <solution id="solfhsst_id462"> <list id="listfhsst_id462" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Simplify the expression </label>
+      <equation id="id228717">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                      <m:mo>-</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>-</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Substitute the value of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> into the simplified expression </label>
+      <equation id="id228894">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>6</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>6</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>144761059</m:mn>
+                  <m:mo>...</m:mo>
+                  <m:mo>×</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mo>÷</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>859681412</m:mn>
+                  <m:mo>...</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Write the final answer to the required number of decimal places. </label>
+      <equation id="id229024"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mo>,</m:mo>
+            <m:mn>859681412</m:mn>
+            <m:mo>...</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo>,</m:mo>
+            <m:mn>86</m:mn>
+            <m:mspace width="1.em"/>
+            <m:mrow>
+              <m:mi> To two decimal places</m:mi>
+            </m:mrow>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id229063"><m:math overflow="scroll"><m:mrow><m:mo>∴</m:mo><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msqrt><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>86</m:mn></m:mrow></m:math> (to two decimal places) if <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn></m:mrow></m:math>. </para>
+      </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id707"><title>Significant Figures - Extension</title>
+      <para id="id229164">In a number, each non-zero digit is a
+significant figure. Zeroes are only counted if they are between two non-zero
+digits or are at the end of the decimal part. For example, the number 2000 has
+1 significant figure (the 2), but <m:math overflow="scroll"><m:mrow><m:mn>2000</m:mn><m:mo>,</m:mo><m:mn>0</m:mn></m:mrow></m:math> has 5 significant figures. Estimating
+a number works by removing significant figures from your number (starting from
+the right) until you have the desired number of significant figures, rounding as
+you go. For example <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>827</m:mn></m:mrow></m:math> has 4 significant figures, but if you wish to write
+it to 3 significant figures it would mean removing the 7 and rounding up, so it
+would be <m:math overflow="scroll"><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>83</m:mn></m:mrow></m:math>. It is important to know when to estimate a number and when not
+to. It is usually good practise to only estimate numbers when it is absolutely
+necessary, and to instead use symbols to represent certain irrational numbers
+(such as <m:math overflow="scroll"><m:mi>π</m:mi></m:math>); approximating them only at the very end of a calculation. If it
+is necessary to approximate a number in the middle of a calculation, then it is
+often good enough to approximate to a few decimal places. </para>
+</section><section id="eip-241"><title>End of chapter exercises</title><list id="id1171905879507" list-type="enumerated"><item>Calculate:<list id="id11719058" list-type="enumerated" number-style="lower-alpha">
+    <item id="id1171891166363">
+<m:math><m:semantics><m:mrow><m:msqrt><m:mn>16</m:mn></m:msqrt><m:mo stretchy="false">−</m:mo><m:msqrt><m:mn>72</m:mn></m:msqrt></m:mrow><m:annotation encoding="StarMath 5.0">sqrt{16} - sqrt{72}</m:annotation></m:semantics></m:math> to three decimal places</item>
+    <item id="id1171906027736"><m:math><m:semantics><m:mrow><m:msqrt><m:mn>25</m:mn></m:msqrt><m:mo stretchy="false">+</m:mo><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow><m:annotation encoding="StarMath 5.0">sqrt{25} + sqrt{2}</m:annotation></m:semantics></m:math> to one decimal place</item>
+    <item id="id1171891529615"><m:math><m:semantics><m:mrow><m:msqrt><m:mn>48</m:mn></m:msqrt><m:mo stretchy="false">−</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow><m:annotation encoding="StarMath 5.0">sqrt{48} - sqrt{3}</m:annotation></m:semantics></m:math> to two decimal places</item>
+    <item id="id1171901869429"><m:math><m:semantics><m:mrow><m:mrow><m:msqrt><m:mn>64</m:mn></m:msqrt><m:mo stretchy="false">+</m:mo><m:msqrt><m:mn>18</m:mn></m:msqrt></m:mrow><m:mo stretchy="false">−</m:mo><m:msqrt><m:mn>12</m:mn></m:msqrt></m:mrow><m:annotation encoding="StarMath 5.0">sqrt{64} + sqrt{18} - sqrt{12}</m:annotation></m:semantics></m:math> to two decimal places</item>
+    <item id="id1171918861937"><m:math><m:semantics><m:mrow><m:mrow><m:msqrt><m:mn>4</m:mn></m:msqrt><m:mo stretchy="false">+</m:mo><m:msqrt><m:mn>20</m:mn></m:msqrt></m:mrow><m:mo stretchy="false">−</m:mo><m:msqrt><m:mn>18</m:mn></m:msqrt></m:mrow><m:annotation encoding="StarMath 5.0">sqrt{4} + sqrt{20} - sqrt{18}</m:annotation></m:semantics></m:math> to six decimal places</item>
+    <item id="id5110781"><m:math><m:semantics><m:mrow><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo stretchy="false">+</m:mo><m:msqrt><m:mn>5</m:mn></m:msqrt></m:mrow><m:mo stretchy="false">−</m:mo><m:msqrt><m:mn>6</m:mn></m:msqrt></m:mrow><m:annotation encoding="StarMath 5.0">sqrt{3} + sqrt{5} - sqrt{6}</m:annotation></m:semantics></m:math> to one decimal place</item></list><link class="fullmarks" url="http://www.fhsst.org/lbI" window="new">Click here for the solution</link></item>
+    <item id="id1171888448507">Calculate: <list id="id632412" list-type="enumerated" number-style="lower-alpha">
+    <item id="id1171918563225"><m:math><m:semantics><m:msqrt><m:mrow><m:mi fontstyle="normal">x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:msqrt><m:annotation encoding="StarMath 5.0">sqrt{x - 2}</m:annotation></m:semantics></m:math>, if 
+<m:math><m:semantics><m:mrow><m:mi fontstyle="normal">x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3,3</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">x = 3,3</m:annotation></m:semantics></m:math>. Write the answer to four decimal places.</item>
+    <item id="id1171894386681"><m:math><m:semantics><m:msqrt><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">+</m:mo><m:mi fontstyle="normal">x</m:mi></m:mrow></m:msqrt><m:annotation encoding="StarMath 5.0">sqrt{4 + x} </m:annotation></m:semantics></m:math>, if 
+<m:math><m:semantics><m:mrow><m:mi fontstyle="normal">x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,423</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">x = 1,423</m:annotation></m:semantics></m:math>. Write the answer to two decimal places.</item>
+    <item id="id1171891705629"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mi fontstyle="normal">x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow></m:msqrt><m:mo stretchy="false">+</m:mo><m:msqrt><m:mi fontstyle="normal">x</m:mi></m:msqrt></m:mrow><m:annotation encoding="StarMath 5.0">sqrt{x + 3} + sqrt{x}</m:annotation></m:semantics></m:math>, if 
+<m:math><m:semantics><m:mrow><m:mi fontstyle="normal">x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5,7</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">x = 5,7</m:annotation></m:semantics></m:math>. Write the answer to eight decimal places.</item>
+    <item id="id1171911146028"><m:math><m:semantics><m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:msqrt><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:msqrt><m:mrow><m:mi fontstyle="normal">x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow><m:annotation encoding="StarMath 5.0">sqrt{2x - 5} + 1 over 2 sqrt{x + 1}</m:annotation></m:semantics></m:math>, if 
+<m:math><m:semantics><m:mrow><m:mi fontstyle="normal">x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4,91</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">x = 4,91</m:annotation></m:semantics></m:math>. Write the answer to five decimal places.</item>
+    <item id="id1171890601480"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>4x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msqrt><m:mo stretchy="false">−</m:mo><m:msqrt><m:mrow><m:mi fontstyle="normal">x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow></m:msqrt></m:mrow><m:annotation encoding="StarMath 5.0">sqrt{(3x - 1) + (4x + 3)} - sqrt{x + 5}</m:annotation></m:semantics></m:math>, if 
+<m:math><m:semantics><m:mrow><m:mi fontstyle="normal">x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3,6</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">x = 3,6</m:annotation></m:semantics></m:math>. Write the answer to six decimal places.</item>
+    <item id="id1171918812736">f) 
+<m:math><m:semantics><m:mrow><m:mrow><m:msqrt><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi fontstyle="normal">x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>5x</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msqrt><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow><m:msqrt><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">+</m:mo><m:mi fontstyle="normal">x</m:mi></m:mrow></m:msqrt></m:mrow><m:annotation encoding="StarMath 5.0">sqrt{(2x + 5) - (x - 1) + (5x + 2)} + 1 over 4 sqrt{4 + x}</m:annotation></m:semantics></m:math> , if 
+<m:math><m:semantics><m:mrow><m:mi fontstyle="normal">x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,09</m:mn></m:mrow><m:annotation encoding="StarMath 5.0">x = 1,09</m:annotation></m:semantics></m:math>. Write the answer to one decimal place</item></list><link class="fullmarks" url="http://www.fhsst.org/lb5" window="new">Click here for the solution</link></item></list></section>
+    </section>
+  </content>
+</document>

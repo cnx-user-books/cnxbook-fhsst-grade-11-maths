@@ -1,0 +1,402 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Transformations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38836</md:content-id>
+  <md:title>Transformations</md:title>
+  <md:abstract/>
+  <md:uuid>a7c6428a-b731-482b-a7ec-f383f843741d</md:uuid>
+</metadata>
+
+<content>
+<section id="cid7">
+      <title>Transformations</title>
+      <section id="uid62">
+        <title>Rotation of a Point</title>
+        <para id="id73753">When something is moved around a fixed point, we say that it is <emphasis effect="italics">rotated</emphasis> about the point. What happens to the coordinates of a point that is rotated by <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math> or <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:math> around the origin?</para>
+<section id="secfhsst_id4517"><title> Investigation : Rotation of a Point by <m:math overflow="scroll"><m:msup><m:mn>90</m:mn><m:mo>∘</m:mo></m:msup></m:math> </title>
+        <para id="id73815">Complete the table, by filling in the coordinates of the points shown in the figure.</para>
+        <table id="id73821" summary="">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Point</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>x</m:mi></m:math>-coordinate</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>y</m:mi></m:math>-coordinate</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>A</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>B</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>C</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>D</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>E</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>F</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>G</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>H</entry>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id74101">
+          <figure id="id74104">
+            <media id="id74104_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C16_027.png" id="id74104_onlineimage" width="101"><!-- NOTE: attribute width changes image size online (pixels). original width is 101. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_027.eps" id="id74104_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id74111">What do you notice about the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-coordinates? What do you notice about the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-coordinates?
+What would happen to the coordinates of point A, if it was rotated to the position of point C? What about point B rotated to the position of D?
+ </para>
+</section>
+<section id="secfhsst_id4589"><title> Investigation : Rotation of a Point by <m:math overflow="scroll"><m:msup><m:mn>180</m:mn><m:mo>∘</m:mo></m:msup></m:math> </title>
+        <para id="id74161">Complete the table, by filling in the coordinates of the points shown in the figure.</para>
+        <table id="id74167" summary="">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Point</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>x</m:mi></m:math>-coordinate</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>y</m:mi></m:math>-coordinate</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>A</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>B</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>C</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>D</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>E</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>F</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>G</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>H</entry>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id74447">
+          <figure id="id74450">
+            <media id="id74450_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C16_028.png" id="id74450_onlineimage" width="126"><!-- NOTE: attribute width changes image size online (pixels). original width is 126. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_028.eps" id="id74450_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id74457">What do you notice about the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-coordinates? What do you notice about the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-coordinates?
+What would happen to the coordinates of point A, if it was rotated to the position of point E? What about point F rotated to the position of B?
+ </para>
+</section>
+        <para id="id74485">From these activities you should have come to the following conclusions:</para>
+        <para id="id74489">
+          <list id="id74494" display="block" list-type="bulleted">
+            <item id="uid63">90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> clockwise rotation:
+The image of a point P<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:math> rotated clockwise through 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> around the origin is P'<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>;</m:mo><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+We write the rotation as <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mo>(</m:mo><m:mi>y</m:mi><m:mo>;</m:mo><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+
+</item>
+            <item id="uid64">90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> anticlockwise rotation:
+The image of a point P<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:math> rotated anticlockwise through 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> around the origin is P'<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>y</m:mi><m:mo>;</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+We write the rotation as <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>y</m:mi><m:mo>;</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+
+</item>
+            <item id="uid65">180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> rotation:
+The image of a point P<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:math> rotated through 180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> around the origin is P'<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mo>-</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+We write the rotation as <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mi>y</m:mi><m:mo>)</m:mo><m:mo>→</m:mo><m:mo>(</m:mo><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>;</m:mo><m:mo>-</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:math>.
+</item>
+          </list>
+          <figure id="id74888">
+            <media id="id74888_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C16_029.png" id="id74888_onlineimage" width="144"><!-- NOTE: attribute width changes image size online (pixels). original width is 144. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_029.eps" id="id74888_printimage"/>
+            </media>
+          </figure>
+          <figure id="id74897">
+            <media id="id74897_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C16_030.png" id="id74897_onlineimage" width="154"><!-- NOTE: attribute width changes image size online (pixels). original width is 154. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_030.eps" id="id74897_printimage"/>
+            </media>
+          </figure>
+          <figure id="id74907">
+            <media id="id74907_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C16_031.png" id="id74907_onlineimage" width="139"><!-- NOTE: attribute width changes image size online (pixels). original width is 139. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_031.eps" id="id74907_printimage"/>
+            </media>
+          </figure>
+        </para>
+<section id="secfhsst_id4698"><title> Rotation </title>
+        <list id="id74922" display="block" list-type="enumerated"><item id="uid66">For each of the following rotations about the origin:
+(i) Write down the rule.
+(ii) Draw a diagram showing the direction of rotation.
+<list id="id74950" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid67">OA is rotated to OA<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math> with A(4;2) and A<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>(-2;4)
+</item><item id="uid68">OB is rotated to OB<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math> with B(-2;5) and B<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>(5;2)
+</item><item id="uid69">OC is rotated to OC<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math> with C(-1;-4) and C<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>(1;4)
+</item></list></item>
+          <item id="uid70">Copy <m:math overflow="scroll"><m:mi>Δ</m:mi></m:math>XYZ onto squared paper. The co-ordinates are given on the picture.
+<list id="id75093" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid71">Rotate <m:math overflow="scroll"><m:mi>Δ</m:mi></m:math>XYZ anti-clockwise through an angle of 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> about the origin to give <m:math overflow="scroll"><m:mi>Δ</m:mi></m:math>X<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>Y<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>Z<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>. Give the co-ordinates of X<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>, Y<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math> and Z<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>.
+</item><item id="uid72">Rotate <m:math overflow="scroll"><m:mi>Δ</m:mi></m:math>XYZ through 180<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> about the origin to give <m:math overflow="scroll"><m:mi>Δ</m:mi></m:math>X<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math><m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>Y<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math><m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>Z<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math><m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>. Give the co-ordinates of X<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math><m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>, Y<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math><m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math> and Z<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math><m:math overflow="scroll"><m:msup><m:mrow/><m:mo>'</m:mo></m:msup></m:math>.
+</item></list><figure id="id75418"><media id="id75418_media" alt=""><image mime-type="image/png" src="../../media/MG11C16_032.png" id="id75418_onlineimage" width="195"><!-- NOTE: attribute width changes image size online (pixels). original width is 195. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_032.eps" id="id75418_printimage"/></media></figure></item>
+        </list>
+        
+</section>
+      </section>
+      <section id="uid73">
+        <title>Enlargement of a Polygon 1</title>
+        <para id="id75445">When something is made larger, we say that it is <emphasis effect="italics">enlarged</emphasis>. What happens to the coordinates of a polygon that is enlarged by a factor <m:math overflow="scroll"><m:mi>k</m:mi></m:math>?</para>
+<section id="secfhsst_id4718"><title> Investigation : Enlargement of a Polygon </title>
+        <para id="id75472">Complete the table, by filling in the coordinates of the points shown in the figure.
+Assume each small square on the plot is 1 unit.</para>
+        <table id="id75478" summary="">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Point</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>x</m:mi></m:math>-coordinate</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold"><m:math overflow="scroll"><m:mi>y</m:mi></m:math>-coordinate</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>A</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>B</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>C</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>D</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>E</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>F</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>G</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>H</entry>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id75758">
+          <figure id="id75761">
+            <media id="id75761_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C16_033.png" id="id75761_onlineimage" width="126"><!-- NOTE: attribute width changes image size online (pixels). original width is 126. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_033.eps" id="id75761_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id75768">What do you notice about the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-coordinates? What do you notice about the <m:math overflow="scroll"><m:mi>y</m:mi></m:math>-coordinates?
+What would happen to the coordinates of point A, if the square ABCD was enlarged by a factor 2?
+ </para>
+</section>
+<section id="secfhsst_id4791"><title> Investigation : Enlargement of a Polygon 2 </title>
+        <para id="id75803">
+          <figure id="id75806">
+            <media id="id75806_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C16_034.png" id="id75806_onlineimage" width="266"><!-- NOTE: attribute width changes image size online (pixels). original width is 266. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_034.eps" id="id75806_printimage"/>
+            </media>
+          </figure>
+        </para>
+        <para id="id75813">In the figure quadrilateral HIJK has been enlarged by a factor of 2 through the origin to become H'I'J'K'. Complete the following table using the information in the figure.</para>
+        <table id="id75818" summary="">
+          <tgroup cols="4">
+            <tbody>
+              <row>
+                <entry>Co-ordinate</entry>
+                <entry>Co-ordinate'</entry>
+                <entry>Length</entry>
+                <entry>Length'</entry>
+              </row>
+              <row>
+                <entry>H = (;)</entry>
+                <entry>H' = (;)</entry>
+                <entry>OH =</entry>
+                <entry>OH' =</entry>
+              </row>
+              <row>
+                <entry>I = (;)</entry>
+                <entry>I' = (;)</entry>
+                <entry>OI =</entry>
+                <entry>OI' =</entry>
+              </row>
+              <row>
+                <entry>J = (;)</entry>
+                <entry>J' = (;)</entry>
+                <entry>OJ =</entry>
+                <entry>OJ' =</entry>
+              </row>
+              <row>
+                <entry>K = (;)</entry>
+                <entry>K' + (;)</entry>
+                <entry>OK =</entry>
+                <entry>OK' =</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--empty paragraphs get left behind.-->
+        <para id="id76009">What conclusions can you draw about</para>
+        <list id="id76013" display="block" list-type="enumerated">
+          <item id="uid74">the co-ordinates
+</item>
+          <item id="uid75">the lengths when we enlarge by a factor of 2?
+</item>
+        </list>
+        
+</section>
+        <para id="id76051">We conclude as follows:</para>
+        <para id="id76054">Let the vertices of a triangle have co-ordinates S<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>, T<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>, U<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mo>;</m:mo><m:msub><m:mi>y</m:mi><m:mn>3</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>. <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>S'T'U' is an enlargement through the origin of <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>STU by a factor of <m:math overflow="scroll"><m:mi>c</m:mi></m:math> (<m:math overflow="scroll"><m:mrow><m:mi>c</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>).</para>
+        <list id="id76188" display="block" list-type="bulleted">
+          <item id="uid76"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>STU is a reduction of <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>S'T'U' by a factor of <m:math overflow="scroll"><m:mi>c</m:mi></m:math>.
+</item>
+          <item id="uid77"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>S'T'U' can alternatively be seen as an reduction through the origin of <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>STU by a factor of <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mi>c</m:mi></m:mfrac></m:math>. (Note that a reduction by <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mi>c</m:mi></m:mfrac></m:math> is the same as an enlargement by <m:math overflow="scroll"><m:mi>c</m:mi></m:math>).
+</item>
+          <item id="uid78">The vertices of <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>S'T'U' are S'<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>c</m:mi><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>;</m:mo><m:mi>c</m:mi><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>, T'<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>c</m:mi><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>,</m:mo><m:mi>c</m:mi><m:msub><m:mi>y</m:mi><m:mn>2</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>, U'<m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>c</m:mi><m:msub><m:mi>x</m:mi><m:mn>3</m:mn></m:msub><m:mo>,</m:mo><m:mi>c</m:mi><m:msub><m:mi>y</m:mi><m:mn>3</m:mn></m:msub><m:mo>)</m:mo></m:mrow></m:math>.
+</item>
+          <item id="uid79">The distances from the origin are OS' = <m:math overflow="scroll"><m:mi>c</m:mi></m:math>OS, OT' = <m:math overflow="scroll"><m:mi>c</m:mi></m:math>OT and OU' = <m:math overflow="scroll"><m:mi>c</m:mi></m:math>OU.
+</item>
+        </list>
+        <para id="id76455">
+          <figure id="id76458">
+            <media id="id76458_media" alt="">
+              <image mime-type="image/png" src="../../media/MG11C16_035.png" id="id76458_onlineimage" width="325"><!-- NOTE: attribute width changes image size online (pixels). original width is 325. --></image>
+              <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_035.eps" id="id76458_printimage"/>
+            </media>
+          </figure>
+        </para>
+<section id="secfhsst_id4867"><title> Transformations </title>
+        <list id="id76471" display="block" list-type="enumerated"><item id="uid80">Copy polygon STUV onto squared paper and then answer the following questions.
+<figure id="id76490"><media id="id76490_media" alt=""><image mime-type="image/png" src="../../media/MG11C16_036.png" id="id76490_onlineimage" width="233"><!-- NOTE: attribute width changes image size online (pixels). original width is 233. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_036.eps" id="id76490_printimage"/></media></figure><list id="id76497" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid81">What are the co-ordinates of polygon STUV?
+</item><item id="uid82">Enlarge the polygon through the origin by a constant factor of <m:math overflow="scroll"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>. Draw this on the same grid. Label it S'T'U'V'.
+</item><item id="uid83">What are the co-ordinates of the vertices of S'T'U'V'?
+</item></list></item>
+          <item id="uid84"><m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC is an enlargement of <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>A'B'C' by a constant factor of <m:math overflow="scroll"><m:mi>k</m:mi></m:math> through the origin.
+<list id="id76592" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid85">What are the co-ordinates of the vertices of <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC and <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>A'B'C'?
+</item><item id="uid86">Giving reasons, calculate the value of <m:math overflow="scroll"><m:mi>k</m:mi></m:math>.
+</item><item id="uid87">If the area of <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>ABC is <m:math overflow="scroll"><m:mi>m</m:mi></m:math> times the area of <m:math overflow="scroll"><m:mi>▵</m:mi></m:math>A'B'C', what is <m:math overflow="scroll"><m:mi>m</m:mi></m:math>?
+</item></list><figure id="id76698"><media id="id76698_media" alt=""><image mime-type="image/png" src="../../media/MG11C16_037.png" id="id76698_onlineimage" width="290"><!-- NOTE: attribute width changes image size online (pixels). original width is 290. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_037.eps" id="id76698_printimage"/></media></figure></item>
+          <item id="uid88">
+            <figure id="id76715">
+              <media id="id76715_media" alt="">
+                <image mime-type="image/png" src="../../media/MG11C16_038.png" id="id76715_onlineimage" width="205"><!-- NOTE: attribute width changes image size online (pixels). original width is 205. --></image>
+                <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_038.eps" id="id76715_printimage"/>
+              </media>
+            </figure>
+            <list id="id76722" display="block" list-type="enumerated" number-style="lower-alpha">
+              <item id="uid89">What are the co-ordinates of the vertices of polygon MNPQ?
+</item>
+              <item id="uid90">Enlarge the polygon through the origin by using a constant factor of <m:math overflow="scroll"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, obtaining polygon M'N'P'Q'. Draw this on the same set of axes.
+</item>
+              <item id="uid91">What are the co-ordinates of the new vertices?
+</item>
+              <item id="uid92">Now draw M”N”P”Q” which is an anticlockwise rotation of MNPQ by 90<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math> around the origin.
+</item>
+              <item id="uid93">Find the inclination of OM”.
+</item>
+            </list>
+          </item>
+        </list>
+        
+</section>
+      </section>
+    </section>
+  </content>
+</document>

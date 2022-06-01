@@ -1,0 +1,768 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Solving Quadratic Inequalities</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m30838</md:content-id>
+  <md:title>Solving Quadratic Inequalities</md:title>
+  <md:abstract/>
+  <md:uuid>0bce6cd2-0ed8-4692-bcb6-1fd39b3f90c0</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id299240">Now that you know how to solve quadratic equations, you are ready to learn how to solve quadratic inequalities.</para>
+    </section>
+    <section id="cid3">
+      <title>Quadratic Inequalities</title>
+      <para id="id299254">A <emphasis effect="italics">quadratic inequality</emphasis> is an inequality of the form</para>
+      <equation id="id299601">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>c</m:mi>
+                  <m:mo>&gt;</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>c</m:mi>
+                  <m:mo>≥</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>c</m:mi>
+                  <m:mo>&lt;</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>c</m:mi>
+                  <m:mo>≤</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id299732">Solving a quadratic inequality corresponds to working out in what region the graph of a quadratic function lies above or below the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis.</para>
+<exercise id="secfhsst_id144"><title> Quadratic Inequality </title>
+      <problem id="probfhsst_id145">
+      <para id="id299756">Solve the inequality <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math> and interpret the solution graphically. </para>
+      </problem>
+      <solution id="solfhsst_id148"> <list id="listfhsst_id148" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Factorise the quadratic </label>
+      <para id="id299809">Let <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Factorising this quadratic function gives <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+      </item> <item> <label> Re-write the original equation with factors </label>
+      <equation id="id300073">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>≤</m:mo>
+            <m:mn>0</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Solve the equation </label>
+      <para id="id300109"><m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> only when <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>.</para>
+      </item> <item> <label> Write the final answer </label>
+      <para id="id300152">This means that the graph of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> touches the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis at <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>, but there are no regions where the graph is below the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis.</para>
+      </item> <item> <label> Graphical interpretation of solution </label>
+      <para id="id300232">
+        <figure id="id300235"><media id="id300235_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C8_001.png" id="id300235_onlineimage" width="159"><!-- NOTE: attribute width changes image size online (pixels). original width is 159. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C8_001.eps" id="id300235_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id187"><title> Solving Quadratic Inequalities </title>
+      <problem id="probfhsst_id188">
+      <para id="id300267">Find all the solutions to the inequality <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math>. </para>
+      </problem>
+      <solution id="solfhsst_id191"> <list id="listfhsst_id191" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Factorise the quadratic </label>
+      <para id="id300318">The factors of <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math> are <m:math overflow="scroll"><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:math>.</para>
+      </item> <item> <label> Write the inequality with the factors </label>
+      <equation id="id300379">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>-</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>≥</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>≥</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Determine which ranges correspond to the inequality </label>
+      <para id="id300460">We need to figure out which values of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> satisfy the inequality. From the answers we have five regions to consider.</para>
+      <para id="id300472">
+        <figure id="id300475">
+          <media id="id300475_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C8_002.png" id="id300475_onlineimage" width="142"><!-- NOTE: attribute width changes image size online (pixels). original width is 142. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C8_002.eps" id="id300475_printimage"/>
+          </media>
+        </figure>
+      </para>
+      </item> <item> <label> Determine whether the function is negative or positive in each of the regions </label>
+      <para id="id300486">Let <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math>. For each region, choose any point in the region and evaluate the function.</para>
+      <table id="id300526" summary="">
+        <tgroup cols="4">
+          <tbody>
+            <row>
+              <entry/>
+              <entry/>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>sign of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math></entry>
+            </row>
+            <row>
+              <entry>Region A</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>&lt;</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>+</entry>
+            </row>
+            <row>
+              <entry>Region B</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>+</entry>
+            </row>
+            <row>
+              <entry>Region C</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>&lt;</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>&lt;</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mo>-</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>-</entry>
+            </row>
+            <row>
+              <entry>Region D</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>+</entry>
+            </row>
+            <row>
+              <entry>Region E</entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>&gt;</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo>(</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>+</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      <para id="id300848">We see that the function is positive for <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+      </item> <item> <label> Write the final answer and represent on a number line </label>
+      <para id="id300882">We see that <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math> is true for <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
+      <para id="id300941">
+        <figure id="id300944">
+          <media id="id300944_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C8_003.png" id="id300944_onlineimage" width="142"><!-- NOTE: attribute width changes image size online (pixels). original width is 142. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C8_003.eps" id="id300944_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id424"><title> Solving Quadratic Inequalities </title>
+      <problem id="probfhsst_id425">
+      <para id="id300976">Solve the quadratic inequality <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>. </para>
+      </problem>
+      <solution id="solfhsst_id428"> <list id="listfhsst_id428" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Determine how to approach the problem </label>
+      <para id="id301029">Let <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math>. <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math> cannot be factorised so, use the quadratic formula to determine the roots of <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow></m:math>. The <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-intercepts are solutions to the quadratic equation</para>
+      <equation id="id301111">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>∴</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>±</m:mo>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mrow>
+                            <m:mo>(</m:mo>
+                            <m:mn>3</m:mn>
+                            <m:mo>)</m:mo>
+                          </m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>-</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mo>-</m:mo>
+                          <m:mn>5</m:mn>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msqrt>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>±</m:mo>
+                    <m:msqrt>
+                      <m:mn>29</m:mn>
+                    </m:msqrt>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:msqrt>
+                      <m:mn>29</m:mn>
+                    </m:msqrt>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:msqrt>
+                      <m:mn>29</m:mn>
+                    </m:msqrt>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Determine which ranges correspond to the inequality </label>
+      <para id="id301354">We need to figure out which values of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> satisfy the inequality. From the answers we have five regions to consider.</para>
+      <para id="id301365">
+        <figure id="id301368">
+          <media id="id301368_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C8_004.png" id="id301368_onlineimage" width="142"><!-- NOTE: attribute width changes image size online (pixels). original width is 142. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C8_004.eps" id="id301368_printimage"/>
+          </media>
+        </figure>
+      </para>
+      </item> <item> <label> Determine whether the function is negative or positive in each of the regions </label>
+      <para id="id301379">We can use another method to determine the sign of the function over different regions, by drawing a rough sketch of the graph of the function. We know that the roots of the function correspond to the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-intercepts of the graph. Let <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>-</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math>. We can see that this is a parabola with a maximum turning point that intersects the <m:math overflow="scroll"><m:mi>x</m:mi></m:math>-axis at <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> and <m:math overflow="scroll"><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math>.</para>
+      <para id="id301466">
+        <figure id="id301469">
+          <media id="id301469_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C8_005.png" id="id301469_onlineimage" width="85"><!-- NOTE: attribute width changes image size online (pixels). original width is 85. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C8_005.eps" id="id301469_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id301475">It is clear that <m:math overflow="scroll"><m:mrow><m:mi>g</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> for <m:math overflow="scroll"><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></para>
+      </item> <item> <label> Write the final answer and represent the solution graphically </label>
+      <para id="id301529"><m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math> for <m:math overflow="scroll"><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math></para>
+      <para id="id301589">
+        <figure id="id301593">
+          <media id="id301593_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C8_006.png" id="id301593_onlineimage" width="142"><!-- NOTE: attribute width changes image size online (pixels). original width is 142. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C8_006.eps" id="id301593_printimage"/>
+          </media>
+        </figure>
+      </para>
+      
+      </item> </list> </solution>
+</exercise>
+      <para id="id301615">When working with an inequality where the variable is in the denominator, a different approach is needed.</para>
+<exercise id="secfhsst_id633"><title> Non-linear inequality with the variable in the denominator </title>
+      <problem id="probfhsst_id634">
+      <para id="id301632">Solve <m:math overflow="scroll"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mn>2</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mstyle><m:mo>≤</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mstyle></m:mrow></m:math> </para>
+      </problem>
+      <solution id="solfhsst_id637"> <list id="listfhsst_id637" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Subtract <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:math> from both sides </label>
+      <equation id="id301718">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mstyle scriptlevel="0" displaystyle="true">
+              <m:mfrac>
+                <m:mn>2</m:mn>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mfrac>
+            </m:mstyle>
+            <m:mo>-</m:mo>
+            <m:mstyle scriptlevel="0" displaystyle="true">
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mfrac>
+            </m:mstyle>
+            <m:mo>≤</m:mo>
+            <m:mn>0</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Simplify the fraction by finding LCD </label>
+      <equation id="id301771">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mstyle scriptlevel="0" displaystyle="true">
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>-</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>)</m:mo>
+                        <m:mo>-</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>)</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>-</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mstyle>
+                  <m:mo>≤</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mstyle scriptlevel="0" displaystyle="true">
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>-</m:mo>
+                        <m:mn>9</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>)</m:mo>
+                        <m:mo>(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>-</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mo>)</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mstyle>
+                  <m:mo>≤</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Draw a number line for the inequality </label>
+      <para id="id301900">
+        <figure id="id301904">
+          <media id="id301904_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C8_007.png" id="id301904_onlineimage" width="402"><!-- NOTE: attribute width changes image size online (pixels). original width is 402. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C8_007.eps" id="id301904_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id301910">We see that the expression is negative for <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math> or <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>9</m:mn></m:mrow></m:math>.</para>
+      </item> <item> <label> Write the final answer </label>
+      <equation id="id301953">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>&lt;</m:mo>
+            <m:mo>-</m:mo>
+            <m:mn>3</m:mn>
+            <m:mspace width="1.em"/>
+            <m:mi>o</m:mi>
+            <m:mi>r</m:mi>
+            <m:mspace width="1.em"/>
+            <m:mn>3</m:mn>
+            <m:mo>&lt;</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>≤</m:mo>
+            <m:mn>9</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+    </section>
+    <para id="eip-461"><figure id="quadratic-inequalities-1" class="khanacademy">
+	  <title>Khan academy video on quadratic inequalities - 1</title>
+	  <media id="yt-media1" display="block" alt="video on quadratic inequalities 1">
+	  <flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/ZNtzWpU80-0&amp;rel=0&amp;hl=en_US&amp;feature=player_embedded&amp;version=3" width="425" height="344">
+	  <param name="allowscriptaccess" value="always"/>
+	  <param name="allowsfullscreen" value="true"/>
+	  </flash>
+	  </media>
+	  </figure></para><section id="cid4">
+      <title>End of Chapter Exercises</title>
+      <para id="id302019">Solve the following inequalities and show your answer on a number line.</para>
+      <list id="id302023" display="block" list-type="enumerated">
+        <item id="uid1">Solve: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>12</m:mn></m:mrow></m:math>.
+</item>
+        <item id="uid2">Solve: <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>&gt;</m:mo><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></item>
+        <item id="uid3">Solve: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>&lt;</m:mo><m:mo>-</m:mo><m:mi>y</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:math></item>
+        <item id="uid4">Solve: <m:math overflow="scroll"><m:mrow><m:mo>-</m:mo><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>t</m:mi><m:mo>&gt;</m:mo><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:math></item>
+        <item id="uid5">Solve: <m:math overflow="scroll"><m:mrow><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mn>4</m:mn><m:mi>s</m:mi><m:mo>&gt;</m:mo><m:mo>-</m:mo><m:mn>6</m:mn></m:mrow></m:math></item>
+        <item id="uid6">Solve: <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>≥</m:mo><m:mn>7</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></item>
+        <item id="uid7">Solve: <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>≥</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow></m:math></item>
+        <item id="uid8">Solve: <m:math overflow="scroll"><m:mrow><m:mn>0</m:mn><m:mo>≥</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
+        <item id="uid9">Solve: <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math></item>
+        <item id="uid10">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> if: <m:math overflow="scroll"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mi>x</m:mi><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mstyle><m:mo>&lt;</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>3</m:mn></m:mrow></m:math>.
+</item>
+        <item id="uid11">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> if: <m:math overflow="scroll"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mstyle><m:mo>≤</m:mo><m:mn>1</m:mn></m:mrow></m:math>.
+</item>
+        <item id="uid12">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math> if: <m:math overflow="scroll"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mn>4</m:mn><m:msup><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mfrac></m:mstyle><m:mo>&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:math>.
+</item>
+        <item id="uid13">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mstyle><m:mo>&gt;</m:mo><m:mn>3</m:mn></m:mrow></m:math></item>
+        <item id="uid14">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mrow><m:mo>-</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo></m:mrow></m:mfrac></m:mstyle><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math></item>
+        <item id="uid15">Solve: <m:math overflow="scroll"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>&lt;</m:mo><m:mn>4</m:mn></m:mrow></m:math></item>
+        <item id="uid16">Solve: <m:math overflow="scroll"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>≤</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mrow><m:mn>15</m:mn><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow><m:mi>x</m:mi></m:mfrac></m:mstyle></m:mrow></m:math></item>
+        <item id="uid17">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>:    <m:math overflow="scroll"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mstyle><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math></item>
+        <item id="uid18">Solve: <m:math overflow="scroll"><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>≥</m:mo><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mn>3</m:mn><m:mi>x</m:mi></m:mfrac></m:mstyle></m:mrow></m:math></item>
+        <item id="uid19">Solve for <m:math overflow="scroll"><m:mi>x</m:mi></m:math>: <m:math overflow="scroll"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:mfrac></m:mstyle><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math></item>
+        <item id="uid20">Determine all real solutions: <m:math overflow="scroll"><m:mrow><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>-</m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:mstyle><m:mo>≥</m:mo><m:mn>1</m:mn></m:mrow></m:math></item>
+      </list>
+    </section>
+  </content>
+</document>

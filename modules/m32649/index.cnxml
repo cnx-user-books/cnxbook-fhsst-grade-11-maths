@@ -1,0 +1,867 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Mathematical Models</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32649</md:content-id>
+  <md:title>Mathematical Models</md:title>
+  <md:abstract/>
+  <md:uuid>c3290839-5ec4-4ddb-8181-88be7b941f1e</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid1">
+      <title>Mathematical Models - Grade 11</title>
+      <para id="id146792">Up until now, you have only learnt how to solve equations and inequalities, but there has not been much application of what you have learnt. This chapter builds on this knowledge and introduces you to the idea of a <emphasis effect="italics">mathematical model</emphasis> which uses mathematical concepts to solve real-world problems.</para>
+<definition id="fhsst_id65"><term id="termfhsst_id65"> Mathematical Model </term> <meaning id="meaningfhsst_id65">
+      <para id="id146808">A mathematical model is a method of using the mathematical language to describe the behaviour of a physical system. Mathematical models are used particularly in the natural sciences and engineering disciplines (such as physics, biology, and electrical engineering) but also in the social sciences (such as economics, sociology and political science); physicists, engineers, computer scientists, and economists use mathematical models most extensively. </para>
+      </meaning></definition>
+      <para id="id147161">A mathematical model is an equation (or a set of equations for the more difficult problems) that describes a particular situation.
+For example, if Anna receives R3 for each time she helps her mother wash the dishes and R5 for each time she helps her father cut the grass, how much money will Anna earn if she helps her mother 5 times to wash the dishes and helps her father 2 times to wash the car.
+The first step to modelling is to write the equation, that describes the situation. To calculate how much Anna will earn we see that she will earn :</para>
+      <equation id="id147169"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mn>5</m:mn>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>×</m:mo>
+                  <m:mi>R</m:mi>
+                  <m:mn>3</m:mn>
+                  <m:mspace width="1.em"/>
+                  <m:mrow>
+                    <m:mi> for washing the dishes</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mo>+</m:mo>
+              </m:mtd>
+              <m:mtd>
+                <m:mn>2</m:mn>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>×</m:mo>
+                  <m:mi>R</m:mi>
+                  <m:mn>5</m:mn>
+                  <m:mspace width="1.em"/>
+                  <m:mrow>
+                    <m:mi> for cutting the grass</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd>
+                <m:mrow>
+                  <m:mi>R</m:mi>
+                  <m:mn>15</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mo>+</m:mo>
+                  <m:mi>R</m:mi>
+                  <m:mn>10</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd>
+                <m:mrow>
+                  <m:mi>R</m:mi>
+                  <m:mn>25</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id147278">If however, we ask: "What is the equation if Anna helps her mother <m:math overflow="scroll"><m:mi>x</m:mi></m:math> times and her father <m:math overflow="scroll"><m:mi>y</m:mi></m:math> times?", then we have:</para>
+      <equation id="id147299"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi> Total earned</m:mi>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">x</m:mi>
+            <m:mo>×</m:mo>
+            <m:mi mathvariant="normal">R</m:mi>
+            <m:mn>3</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi mathvariant="normal">y</m:mi>
+            <m:mo>×</m:mo>
+            <m:mi mathvariant="normal">R</m:mi>
+            <m:mn>5</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+    </section>
+    <section id="cid2">
+      <title>Real-World Applications: Mathematical Models</title>
+      <para id="id147352">Some examples of where mathematical models are used in the real-world are:</para>
+      <list id="id147356" display="block" list-type="enumerated">
+        <item id="uid1">To model population growth
+</item>
+        <item id="uid2">To model effects of air pollution
+</item>
+        <item id="uid3">To model effects of global warming
+</item>
+        <item id="uid4">In computer games
+</item>
+        <item id="uid5">In the sciences (e.g. physics, chemistry, biology) to understand how the natural world works
+</item>
+        <item id="uid6">In simulators that are used to train people in certain jobs, like pilots, doctors and soldiers
+</item>
+        <item id="uid7">In medicine to track the progress of a disease
+</item>
+      </list>
+<section id="secfhsst_id189"><title> Investigation : Simple Models </title>
+      <para id="id147449">In order to get used to the idea of
+mathematical models, try the following simple models. Write an equation that
+describes the following real-world situations, mathematically:</para>
+      <!--empty paragraphs get left behind.-->
+      <list id="id147460" display="block" list-type="enumerated">
+        <item id="uid8">Jack and Jill both have colds. Jack sneezes twice for each sneeze of Jill's. If Jill sneezes <m:math overflow="scroll"><m:mi>x</m:mi></m:math> times, write an equation describing how many times they both sneezed?
+</item>
+        <item id="uid9">It rains half as much in July as it does in December. If it rains <m:math overflow="scroll"><m:mi>y</m:mi></m:math> mm in July, write an expression relating the rainfall in July and December.
+</item>
+        <item id="uid10">Zane can paint a room in 4 hours. Billy can paint a room in 2 hours. How long will it take both of them to paint a room together?
+</item>
+        <item id="uid11">25 years ago, Arthur was 5 more than <m:math overflow="scroll"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math> as old as Lee was. Today, Lee is 26 less than twice Arthur's age. How old is Lee?
+</item>
+        <item id="uid12">Kevin has played a few games of ten-pin bowling. In the third game, Kevin scored 80 more than in the second game. In the first game Kevin scored 110 less than the third game. His total score for the first two games was 208. If he wants an average score of 146, what must he score on the fourth game?
+</item>
+        <item id="uid13">Erica has decided to treat her friends to coffee at the Corner Coffee House. Erica paid R54,00 for four cups of cappuccino and three cups of filter coffee. If a cup of cappuccino costs R3,00 more than a cup of filter coffee, calculate how much each type of coffee costs?
+</item>
+        <item id="uid14">The product of two integers is 95. Find the integers if their total is 24.
+</item>
+      </list>
+      
+</section>
+<exercise id="secfhsst_id212"><title> Mathematical Modelling of Falling Objects </title>
+      <problem id="probfhsst_id213">
+      <para id="id147603">When an object is dropped or thrown downward, the distance, <m:math overflow="scroll"><m:mi>d</m:mi></m:math>, that it falls in time, <m:math overflow="scroll"><m:mi>t</m:mi></m:math> is described by the following equation:</para>
+      <equation id="id146722">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>s</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>5</m:mn>
+            <m:msup>
+              <m:mi>t</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>v</m:mi>
+              <m:mn>0</m:mn>
+            </m:msub>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id147840">In this equation, <m:math overflow="scroll"><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:math> is the initial velocity, in m<m:math overflow="scroll"><m:mo>·</m:mo></m:math>s<m:math overflow="scroll"><m:msup><m:mrow/><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>. Distance is measured in meters and time is measured in seconds. Use the equation to find how far an object will fall in 2 s if it is thrown downward at an initial velocity of 10 m<m:math overflow="scroll"><m:mo>·</m:mo></m:math>s<m:math overflow="scroll"><m:msup><m:mrow/><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>. </para>
+      </problem>
+      <solution id="solfhsst_id236"> <list id="listfhsst_id236" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identify what is given for each problem </label>
+      <para id="id147924">We are given an expression to calculate distance traveled by a falling object in terms of initial velocity and time. We are also given the initial velocity and time and are required to calculate the distance traveled.</para>
+      </item> <item> <label> List all known and unknown information </label>
+      <list id="id147933" display="block" list-type="bulleted">
+        <item id="uid15">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:msub>
+                <m:mi>v</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>10</m:mn>
+              <m:mspace width="0.166667em"/>
+              <m:mi mathvariant="normal">m</m:mi>
+              <m:mo>·</m:mo>
+              <m:msup>
+                <m:mi mathvariant="normal">s</m:mi>
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid16">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>t</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>2</m:mn>
+              <m:mspace width="0.166667em"/>
+              <m:mi mathvariant="normal">s</m:mi>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid17">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>s</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>?</m:mo>
+              <m:mspace width="0.166667em"/>
+              <m:mi mathvariant="normal">m</m:mi>
+            </m:mrow>
+          </m:math>
+        </item>
+      </list>
+      </item> <item> <label> Substitute values into expression </label>
+      <equation id="id148052">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>s</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:msup>
+                    <m:mi>t</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mn>0</m:mn>
+                  </m:msub>
+                  <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>10</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>+</m:mo>
+                  <m:mn>20</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>20</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>20</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>40</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Write the final answer </label>
+      <para id="id148191">The object will fall 40 m in 2 s if it is thrown downward at an initial velocity of 10 m<m:math overflow="scroll"><m:mo>·</m:mo></m:math>s<m:math overflow="scroll"><m:msup><m:mrow/><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>. </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id388"><title> Another Mathematical Modelling of Falling Objects </title>
+      <problem id="probfhsst_id389">
+      <para id="id148243">When an object is dropped or thrown downward, the distance, <m:math overflow="scroll"><m:mi>d</m:mi></m:math>, that it falls in time, <m:math overflow="scroll"><m:mi>t</m:mi></m:math> is described by the following equation:</para>
+      <equation id="id148265">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>s</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>5</m:mn>
+            <m:msup>
+              <m:mi>t</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>v</m:mi>
+              <m:mn>0</m:mn>
+            </m:msub>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id148299">In this equation, <m:math overflow="scroll"><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:math> is the initial velocity, in m<m:math overflow="scroll"><m:mo>·</m:mo></m:math>s<m:math overflow="scroll"><m:msup><m:mrow/><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>. Distance is measured in meters and time is measured in seconds. Use the equation find how long it takes for the object to reach the ground if it is dropped from a height of 2000 m. The initial velocity is 0 m<m:math overflow="scroll"><m:mo>·</m:mo></m:math>s<m:math overflow="scroll"><m:msup><m:mrow/><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>. </para>
+      </problem>
+      <solution id="solfhsst_id412"> <list id="listfhsst_id412" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identify what is given for each problem </label>
+      <para id="id148384">We are given an expression to calculate distance travelled by a falling object in terms of initial velocity and time. We are also given the initial velocity and distance travelled and are required to calculate the time it takes the object to travel the distance.</para>
+      </item> <item> <label> List all known and unknown information </label>
+      <list id="id148394" display="block" list-type="bulleted">
+        <item id="uid18">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:msub>
+                <m:mi>v</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+              <m:mspace width="0.166667em"/>
+              <m:mi mathvariant="normal">m</m:mi>
+              <m:mo>·</m:mo>
+              <m:msup>
+                <m:mi mathvariant="normal">s</m:mi>
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid19">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>t</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>?</m:mo>
+              <m:mspace width="0.166667em"/>
+              <m:mi mathvariant="normal">s</m:mi>
+            </m:mrow>
+          </m:math>
+        </item>
+        <item id="uid20">
+          <m:math overflow="scroll">
+            <m:mrow>
+              <m:mi>s</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>2000</m:mn>
+              <m:mspace width="0.166667em"/>
+              <m:mi mathvariant="normal">m</m:mi>
+            </m:mrow>
+          </m:math>
+        </item>
+      </list>
+      </item> <item> <label> Substitute values into expression </label>
+      <equation id="id148511">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>s</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:msup>
+                    <m:mi>t</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mn>0</m:mn>
+                  </m:msub>
+                  <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mn>2000</m:mn>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:msup>
+                    <m:mi>t</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mn>2000</m:mn>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:msup>
+                    <m:mi>t</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msup>
+                  <m:mi>t</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>2000</m:mn>
+                  <m:mn>5</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>400</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>∴</m:mo>
+                  <m:mspace width="1.em"/>
+                  <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>20</m:mn>
+                  <m:mspace width="0.166667em"/>
+                  <m:mi mathvariant="normal">s</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Write the final answer </label>
+      <para id="id148688">The object will take 20 s to reach the ground if it is dropped from a height of 2000 m. </para>
+      </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id586"><title> Investigation : Mathematical Modelling </title>
+      <para id="id148711">The graph below shows how
+the distance travelled by a car depends on time. Use the graph to answer the
+following questions.</para>
+      <para id="id148717">
+        <figure id="id148720">
+          <media id="id148720_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C10_001.png" id="id148720_onlineimage" width="159"><!-- NOTE: attribute width changes image size online (pixels). original width is 159. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C10_001.eps" id="id148720_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <list id="id148726" display="block" list-type="enumerated">
+        <item id="uid21">How far does the car travel in 20 s?
+</item>
+        <item id="uid22">How long does it take the car to travel 300 m?
+</item>
+      </list>
+      
+</section>
+<exercise id="secfhsst_id606"><title> More Mathematical Modelling </title>
+      <problem id="probfhsst_id607">
+      <para id="id148776">A researcher is investigating the number of trees in a forest over a period of n years. After investigating numerous data, the following data model emerged:</para>
+      <table id="id148782" summary="">
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Year</entry>
+              <entry>Number of trees in hundreds</entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>1</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>3</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>9</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>27</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      <list id="id148893" display="block" list-type="enumerated">
+        <item id="uid23">How many trees, in hundreds, are there in the SIXTH year if this pattern is
+continued?
+</item>
+        <item id="uid24">Determine an algebraic expression that describes the number of trees in the <m:math overflow="scroll"><m:msup><m:mi>n</m:mi><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:math> year in the forest.
+</item>
+        <item id="uid25">Do you think this model, which determines the number of trees in the forest, will continue indefinitely? Give a reason for your answer.
+</item>
+      </list>
+      
+      </problem>
+      <solution id="solfhsst_id647"> <list id="listfhsst_id647" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Find the pattern </label>
+      <para id="id148974">The pattern is <m:math overflow="scroll"><m:mrow><m:msup><m:mn>3</m:mn><m:mn>0</m:mn></m:msup><m:mo>;</m:mo><m:msup><m:mn>3</m:mn><m:mn>1</m:mn></m:msup><m:mo>;</m:mo><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mo>;</m:mo><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup><m:mo>;</m:mo><m:mo>.</m:mo><m:mo>.</m:mo><m:mo>.</m:mo></m:mrow></m:math></para>
+      <para id="id149030">Therefore, three to the power one less than the year.</para>
+      </item> <item> <label> Trees in year 6 </label>
+      <equation id="id149040">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>y</m:mi>
+            <m:mi>e</m:mi>
+            <m:mi>a</m:mi>
+            <m:mi>r</m:mi>
+            <m:mspace width="4pt"/>
+            <m:mn>6</m:mn>
+            <m:mo>:</m:mo>
+            <m:msup>
+              <m:mn>3</m:mn>
+              <m:mn>5</m:mn>
+            </m:msup>
+            <m:mspace width="4pt"/>
+            <m:mi>h</m:mi>
+            <m:mi>u</m:mi>
+            <m:mi>n</m:mi>
+            <m:mi>d</m:mi>
+            <m:mi>r</m:mi>
+            <m:mi>e</m:mi>
+            <m:mi>d</m:mi>
+            <m:mi>s</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>243</m:mn>
+            <m:mspace width="4pt"/>
+            <m:mi>h</m:mi>
+            <m:mi>u</m:mi>
+            <m:mi>n</m:mi>
+            <m:mi>d</m:mi>
+            <m:mi>r</m:mi>
+            <m:mi>e</m:mi>
+            <m:mi>d</m:mi>
+            <m:mi>s</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>24300</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Algebraic expression for year <m:math overflow="scroll"><m:mi>n</m:mi></m:math> </label>
+      <equation id="id149135">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mi>u</m:mi>
+            <m:mi>m</m:mi>
+            <m:mi>b</m:mi>
+            <m:mi>e</m:mi>
+            <m:mi>r</m:mi>
+            <m:mspace width="3.33333pt"/>
+            <m:mi>o</m:mi>
+            <m:mi>f</m:mi>
+            <m:mspace width="3.33333pt"/>
+            <m:mi>t</m:mi>
+            <m:mi>r</m:mi>
+            <m:mi>e</m:mi>
+            <m:mi>e</m:mi>
+            <m:mi>s</m:mi>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mn>3</m:mn>
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:msup>
+            <m:mspace width="3.33333pt"/>
+            <m:mi>h</m:mi>
+            <m:mi>u</m:mi>
+            <m:mi>n</m:mi>
+            <m:mi>d</m:mi>
+            <m:mi>r</m:mi>
+            <m:mi>e</m:mi>
+            <m:mi>d</m:mi>
+            <m:mi>s</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Conclusion </label>
+      <para id="id149218">No</para>
+      <para id="id149221">The number of trees will increase for some time. Yet, eventually the number of trees will not increase any more. It will be limited by factors such as the limited amount of water and nutrients available in the ecosystem.
+ </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id737"><title> Setting up an equation </title>
+      <problem id="probfhsst_id738">
+      <para id="id149253">Currently the subscription to a gym for a single member is R1 000 annually while family membership is R1 500. The gym is considering raising all memberships fees by the same amount. If this is done then the single membership will cost <m:math overflow="scroll"><m:mfrac><m:mn>5</m:mn><m:mn>7</m:mn></m:mfrac></m:math> of the family membership. Determine the proposed increase. </para>
+      </problem>
+      <solution id="solfhsst_id741"> <list id="listfhsst_id741" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Summarise the information in a table </label>
+      <para id="id149294">Let the proposed increase be <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.</para>
+      <!--empty paragraphs get left behind.-->
+      <table id="id149313" summary="">
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry/>
+              <entry>Now</entry>
+              <entry>After increase</entry>
+            </row>
+            <row>
+              <entry>Single</entry>
+              <entry>1 000</entry>
+              <entry>1 000+<m:math overflow="scroll"><m:mi>x</m:mi></m:math></entry>
+            </row>
+            <row>
+              <entry>Family</entry>
+              <entry>1 500</entry>
+              <entry>1 500+<m:math overflow="scroll"><m:mi>x</m:mi></m:math></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      </item> <item> <label> Set up an equation </label>
+      <equation id="id149430">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>000</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>5</m:mn>
+              <m:mn>7</m:mn>
+            </m:mfrac>
+            <m:mrow>
+              <m:mo>(</m:mo>
+              <m:mn>1</m:mn>
+              <m:mspace width="3.33333pt"/>
+              <m:mn>500</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>)</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Solve the equation </label>
+      <equation id="id149481">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>7</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>7</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>7</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>500</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>500</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>250</m:mn>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Write down the answer </label>
+      <para id="id149571">Therefore the increase is R250.
+ </para>
+      </item> </list> </solution>
+</exercise>
+    </section>
+    <section id="cid3">
+      <title>End of Chapter Exercises</title>
+      <list id="id149597" display="block" list-type="enumerated">
+        <item id="uid26">When an object is dropped or thrown downward, the distance, <m:math overflow="scroll"><m:mi>d</m:mi></m:math>, that it falls in time, <m:math overflow="scroll"><m:mi>t</m:mi></m:math>, is described by the following equation:
+<equation id="id149631"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub><m:mi>t</m:mi></m:mrow></m:math></equation>
+In this equation, <m:math overflow="scroll"><m:msub><m:mi>v</m:mi><m:mn>0</m:mn></m:msub></m:math> is the initial velocity, in m<m:math overflow="scroll"><m:mo>·</m:mo></m:math>s<m:math overflow="scroll"><m:msup><m:mrow/><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>. Distance is measured in meters and time is measured in seconds. Use the equation to find how long it takes a tennis ball to reach the ground if it is thrown downward from a hot-air balloon that is 500 m high. The tennis ball is thrown at an initial velocity of 5 m<m:math overflow="scroll"><m:mo>·</m:mo></m:math>s<m:math overflow="scroll"><m:msup><m:mrow/><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:math>.
+</item>
+        <item id="uid27">The table below lists the times that Sheila takes to walk the given distances.
+<table id="id149753" summary=""><tgroup cols="7"><tbody><row><entry>Time (minutes)</entry><entry>5</entry><entry>10</entry><entry>15</entry><entry>20</entry><entry>25</entry><entry>30</entry></row><row><entry>Distance (km)</entry><entry>1</entry><entry>2</entry><entry>3</entry><entry>4</entry><entry>5</entry><entry>6</entry></row></tbody></tgroup></table>
+Plot the points.
+If the relationship between the distances and times is linear, find the equation of the straight line, using any two points. Then use the equation to answer the following questions:
+<list id="id149891" display="block" list-type="enumerated"><item id="uid28">How long will it take Sheila to walk 21 km?
+</item><item id="uid29">How far will Sheila walk in 7 minutes?
+</item></list>
+If Sheila were to walk half as fast as she is currently walking, what would the graph of her distances and times look like?
+</item>
+        <item id="uid30">The power <m:math overflow="scroll"><m:mi>P</m:mi></m:math> (in watts) supplied to a circuit by a 12 volt battery is given by the formula <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mi>I</m:mi><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> where <m:math overflow="scroll"><m:mi>I</m:mi></m:math> is the current in amperes.
+<list id="id149990" display="block" list-type="enumerated"><item id="uid31">Since both power and current must be greater than 0, find the limits of the current that can be drawn by the circuit.
+</item><item id="uid32">Draw a graph of <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mi>I</m:mi><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:msup><m:mi>I</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and use your answer to the first question, to define the extent of the graph.
+</item><item id="uid33">What is the maximum current that can be drawn?
+</item><item id="uid34">From your graph, read off how much power is supplied to the circuit when the current is 10 amperes. Use the equation to confirm your answer.
+</item><item id="uid35">At what value of current will the power supplied be a maximum?
+</item></list></item>
+        <item id="uid36">You are in the lobby of a business building waiting for the lift. You are late for a meeting and wonder if it will be quicker to take the stairs. There is a fascinating relationship between the number of floors in the building, the number of people in the lift and how often it will stop:
+If <m:math overflow="scroll"><m:mi>N</m:mi></m:math> people get into a lift at the lobby and the number of
+floors in the building is <m:math overflow="scroll"><m:mi>F</m:mi></m:math>, then the lift can be expected to
+stop
+<equation id="id150128"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>F</m:mi><m:mo>-</m:mo><m:mi>F</m:mi><m:msup><m:mfenced open="(" close=")"><m:mstyle scriptlevel="0" displaystyle="true"><m:mfrac><m:mrow><m:mi>F</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow><m:mi>F</m:mi></m:mfrac></m:mstyle></m:mfenced><m:mi>N</m:mi></m:msup></m:mrow></m:math></equation>
+
+times.
+<list id="id150186" display="block" list-type="enumerated"><item id="uid37">If the building has 16 floors and there are 9 people who get into the lift, how many times is the lift expected to stop?
+</item><item id="uid38">How many people would you expect in a lift, if it stopped 12 times and there are 17 floors?
+</item></list></item>
+        <item id="uid39">A wooden block is made as shown in the diagram. The ends are right-angled triangles having sides <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math> and <m:math overflow="scroll"><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:math>. The length of the block is <m:math overflow="scroll"><m:mi>y</m:mi></m:math>. The total surface area of the block is 3 600 cm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>.
+<figure id="id150291"><media id="id150291_media" alt=""><image mime-type="image/png" src="../../media/MG11C10_002.png" id="id150291_onlineimage" width="117"><!-- NOTE: attribute width changes image size online (pixels). original width is 117. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C10_002.eps" id="id150291_printimage"/></media></figure>
+Show that
+<equation id="id150301"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn><m:mo>-</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>x</m:mi></m:mfrac></m:mrow></m:math></equation></item>
+        <item id="uid40">A stone is thrown vertically upwards and its height (in metres)
+above the ground at time <m:math overflow="scroll"><m:mi>t</m:mi></m:math> (in seconds) is given by:
+<equation id="id150355"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>h</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>35</m:mn><m:mo>-</m:mo><m:mn>5</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>30</m:mn><m:mi>t</m:mi></m:mrow></m:math></equation>
+Find its initial height above the ground.
+</item>
+        <item id="uid41">After doing some research, a transport company has determined that the rate at which petrol is consumed by one of its large carriers, travelling at an average speed of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> km per hour, is given by:
+<equation id="id150425"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>55</m:mn><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mi>x</m:mi><m:mn>200</m:mn></m:mfrac><m:mspace width="1.em"/><m:mrow><m:mi> litres </m:mi><m:mi> per </m:mi><m:mi> kilometre </m:mi></m:mrow></m:mrow></m:math></equation>
+Assume that the petrol costs R4,00 per litre and the driver earns R18,00 per hour (travelling time). Now deduce that the total cost, <m:math overflow="scroll"><m:mi>C</m:mi></m:math>, in Rands, for a 2 000 km trip is given by:
+<equation id="id150493"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>C</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac><m:mn>256000</m:mn><m:mi>x</m:mi></m:mfrac><m:mo>+</m:mo><m:mn>40</m:mn><m:mi>x</m:mi></m:mrow></m:math></equation></item>
+        <item id="uid42">During an experiment the temperature <m:math overflow="scroll"><m:mi>T</m:mi></m:math> (in degrees Celsius), varies with time <m:math overflow="scroll"><m:mi>t</m:mi></m:math> (in hours), according to the formula:
+<equation id="id150558"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>T</m:mi><m:mrow><m:mo>(</m:mo><m:mi>t</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>30</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>t</m:mi><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="1.em"/><m:mi>t</m:mi><m:mo>∈</m:mo><m:mrow><m:mo>[</m:mo><m:mn>1</m:mn><m:mo>;</m:mo><m:mn>10</m:mn><m:mo>]</m:mo></m:mrow></m:mrow></m:math></equation><list id="id150623" display="block" list-type="enumerated"><item id="uid43">Determine an expression for the rate of change of temperature with time.
+</item><item id="uid44">During which time interval was the temperature dropping?
+</item></list></item>
+        <item id="uid45">In order to reduce the temperature in a room from 28<m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>C, a cooling system is allowed to operate for 10 minutes. The room temperature, <m:math overflow="scroll"><m:mi>T</m:mi></m:math> after <m:math overflow="scroll"><m:mi>t</m:mi></m:math> minutes is given in <m:math overflow="scroll"><m:msup><m:mrow/><m:mo>∘</m:mo></m:msup></m:math>C by the formula:
+<equation id="id150711"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>28</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>008</m:mn><m:msup><m:mi>t</m:mi><m:mn>3</m:mn></m:msup><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>16</m:mn><m:mi>t</m:mi><m:mspace width="1.em"/><m:mi> where </m:mi><m:mi mathvariant="normal">t</m:mi><m:mo>∈</m:mo><m:mrow><m:mo>[</m:mo><m:mn>0</m:mn><m:mo>;</m:mo><m:mn>10</m:mn><m:mo>]</m:mo></m:mrow></m:mrow></m:math></equation><list id="id150777" display="block" list-type="enumerated"><item id="uid46">At what rate (rounded off to TWO decimal places) is the temperature falling when <m:math overflow="scroll"><m:mi>t</m:mi></m:math> = 4 minutes?
+</item><item id="uid47">Find the lowest room temperature reached during the 10 minutes for which the cooling system operates, by drawing a graph.
+</item></list></item>
+        <item id="uid48">A washing powder box has the shape of a rectangular prism as shown in the diagram below. The box has a volume of 480 cm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>3</m:mn></m:msup></m:math>, a breadth of 4 cm and a length of <m:math overflow="scroll"><m:mi>x</m:mi></m:math> cm.
+<figure id="id150855"><media id="id150855_media" alt=""><image mime-type="image/png" src="../../media/MG11C10_003.png" id="id150855_onlineimage" width="98"><!-- NOTE: attribute width changes image size online (pixels). original width is 98. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C10_003.eps" id="id150855_printimage"/></media></figure>
+Show that the total surface area of the box (in cm<m:math overflow="scroll"><m:msup><m:mrow/><m:mn>2</m:mn></m:msup></m:math>) is given by:
+<equation id="id150879"><m:math overflow="scroll" mode="display"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>960</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>240</m:mn></m:mrow></m:math></equation></item>
+      </list>
+<section id="secfhsst_id915"><title>
+      Simulations </title>
+      <para id="id150929">A simulation is an attempt to model a real-life
+situation on a computer so that it can be studied to see how the system works.
+By changing variables, predictions may be made about the behaviour of the
+system.
+Simulation is used in many contexts, including the modeling of natural systems or human systems in order to gain insight into their functioning. Other contexts include simulation of technology for performance optimization, safety engineering, testing, training and education. Simulation can be used to show the eventual real effects of alternative conditions and courses of action.</para>
+      <para id="id150939"><emphasis effect="bold">Simulation in education</emphasis>
+Simulations in education are somewhat like training simulations. They focus on specific tasks. In the past, video has been used for teachers and education students to observe, problem solve and role play; however, a more recent use of simulations in education is that of animated narrative vignettes (ANV). ANVs are cartoon-like video narratives of hypothetical and reality-based stories involving classroom teaching and learning. ANVs have been used to assess knowledge, problem solving skills and dispositions of children and pre-service and in-service teachers. </para>
+</section>
+    </section>
+  </content>
+</document>

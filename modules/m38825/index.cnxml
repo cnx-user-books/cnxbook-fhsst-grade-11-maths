@@ -1,0 +1,564 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Simple depreciation</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38825</md:content-id>
+  <md:title>Simple depreciation</md:title>
+  <md:abstract/>
+  <md:uuid>806712c1-022c-4010-b75a-354f062a4af2</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="cid2">
+      <title>Introduction</title>
+      <para id="id340064">In Grade 10, the ideas of simple and compound interest were introduced. In this chapter we will be extending those ideas, so it is a good idea to go back to the Finance chapter and revise what you learnt in Grade 10. If you master the techniques in this chapter, you will understand about depreciation and will learn how to determine which bank is offering the better interest rate.</para>
+    </section>
+    <section id="cid3">
+      <title>Depreciation</title>
+      <para id="id340080">It is said that when you drive a new car out of the dealership, it loses 20% of its value, because it is now “second-hand”. And from there on the value keeps falling, or <emphasis effect="italics">depreciating</emphasis>. Second hand cars are cheaper than new cars, and the older the car, usually the cheaper it is. If you buy a second hand (or should we say <emphasis effect="italics">pre-owned</emphasis>!) car from a dealership, they will base the price on something called <emphasis effect="italics">book value</emphasis>.</para>
+      <para id="id340442">The book value of the car is the value of the car taking into account the loss in value due to wear, age and use. We call this loss in value <emphasis effect="italics">depreciation</emphasis>, and in this section we will look at two ways of how this is calculated. Just like interest rates, the two methods of calculating depreciation are <emphasis effect="italics">simple</emphasis> and <emphasis effect="italics">compound</emphasis> methods.</para>
+      <para id="id340463">The terminology used for simple depreciation is <emphasis effect="bold">straight-line depreciation</emphasis> and for compound depreciation is <emphasis effect="bold">reducing-balance depreciation</emphasis>. In the straight-line method the value of the asset is reduced by the same constant amount each year. In the compound depreciation method the value of the asset is reduced by the same percentage each year. This means that the value of an asset does not decrease by a constant amount each year, but the decrease is most in the first year, then by a smaller amount in the second year and by an even smaller amount in the third year, and so on.</para>
+<section id="secfhsst_id75"><title>
+      Depreciation </title>
+      <para id="id340491">You may be wondering why we need to calculate
+depreciation. Determining the value of assets (as in the example of the second
+hand cars) is one reason, but there is also a more financial reason for
+calculating depreciation - tax! Companies can take depreciation into account as
+an expense, and thereby reduce their taxable income. A lower taxable income
+means that the company will pay less income tax to the Revenue Service. </para>
+</section>
+    </section>
+    <section id="cid4">
+      <title>Simple Depreciation (it really is simple!)</title>
+      <para id="id340514">Let us go back to the second hand cars. One way of calculating a depreciation amount would be to assume that the car has a limited useful life. Simple depreciation assumes that the value of the car decreases by an equal amount each year. For example, let us say the limited useful life of a car is 5 years, and the cost of the car today is R60 000. What we are saying is that after 5 years you will have to buy a new car, which means that the old one will be valueless at that point in time. Therefore, the amount of depreciation is calculated:</para>
+      <equation id="id340522"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi mathvariant="normal">R</m:mi>
+                <m:mn>60</m:mn>
+                <m:mspace width="3.33333pt"/>
+                <m:mn>000</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>5</m:mn>
+                <m:mspace width="3.33333pt"/>
+                <m:mi> years </m:mi>
+              </m:mrow>
+            </m:mfrac>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">R</m:mi>
+            <m:mn>12</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>000</m:mn>
+            <m:mspace width="1.em"/>
+            <m:mrow>
+              <m:mi> per year</m:mi>
+              
+            </m:mrow>
+            <m:mo>.</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id340579">The value of the car is then:</para>
+      <table id="id340582" summary="">
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>End of Year 1</entry>
+              <entry>R60 000 - 1<m:math overflow="scroll"><m:mo>×</m:mo></m:math>(R12 000)</entry>
+              <entry>= R48 000</entry>
+            </row>
+            <row>
+              <entry>End of Year 2</entry>
+              <entry>R60 000 - 2<m:math overflow="scroll"><m:mo>×</m:mo></m:math>(R12 000)</entry>
+              <entry>= R36 000</entry>
+            </row>
+            <row>
+              <entry>End of Year 3</entry>
+              <entry>R60 000 - 3<m:math overflow="scroll"><m:mo>×</m:mo></m:math>(R12 000)</entry>
+              <entry>= R24 000</entry>
+            </row>
+            <row>
+              <entry>End of Year 4</entry>
+              <entry>R60 000 - 4<m:math overflow="scroll"><m:mo>×</m:mo></m:math>(R12 000)</entry>
+              <entry>= R12 000</entry>
+            </row>
+            <row>
+              <entry>End of Year 5</entry>
+              <entry>R60 000 - 5<m:math overflow="scroll"><m:mo>×</m:mo></m:math>(R12 000)</entry>
+              <entry>= R0</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      <para id="id340712">This looks similar to the formula for simple interest:</para>
+      <equation id="id340716"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi> Total interest after n years</m:mi>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">n</m:mi>
+            <m:mo>×</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>×</m:mo>
+            <m:mi mathvariant="normal">i</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id340761">where <m:math overflow="scroll"><m:mi>i</m:mi></m:math> is the annual percentage interest rate and <m:math overflow="scroll"><m:mi>P</m:mi></m:math> is the principal amount.</para>
+      <para id="id340783">If we replace the word <emphasis effect="italics">interest</emphasis> with the word <emphasis effect="italics">depreciation</emphasis> and the word <emphasis effect="italics">principal</emphasis> with the words <emphasis effect="italics">initial value</emphasis> we can use the same formula:</para>
+      <equation id="id340807"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi> Total depreciation after n years</m:mi>
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">n</m:mi>
+            <m:mo>×</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi mathvariant="normal">P</m:mi>
+            <m:mo>×</m:mo>
+            <m:mi mathvariant="normal">i</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id340852">Then the book value of the asset after <m:math overflow="scroll"><m:mi>n</m:mi></m:math> years is:</para>
+      <equation id="id340866"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Initial value</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mi> Total depreciation after n years</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>×</m:mo>
+                  <m:mo>(</m:mo>
+                  <m:mi>P</m:mi>
+                  <m:mo>×</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>×</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id340954">For example, the book value of the car after two years can be simply calculated as follows:</para>
+      <equation id="id340958"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi> Book value after</m:mi><m:mspace width="3pt"/>
+                  <m:mn>2</m:mn><m:mspace width="3pt"/>
+                  <m:mi> years </m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>×</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>60</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>20</m:mn>
+                  <m:mo>%</m:mo>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>60</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>60</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi mathvariant="normal">R</m:mi>
+                  <m:mn>36</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id341315">as expected.</para>
+      <para id="id341320">Note that the difference between the simple interest calculations and the simple depreciation calculations is that while the interest adds value to the principal amount, the depreciation amount reduces value!</para>
+<exercise id="secfhsst_id362"><title> Simple Depreciation method </title>
+      <problem id="probfhsst_id363">
+      <para id="id341338">A car is worth R<m:math overflow="scroll"><m:mrow><m:mn>240</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math> now. If it depreciates at a rate of <m:math overflow="scroll"><m:mrow><m:mn>15</m:mn><m:mo>%</m:mo></m:mrow></m:math> p.a. on a straight-line depreciation, what is it worth in 5 years' time ? </para>
+      </problem>
+      <solution id="solfhsst_id366"> <list id="listfhsst_id366" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Determine what has been provided and what is required </label>
+      <equation id="id341385">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>P</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>R</m:mi>
+                  <m:mn>240</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>i</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>15</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>n</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mn>5</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:mspace width="3.33333pt"/>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mi> is </m:mi>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mi> required </m:mi>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Determine how to approach the problem </label>
+      <equation id="id341476">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>A</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>240</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>15</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Solve the problem </label>
+      <equation id="id341531">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>A</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>240</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>75</m:mn>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>240</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>25</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>60</m:mn>
+                  <m:mspace width="3.33333pt"/>
+                  <m:mn>000</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Write the final answer </label>
+      <para id="id341624">In 5 years' time the car is worth R<m:math overflow="scroll"><m:mrow><m:mn>60</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math> </para>
+      </item> </list> </solution>
+</exercise>
+<exercise id="secfhsst_id524"><title> Simple Depreciation </title>
+      <problem id="probfhsst_id525">
+      <para id="id341664">A small business buys a photocopier for R 12 000. For the tax return the owner depreciates this asset over 3 years using a straight-line depreciation method. What amount will he fill in on his tax form after 1 year, after 2 years and then after 3 years ? </para>
+      </problem>
+      <solution id="solfhsst_id528"> <list id="listfhsst_id528" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Understanding the question </label>
+      <para id="id341688">The owner of the business wants the photocopier to depreciate to R0 after 3 years.
+Thus, the value of the photocopier will go down by <m:math overflow="scroll"><m:mrow><m:mn>12</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn><m:mo>÷</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mi mathvariant="normal">R</m:mi><m:mn>4</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow></m:math> per year.</para>
+      </item> <item> <label> Value of the photocopier after 1 year </label>
+      <para id="id341728">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mn>12</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>000</m:mn>
+            <m:mo>-</m:mo>
+            <m:mn>4</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>000</m:mn>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">R</m:mi>
+            <m:mn>8</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>000</m:mn>
+          </m:mrow>
+        </m:math>
+      </para>
+      </item> <item> <label> Value of the machine after 2 years </label>
+      <para id="id341770">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mn>8</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>000</m:mn>
+            <m:mo>-</m:mo>
+            <m:mn>4</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>000</m:mn>
+            <m:mo>=</m:mo>
+            <m:mi mathvariant="normal">R</m:mi>
+            <m:mn>4</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>000</m:mn>
+          </m:mrow>
+        </m:math>
+      </para>
+      </item> <item> <label> Write the final answer </label>
+      <para id="id341813">
+        <m:math overflow="scroll">
+          <m:mrow>
+            <m:mn>4</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>000</m:mn>
+            <m:mo>-</m:mo>
+            <m:mn>4</m:mn>
+            <m:mspace width="3.33333pt"/>
+            <m:mn>000</m:mn>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+          </m:mrow>
+        </m:math>
+      </para>
+      <para id="id341842">After 3 years the photocopier is worth nothing </para>
+      </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id589"><title>
+      Salvage Value </title>
+      <para id="id341869">Looking at the same example of our car with an
+initial value of R60 000, what if we suppose that we think we would be able to
+sell the car at the end of the 5 year period for R10 000? We call this amount
+the “Salvage Value"</para>
+      <para id="id341878">We are still assuming simple depreciation over a useful life of 5 years, but now instead of depreciating the full value of the asset, we will take into account the salvage value, and will only apply the depreciation to the value of the asset that we expect not to recoup, i.e. R60 000 - R10 000 = R50 000.</para>
+      <para id="id341886">The annual depreciation amount is then calculated as (R60 000 - R10 000) / 5 = R10 000</para>
+      <para id="id341891">In general, the formula for simple (straight line) depreciation:</para>
+      <equation id="id341895"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mrow>
+              <m:mi> Annual depreciation</m:mi>
+           
+            </m:mrow>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi> Initial value</m:mi>
+                
+                <m:mo>-</m:mo>
+                <m:mi> Salvage value</m:mi>
+               
+              </m:mrow>
+              <m:mrow>
+                <m:mi> Useful life</m:mi>
+   
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:math>
+      </equation>
+      
+</section>
+<section id="secfhsst_id624"><title> Simple Depreciation </title>
+      <list id="id341952" display="block" list-type="enumerated">
+        <item id="uid1">A business buys a truck for R560 000. Over a period of 10 years the value of the truck depreciates to R0 (using the straight-line method). What is the value of the truck after 8 years ?
+</item>
+        <item id="uid2">Shrek wants to buy his grandpa's donkey for R800. His grandpa is quite pleased with the offer, seeing that it only depreciated at a rate of 3% per year using the straight-line method. Grandpa bought the donkey 5 years ago. What did grandpa pay for the donkey then ?
+</item>
+        <item id="uid3">Seven years ago, Rocco's drum kit cost him R 12 500. It has now been valued at R2 300. What rate of simple depreciation does this represent ?
+</item>
+        <item id="uid4">Fiona buys a DsTV satellite dish for R3 000. Due to weathering, its value depreciates simply at 15% per annum. After how long will the satellite dish be worth nothing ?
+</item>
+      </list>
+      
+</section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,599 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Polygons</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38832</md:content-id>
+  <md:title>Polygons</md:title>
+  <md:abstract/>
+  <md:uuid>ab031ec3-ab25-45e0-8e8b-49047429640e</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="cid2">
+      <title>Introduction</title>
+<section id="secfhsst_id68"><title> Extension : History of Geometry </title>
+      <para id="id62191">Work in pairs or groups and investigate the history of the development of geometry in the last 1500 years. Describe the various stages of development and how different cultures used geometry to improve their lives.</para>
+      <para id="id62198">The works of the following people or cultures should be investigated:</para>
+      <list id="id62202" display="block" list-type="enumerated">
+        <item id="uid1">Islamic geometry (c. 700 - 1500)
+<list id="id62554" display="block" list-type="enumerated"><item id="uid2">Thabit ibn Qurra
+</item><item id="uid3">Omar Khayyam
+</item><item id="uid4">Sharafeddin Tusi
+</item></list></item>
+        <item id="uid5">Geometry in the 17th - 20th centuries (c. 700 - 1500)
+</item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid3">
+      <title>Right Pyramids, Right Cones and Spheres</title>
+      <para id="id62623">A pyramid is a geometric solid that has a polygon base and the base is joined to a point, called the apex. Two examples of pyramids are shown in the left-most and centre figures in <link target-id="uid6"/>. The right-most figure has an apex which is joined to a circular base and this type of geometric solid is called a cone. Cones are similar to pyramids except that their bases are circles instead of polygons.</para>
+      <figure id="uid6">
+        <media id="uid6_media" alt="">
+          <image mime-type="image/png" src="../../media/MG11C16_001.png" id="uid6_onlineimage" width="224"><!-- NOTE: attribute width changes image size online (pixels). original width is 224. --></image>
+          <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_001.eps" id="uid6_printimage"/>
+        </media>
+        <caption>Examples of a square pyramid, a triangular pyramid and a cone.</caption>
+      </figure>
+      <para id="id62647">
+        <emphasis effect="bold">Surface Area of a Pyramid</emphasis>
+      </para>
+      <para id="eip-485"><figure id="solid-geometry-volume" class="khanacademy">
+<title>Khan academy video on solid geometry volumes</title>
+<media id="yt-media1" display="block" alt="video on solid geometry volumes">
+<flash id="yt-video1" mime-type="application/x-shockwave-flash" src="http://www.youtube.com/v/ZqzAOZ9pP9Q&amp;rel=0" width="425" height="344">
+<param name="allowscriptaccess" value="always"/>
+<param name="allowsfullscreen" value="true"/>
+</flash>
+</media>
+</figure></para><para id="id62653">The surface area of a pyramid is calculated by adding the area of each face together.</para>
+<exercise id="secfhsst_id97"><title> Surface Area </title>
+      <problem id="probfhsst_id98">
+      <para id="id62672">If a cone has a height of <m:math overflow="scroll"><m:mi>h</m:mi></m:math> and a base of radius <m:math overflow="scroll"><m:mi>r</m:mi></m:math>, show that the surface area is <m:math overflow="scroll"><m:mrow><m:mi>π</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>π</m:mi><m:mi>r</m:mi><m:msqrt><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>h</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:math>. </para>
+      </problem>
+      <solution id="solfhsst_id101"> <list id="listfhsst_id101" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Draw a picture </label>
+      <para id="id62752">
+        <figure id="id62755">
+          <media id="id62755_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C16_002.png" id="id62755_onlineimage" width="334"><!-- NOTE: attribute width changes image size online (pixels). original width is 334. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_002.eps" id="id62755_printimage"/>
+          </media>
+        </figure>
+      </para>
+      </item> <item> <label> Identify the faces that make up the cone </label>
+      <para id="id62766">The cone has two faces: the base and the walls. The base is a circle of radius <m:math overflow="scroll"><m:mi>r</m:mi></m:math> and the walls can be opened out to a sector of a circle.</para>
+      <para id="id62778">
+        <figure id="id62779">
+          <media id="id62779_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C16_003.png" id="id62779_onlineimage" width="217"><!-- NOTE: attribute width changes image size online (pixels). original width is 217. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_003.eps" id="id62779_printimage"/>
+          </media>
+        </figure>
+      </para>
+      <para id="id62785">This curved surface can be cut into many thin triangles with height close to <m:math overflow="scroll"><m:mi>a</m:mi></m:math> (<m:math overflow="scroll"><m:mi>a</m:mi></m:math> is called the <emphasis effect="italics">slant height</emphasis>). The area of these triangles will add up to <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>×</m:mo></m:mrow></m:math>base<m:math overflow="scroll"><m:mo>×</m:mo></m:math>height(of a small triangle) which is <m:math overflow="scroll"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>×</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>r</m:mi><m:mo>×</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>a</m:mi></m:mrow></m:math></para>
+      </item> <item> <label> Calculate <m:math overflow="scroll"><m:mi>a</m:mi></m:math> </label>
+      <para id="id62881"><m:math overflow="scroll"><m:mi>a</m:mi></m:math> can be calculated by using the Theorem of Pythagoras. Therefore:</para>
+      <equation id="id62892">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:mo>=</m:mo>
+            <m:msqrt>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>h</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:msqrt>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Calculate the area of the circular base </label>
+      <equation id="id62928">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:msub>
+              <m:mi>A</m:mi>
+              <m:mi>b</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mi>π</m:mi>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      </item> <item> <label> Calculate the area of the curved walls </label>
+      <equation id="id62960">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:msub>
+                  <m:mi>A</m:mi>
+                  <m:mi>w</m:mi>
+                </m:msub>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>π</m:mi>
+                  <m:mi>r</m:mi>
+                  <m:mi>a</m:mi>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>π</m:mi>
+                  <m:mi>r</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>r</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mi>h</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Calculate surface area A </label>
+      <equation id="id63035">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>A</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mi>b</m:mi>
+                  </m:msub>
+                  <m:mo>+</m:mo>
+                  <m:msub>
+                    <m:mi>A</m:mi>
+                    <m:mi>w</m:mi>
+                  </m:msub>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>π</m:mi>
+                  <m:msup>
+                    <m:mi>r</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>π</m:mi>
+                  <m:mi>r</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>r</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mi>h</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+      <para id="id63137"><emphasis effect="bold">Volume of a Pyramid:</emphasis> The volume of a pyramid is found by:</para>
+      <equation id="id63144">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>A</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63170">where <m:math overflow="scroll"><m:mi>A</m:mi></m:math> is the area of the base and <m:math overflow="scroll"><m:mi>h</m:mi></m:math> is the height.</para>
+      <para id="id63191">A cone is like a pyramid, so the volume of a cone is given by:</para>
+      <equation id="id63195">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>π</m:mi>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>h</m:mi>
+            <m:mo>.</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id62104">A square pyramid has volume</para>
+      <equation id="id62107">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63440">where <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is the side length of the square base.</para>
+<exercise id="secfhsst_id330"><title> Volume of a Pyramid </title>
+      <problem id="probfhsst_id331">
+      <para id="id63465">What is the volume of a square pyramid, 3cm high with a side length of 2cm?
+ </para>
+      </problem>
+      <solution id="solfhsst_id335"> <list id="listfhsst_id335" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Determine the correct formula </label>
+      <para id="id63487">The volume of a pyramid is</para>
+      <equation id="id63490"><m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>A</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi>h</m:mi>
+            
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63518">where <m:math overflow="scroll"><m:mi>A</m:mi></m:math> is the area of the base and <m:math overflow="scroll"><m:mi>h</m:mi></m:math> is the height of the pyramid. For a square base this means</para>
+      <equation id="id63540">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>V</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+            <m:mi>a</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi>a</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id63570">where <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is the length of the side of the square base.</para>
+      <para id="id63584">
+        <figure id="id63587">
+          <media id="id63587_media" alt="">
+            <image mime-type="image/png" src="../../media/MG11C16_004.png" id="id63587_onlineimage" width="226"><!-- NOTE: attribute width changes image size online (pixels). original width is 226. --></image>
+            <image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_004.eps" id="id63587_printimage"/>
+          </media>
+        </figure>
+      </para>
+      </item> <item> <label> Substitute the given values </label>
+      <equation id="id63597"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mo>·</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>·</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>·</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mo>·</m:mo>
+                  <m:mn>12</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd/>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn><m:mspace width="3pt"/>
+                  <m:msup>
+                    <m:mi>cm</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+      <para id="id63694">We accept the following formulae for volume and surface area of a sphere (ball).</para>
+      <equation id="id63698"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>Surface area</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>π</m:mi>
+                  <m:msup>
+                    <m:mi>r</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mi>Volume</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                  <m:mi>π</m:mi>
+                  <m:msup>
+                    <m:mi>r</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+<section id="secfhsst_id508"><title> Surface Area and Volume </title>
+      <list id="id63805" display="block" list-type="enumerated"><item id="uid7">Calculate the volumes and surface areas of the following solids: *Hint for (e): find the perpendicular height using Pythagoras.
+<figure id="id63823"><media id="id63823_media" alt=""><image mime-type="image/png" src="../../media/MG11C16_005.png" id="id63823_onlineimage" width="776"><!-- NOTE: attribute width changes image size online (pixels). original width is 776. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_005.eps" id="id63823_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org/l2D">Click here for the solution</link></item>
+        <item id="uid8">Water covers approximately 71% of the Earth's surface. Taking the radius of the Earth to be 6378 km, what is the total area of land (area not covered by water)?<newline/><link class="fullmarks" window="new" url="http://www.fhsst.org/l2W">Click here for the solution</link>
+</item>
+        <item id="uid9"><m:math overflow="scroll"><m:mfenced separators="" open="" close=""/></m:math>
+A triangular pyramid is placed on top of a triangular prism.
+The prism has an equilateral triangle of side length 20 cm as a base, and has a height of 42 cm. The pyramid has a height of 12 cm.
+<list id="id63873" display="block" list-type="enumerated" number-style="lower-alpha"><item id="uid10">Find the total volume of the object.
+</item><item id="uid11">Find the area of each face of the pyramid.
+</item><item id="uid12">Find the total surface area of the object.
+</item></list><figure id="id63921"><media id="id63921_media" alt=""><image mime-type="image/png" src="../../media/MG11C16_006.png" id="id63921_onlineimage" width="50"><!-- NOTE: attribute width changes image size online (pixels). original width is 50. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_006.eps" id="id63921_printimage"/></media></figure><link class="fullmarks" window="new" url="http://www.fhsst.org">Click here for the solution</link></item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid4">
+      <title>Similarity of Polygons</title>
+      <para id="id63947">In order for two polygons to be similar the following must be true:</para>
+      <list id="id63951" display="block" list-type="enumerated">
+        <item id="uid13">All corresponding angles must be congruent.
+</item>
+        <item id="uid14">All corresponding sides must be in the same proportion to each other. Refer to the picture below: this means that the ratio of side <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>E</m:mi></m:mrow></m:math> on the large polygon to the side <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>T</m:mi></m:mrow></m:math> on the small polygon must be the same as the ratio of side <m:math overflow="scroll"><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow></m:math> to side <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi></m:mrow></m:math>, <m:math overflow="scroll"><m:mrow><m:mi>B</m:mi><m:mi>C</m:mi><m:mo>/</m:mo><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:math> etc. for <emphasis effect="italics">all</emphasis> the sides.
+</item>
+      </list>
+      <para id="id64047"><figure id="id64055"><media id="id64055_media" alt=""><image mime-type="image/png" src="../../media/MG11C16_007.png" id="id64055_onlineimage" width="155"><!-- NOTE: attribute width changes image size online (pixels). original width is 155. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_007.eps" id="id64055_printimage"/></media></figure>
+
+
+If
+<list id="id64069" display="block" list-type="enumerated"><item id="uid15"><m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>A</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mover accent="true"><m:mi>P</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>B</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mover accent="true"><m:mi>Q</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>C</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mover accent="true"><m:mi>R</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>D</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mover accent="true"><m:mi>S</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math>; <m:math overflow="scroll"><m:mrow><m:mover accent="true"><m:mi>E</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mover accent="true"><m:mi>T</m:mi><m:mo>^</m:mo></m:mover></m:mrow></m:math>
+and
+</item><item id="uid16"><m:math overflow="scroll"><m:mrow><m:mfrac><m:mrow><m:mi>A</m:mi><m:mi>B</m:mi></m:mrow><m:mrow><m:mi>P</m:mi><m:mi>Q</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>B</m:mi><m:mi>C</m:mi></m:mrow><m:mrow><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>C</m:mi><m:mi>D</m:mi></m:mrow><m:mrow><m:mi>R</m:mi><m:mi>S</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>D</m:mi><m:mi>E</m:mi></m:mrow><m:mrow><m:mi>S</m:mi><m:mi>T</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>E</m:mi><m:mi>A</m:mi></m:mrow><m:mrow><m:mi>T</m:mi><m:mi>P</m:mi></m:mrow></m:mfrac></m:mrow></m:math></item></list>
+then the polygons ABCDE and PQRST are similar.
+
+
+</para>
+<exercise id="secfhsst_id545"><title> Similarity of Polygons </title>
+      <problem id="probfhsst_id546">
+      <para id="id64327">Polygons PQTU and PRSU are similar. Find the value of <m:math overflow="scroll"><m:mi>x</m:mi></m:math>.
+
+
+
+<figure id="id64354"><media id="id64354_media" alt=""><image mime-type="image/png" src="../../media/MG11C16_008.png" id="id64354_onlineimage" width="112"><!-- NOTE: attribute width changes image size online (pixels). original width is 112. --></image><image mime-type="application/postscript" for="pdf" src="../../media/MG11C16_008.eps" id="id64354_printimage"/></media></figure>
+
+
+ </para>
+      </problem>
+      <solution id="solfhsst_id556"> <list id="listfhsst_id556" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Identify corresponding sides </label>
+      <para id="id64380">Since the polygons are similar,</para>
+      <equation id="id64384">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mi>Q</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mi>R</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>T</m:mi>
+                    <m:mi>U</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>S</m:mi>
+                    <m:mi>U</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>∴</m:mo>
+                  <m:mfrac>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mo>(</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo>-</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>∴</m:mo>
+                  <m:mfrac>
+                    <m:mi>x</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>∴</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mfrac>
+                  <m:mn>9</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      
+      </item> </list> </solution>
+</exercise>
+    </section>
+ 
+  </content>
+</document>

@@ -1,0 +1,428 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Finding i and n</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38829</md:content-id>
+  <md:title>Finding i and n</md:title>
+  <md:abstract/>
+  <md:uuid>88d6756d-6144-4437-bfd7-1b5a6fc33dff</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid7">
+      <title>Finding <m:math overflow="scroll"><m:mi>i</m:mi></m:math></title>
+      <para id="id344687">By this stage in your studies of the mathematics of finance, you have always known what interest rate to use in the calculations, and how long the investment or loan will last. You have then either taken a known starting point and calculated a future value, or taken a known future value and calculated a present value.</para>
+      <para id="id344693">But here are other questions you might ask:</para>
+      <list id="id344696" display="block" list-type="enumerated">
+        <item id="uid18">I want to borrow R2 500 from my neighbour, who said I could pay back R3 000 in 8 months time. What interest is she charging me?
+</item>
+        <item id="uid19">I will need R450 for some university textbooks in 1,5 years time. I currently have R400. What interest rate do I need to earn to meet this goal?
+</item>
+      </list>
+      <para id="id344727">Each time that you see something different from what you have seen before, start off with the basic equation that you should recognise very well:</para>
+      <equation id="id344732">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>·</m:mo>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>i</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mi>n</m:mi>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id344768">If this were an algebra problem, and you were told to “solve for <m:math overflow="scroll"><m:mi>i</m:mi></m:math>", you should be able to show that:</para>
+      <equation id="id344782"><m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow><m:mfrac>
+                  <m:mi>A</m:mi>
+                  
+                  <m:mi>P</m:mi></m:mfrac>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:msup>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>i</m:mi>
+                  <m:mo>)</m:mo>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mfrac>
+                  <m:mi>A</m:mi>
+                  
+                  <m:mi>P</m:mi></m:mfrac>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>/</m:mo>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:msup>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>i</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mfrac>
+                  <m:mi>A</m:mi>
+                  
+                  <m:mi>P</m:mi></m:mfrac>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo>/</m:mo>
+                      <m:mi>n</m:mi>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>-</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id344914">You do not need to memorise this equation, it is easy to derive any time you need it!</para>
+      <para id="id344918">So let us look at the two examples mentioned above.</para>
+      <list id="id344922" display="block" list-type="enumerated">
+        <item id="uid20">Check that you agree that <m:math overflow="scroll"><m:mi>P</m:mi></m:math>=R2 500, <m:math overflow="scroll"><m:mi>A</m:mi></m:math>=R3 000, <m:math overflow="scroll"><m:mi>n</m:mi></m:math>=8/12=0,666667. This means that:
+<equation id="id344965"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mi>i</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mrow><m:mi mathvariant="normal">R</m:mi><m:mn>3</m:mn><m:mspace width="3.33333pt"/><m:mn>000</m:mn></m:mrow><m:mrow><m:mi mathvariant="normal">R</m:mi><m:mn>2</m:mn><m:mspace width="3.33333pt"/><m:mn>500</m:mn></m:mrow></m:mfrac><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>666667</m:mn></m:mrow></m:msup><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mn>31</m:mn><m:mo>,</m:mo><m:mn>45</m:mn><m:mo>%</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation>
+Ouch! That is not a very generous neighbour you have.
+</item>
+        <item id="uid21">Check that <m:math overflow="scroll"><m:mi>P</m:mi></m:math>=R400, <m:math overflow="scroll"><m:mi>A</m:mi></m:math>=R450, <m:math overflow="scroll"><m:mi>n</m:mi></m:math>=1,5
+<equation id="id345105"><m:math overflow="scroll" mode="display"><m:mtable displaystyle="true"><m:mtr><m:mtd columnalign="right"><m:mi>i</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mfrac><m:mrow><m:mi mathvariant="normal">R</m:mi><m:mn>450</m:mn></m:mrow><m:mrow><m:mi mathvariant="normal">R</m:mi><m:mn>400</m:mn></m:mrow></m:mfrac><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:msup><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>17</m:mn><m:mo>%</m:mo></m:mrow></m:mtd></m:mtr></m:mtable></m:math></equation>
+This means that as long as you can find a bank which pays more than 8,17% interest, you should have the money you need!
+</item>
+      </list>
+      <para id="id345196">Note that in both examples, we expressed <m:math overflow="scroll"><m:mi>n</m:mi></m:math> as a number of years (<m:math overflow="scroll"><m:mfrac><m:mn>8</m:mn><m:mn>12</m:mn></m:mfrac></m:math> years, not 8 because that is the number of months) which means <m:math overflow="scroll"><m:mi>i</m:mi></m:math> is the annual interest rate. Always keep this in mind - keep years with years to avoid making silly mistakes.</para>
+<section id="secfhsst_id1877"><title> Finding <m:math overflow="scroll"><m:mi>i</m:mi></m:math> </title>
+      <list id="id345248" display="block" list-type="enumerated">
+        <item id="uid22">A machine costs R45 000 and has a scrap value of R9 000 after 10 years. Determine the annual rate of depreciation if it is calculated on the reducing balance method.
+</item>
+        <item id="uid23">After 5 years an investment doubled in value. At what annual rate was interest compounded ?
+</item>
+      </list>
+      
+</section>
+    </section>
+    <section id="cid8">
+      <title>Finding <m:math overflow="scroll"><m:mi>n</m:mi></m:math> - Trial and Error</title>
+      <para id="id345308">By this stage you should be seeing a pattern. We have our standard formula, which has a number of variables:</para>
+      <equation id="id345312">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mo>=</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>·</m:mo>
+            <m:msup>
+              <m:mrow>
+                <m:mo>(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>i</m:mi>
+                <m:mo>)</m:mo>
+              </m:mrow>
+              <m:mi>n</m:mi>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id345347">We have solved for <m:math overflow="scroll"><m:mi>A</m:mi></m:math> (in Grade 10), <m:math overflow="scroll"><m:mi>P</m:mi></m:math> (in <link target-id="cid6">"Present Values or Future Values of an Investment or Loan"</link>) and <m:math overflow="scroll"><m:mi>i</m:mi></m:math> (in <link target-id="cid7">"Finding i"</link>). This time we are going to solve for <m:math overflow="scroll"><m:mi>n</m:mi></m:math>. In other words, if we know what the starting sum of money is and what it grows to, and if we know what interest rate applies - then we can work out how long the money needs to be invested for all those other numbers to tie up.</para>
+      <para id="id345398">This section will calculate <m:math overflow="scroll"><m:mi>n</m:mi></m:math> by trial and error and by using a calculator. The proper algebraic solution will be learnt in Grade 12.</para>
+      <para id="id345410">Solving for <m:math overflow="scroll"><m:mi>n</m:mi></m:math>, we can write:</para>
+      <equation id="id345423">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>A</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mi>A</m:mi>
+                  <m:mi>P</m:mi>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:msup>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id345502">Now we have to examine the numbers involved to try to determine what a possible value of <m:math overflow="scroll"><m:mi>n</m:mi></m:math> is. Refer to your Grade 10 notes for some ideas as to how to go about finding <m:math overflow="scroll"><m:mi>n</m:mi></m:math>.</para>
+<exercise id="secfhsst_id1966"><title> Term of Investment - Trial and Error </title>
+      <problem id="probfhsst_id1967">
+      <para id="id345539">We invest R3 500 into a savings account which pays 7,5% compound interest for an unknown period of time, at the end of which our account is worth R4 044,69. How long did we invest the money? </para>
+      </problem>
+      <solution id="solfhsst_id1970"> <list id="listfhsst_id1970" list-type="enumerated" number-style="arabic" class="stepwise">
+      <item> <label> Determine what is given and what is required </label>
+      <list id="id345564" display="block" list-type="bulleted">
+        <item id="uid24"><m:math overflow="scroll"><m:mi>P</m:mi></m:math>=R3 500
+</item>
+        <item id="uid25"><m:math overflow="scroll"><m:mi>i</m:mi></m:math>=7,5%
+</item>
+        <item id="uid26"><m:math overflow="scroll"><m:mi>A</m:mi></m:math>=R4 044,69
+</item>
+      </list>
+      <para id="id345628">We are required to find <m:math overflow="scroll"><m:mi>n</m:mi></m:math>.</para>
+      </item> <item> <label> Determine how to approach the problem </label>
+      <para id="id345645">We know that:</para>
+      <equation id="id345648">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mi>A</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo>(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>i</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mi>A</m:mi>
+                  <m:mi>P</m:mi>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mi>i</m:mi>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:msup>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      </item> <item> <label> Solve the problem </label>
+      <equation id="id345731">
+        <m:math overflow="scroll" mode="display">
+          <m:mtable displaystyle="true">
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>4</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>044</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>69</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi mathvariant="normal">R</m:mi>
+                    <m:mn>3</m:mn>
+                    <m:mspace width="3.33333pt"/>
+                    <m:mn>500</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>%</m:mo>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:msup>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd columnalign="right">
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>156</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd columnalign="left">
+                <m:msup>
+                  <m:mrow>
+                    <m:mo>(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>075</m:mn>
+                    <m:mo>)</m:mo>
+                  </m:mrow>
+                  <m:mi>n</m:mi>
+                </m:msup>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math>
+      </equation>
+      <para id="id345845">We now use our calculator and try a few values for <m:math overflow="scroll"><m:mi>n</m:mi></m:math>.</para>
+      <table id="id345858" summary="">
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>Possible <m:math overflow="scroll"><m:mi>n</m:mi></m:math></entry>
+              <entry>
+                <m:math overflow="scroll">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:msup>
+                      <m:mn>075</m:mn>
+                      <m:mi>n</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>1,0</entry>
+              <entry>1,075</entry>
+            </row>
+            <row>
+              <entry>1,5</entry>
+              <entry>1,115</entry>
+            </row>
+            <row>
+              <entry>2,0</entry>
+              <entry>1,156</entry>
+            </row>
+            <row>
+              <entry>2,5</entry>
+              <entry>1,198</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <!--empty paragraphs get left behind.-->
+      <para id="id345988">We see that <m:math overflow="scroll"><m:mi>n</m:mi></m:math> is close to 2.</para>
+      </item> <item> <label> Write final answer </label>
+      <para id="id346004">The R3 500 was invested for about 2 years. </para>
+      </item> </list> </solution>
+</exercise>
+<section id="secfhsst_id2148"><title> Finding <m:math overflow="scroll"><m:mi>n</m:mi></m:math> - Trial and Error </title>
+      <list id="id346037" display="block" list-type="enumerated">
+        <item id="uid27">A company buys two types of motor cars: The Acura costs R80 600 and the Brata R101 700 VAT included. The Acura depreciates at a rate, compounded annually, of 15,3% per year and the Brata at 19,7%, also compounded annually, per year. After how many years will the book value of the two models be the same ?
+</item>
+        <item id="uid28">The fuel in the tank of a truck decreases every minute by 5,5% of the amount in the tank at that point in time. Calculate after how many minutes there will be less than <m:math overflow="scroll"><m:mrow><m:mn>30</m:mn><m:mi>l</m:mi></m:mrow></m:math> in the tank if it originally held <m:math overflow="scroll"><m:mrow><m:mn>200</m:mn><m:mi>l</m:mi></m:mrow></m:math>.
+</item>
+      </list>
+      
+</section>
+    </section>
+
+  </content>
+</document>
