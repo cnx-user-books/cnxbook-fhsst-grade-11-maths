@@ -1,3 +1,79 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col11243</md:content-id>  <md:title>Siyavula textbooks: Grade 11 Maths</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>en</md:language>              <md:uuid>85dac190-759f-4d85-9406-e487f81198ba</md:uuid>
-<md:slug>fhsst-grade-11-maths</md:slug>
-</metadata>  <col:content>          <col:module document="m32625"/>                            <col:module document="m30837"/>                            <col:module document="m32630"/>                            <col:module document="m32633"/>                                          <col:subcollection>        <md:title>Finance</md:title>                                <col:content>                    <col:module document="m38825"/>                            <col:module document="m38827"/>                            <col:module document="m38828"/>                            <col:module document="m38829"/>                            <col:module document="m38830"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Solving quadratic equations</md:title>                                <col:content>                    <col:module document="m38837"/>                            <col:module document="m38838"/>                            <col:module document="m38851"/>                            <col:module document="m38843"/>                          </col:content>      </col:subcollection>              <col:module document="m30838"/>                                          <col:subcollection>        <md:title>Solving simultaneous equations</md:title>                                <col:content>                    <col:module document="m38854"/>                            <col:module document="m38856"/>                          </col:content>      </col:subcollection>              <col:module document="m32649"/>                            <col:module document="m30843"/>                            <col:module document="m30845"/>                            <col:module document="m30856"/>                            <col:module document="m32651"/>                            <col:module document="m30862"/>                                          <col:subcollection>        <md:title>Geometry</md:title>                                <col:content>                    <col:module document="m38832"/>                            <col:module document="m38833"/>                            <col:module document="m38835"/>                            <col:module document="m38836"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Trigonometry</md:title>                                <col:content>                    <col:module document="m38866"/>                            <col:module document="m38868"/>                            <col:module document="m38870"/>                            <col:module document="m38874"/>                            <col:module document="m38873"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Statistics</md:title>                                <col:content>                    <col:module document="m38858"/>                            <col:module document="m38860"/>                            <col:module document="m38861"/>                            <col:module document="m38864"/>                          </col:content>      </col:subcollection>              <col:module document="m32654"/>                    </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Free High School Science Texts Project">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11243</md:content-id>
+    <md:title>Siyavula textbooks: Grade 11 Maths</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>85dac190-759f-4d85-9406-e487f81198ba</md:uuid>
+    <md:slug>fhsst-grade-11-maths</md:slug>
+  </metadata>
+  <col:content>
+    <col:module document="m32625"/>
+    <col:module document="m30837"/>
+    <col:module document="m32630"/>
+    <col:module document="m32633"/>
+    <col:subcollection>
+      <md:title>Finance</md:title>
+      <col:content>
+        <col:module document="m38825"/>
+        <col:module document="m38827"/>
+        <col:module document="m38828"/>
+        <col:module document="m38829"/>
+        <col:module document="m38830"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Solving quadratic equations</md:title>
+      <col:content>
+        <col:module document="m38837"/>
+        <col:module document="m38838"/>
+        <col:module document="m38851"/>
+        <col:module document="m38843"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m30838"/>
+    <col:subcollection>
+      <md:title>Solving simultaneous equations</md:title>
+      <col:content>
+        <col:module document="m38854"/>
+        <col:module document="m38856"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m32649"/>
+    <col:module document="m30843"/>
+    <col:module document="m30845"/>
+    <col:module document="m30856"/>
+    <col:module document="m32651"/>
+    <col:module document="m30862"/>
+    <col:subcollection>
+      <md:title>Geometry</md:title>
+      <col:content>
+        <col:module document="m38832"/>
+        <col:module document="m38833"/>
+        <col:module document="m38835"/>
+        <col:module document="m38836"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Trigonometry</md:title>
+      <col:content>
+        <col:module document="m38866"/>
+        <col:module document="m38868"/>
+        <col:module document="m38870"/>
+        <col:module document="m38874"/>
+        <col:module document="m38873"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Statistics</md:title>
+      <col:content>
+        <col:module document="m38858"/>
+        <col:module document="m38860"/>
+        <col:module document="m38861"/>
+        <col:module document="m38864"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m32654"/>
+  </col:content>
+</col:collection>
