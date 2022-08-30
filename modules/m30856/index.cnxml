@@ -24,7 +24,7 @@
         <caption>General shape and position of the graph of a function of the form <m:math overflow="scroll"><m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math>.</caption>
       </figure>
 <section id="secfhsst_id73"><title> Investigation : Functions of the Form <m:math overflow="scroll"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow></m:msup><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:math> </title>
-      <list id="id62684" display="block" list-type="enumerated"><item id="uid2">On the same set of axes, with <m:math display="display">
+      <list id="id62684" display="block" list-type="enumerated"><item id="uid2">On the same set of axes, with <m:math>
   <m:apply>
     <m:leq/>
     <m:apply>
@@ -34,7 +34,7 @@
     <m:ci>x</m:ci>
     <m:cn>3</m:cn>
   </m:apply>
-</m:math> and <m:math display="display">
+</m:math> and <m:math>
   <m:apply>
     <m:leq/>
     <m:apply>
@@ -50,7 +50,7 @@ Use your results to understand what happens when you change the value of <m:math
 
 You should find that the value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> affects whether the graph curves upwards (<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>) or curves downwards (<m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:math>). You should also find that a larger value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> (when <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is positive) stretches the graph upwards. However, when <m:math overflow="scroll"><m:mi>a</m:mi></m:math> is negative, a lower value of <m:math overflow="scroll"><m:mi>a</m:mi></m:math> (such as -2 instead of -1) stretches the graph downwards. Finally, note that when <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> the graph is simply a horizontal line. This is why we set <m:math overflow="scroll"><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math> in the original definition of these functions.
 </item>
-        <item id="uid8">On the same set of axes, with <m:math display="display">
+        <item id="uid8">On the same set of axes, with <m:math>
   <m:apply>
     <m:leq/>
     <m:apply>
@@ -60,7 +60,7 @@ You should find that the value of <m:math overflow="scroll"><m:mi>a</m:mi></m:ma
     <m:ci>x</m:ci>
     <m:cn>3</m:cn>
   </m:apply>
-</m:math> and <m:math display="display">
+</m:math> and <m:math>
   <m:apply>
     <m:leq/>
     <m:apply>
@@ -78,7 +78,7 @@ You should find that when <m:math overflow="scroll"><m:mi>q</m:mi></m:math> is i
 
 </item>
 
-<item id="uid211">On the same set of axes, with <m:math display="display">
+<item id="uid211">On the same set of axes, with <m:math>
   <m:apply>
     <m:leq/>
     <m:apply>
@@ -88,7 +88,7 @@ You should find that when <m:math overflow="scroll"><m:mi>q</m:mi></m:math> is i
     <m:ci>x</m:ci>
     <m:cn>3</m:cn>
   </m:apply>
-</m:math> and <m:math display="display">
+</m:math> and <m:math>
   <m:apply>
     <m:leq/>
     <m:apply>

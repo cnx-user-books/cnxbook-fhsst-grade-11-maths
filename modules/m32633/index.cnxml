@@ -463,7 +463,7 @@ sequences:</para>
                 <entry/>
               </row>
               <row>
-                <entry><m:math overflow="scroll"><m:msup><m:mn>1</m:mn><m:mi mathvariant="sans-serif">st</m:mi></m:msup></m:math> difference</entry>
+                <entry><m:math overflow="scroll"><m:msup><m:mn>1</m:mn><m:mi mathvariant="bold-sans-serif">st</m:mi></m:msup></m:math> difference</entry>
                 <entry/>
                 <entry>
                   <m:math overflow="scroll">
@@ -499,7 +499,7 @@ sequences:</para>
                 </entry>
               </row>
               <row>
-                <entry><m:math overflow="scroll"><m:msup><m:mn>2</m:mn><m:mi mathvariant="sans-serif">nd</m:mi></m:msup></m:math> difference</entry>
+                <entry><m:math overflow="scroll"><m:msup><m:mn>2</m:mn><m:mi mathvariant="bold-sans-serif">nd</m:mi></m:msup></m:math> difference</entry>
                 <entry/>
                 <entry/>
                 <entry>
@@ -549,7 +549,7 @@ Find the rule. </para>
                 <entry/>
               </row>
               <row>
-                <entry><m:math overflow="scroll"><m:msup><m:mn>1</m:mn><m:mi mathvariant="sans-serif">st</m:mi></m:msup></m:math> difference</entry>
+                <entry><m:math overflow="scroll"><m:msup><m:mn>1</m:mn><m:mi mathvariant="bold-sans-serif">st</m:mi></m:msup></m:math> difference</entry>
                 <entry/>
                 <entry>14</entry>
                 <entry/>
@@ -558,7 +558,7 @@ Find the rule. </para>
                 <entry>26</entry>
               </row>
               <row>
-                <entry><m:math overflow="scroll"><m:msup><m:mn>2</m:mn><m:mi mathvariant="sans-serif">nd</m:mi></m:msup></m:math> difference</entry>
+                <entry><m:math overflow="scroll"><m:msup><m:mn>2</m:mn><m:mi mathvariant="bold-sans-serif">nd</m:mi></m:msup></m:math> difference</entry>
                 <entry/>
                 <entry/>
                 <entry>6</entry>
@@ -1336,7 +1336,7 @@ given by</para>
                 <entry/>
               </row>
               <row>
-                <entry><m:math overflow="scroll"><m:msup><m:mn>1</m:mn><m:mi mathvariant="sans-serif">st</m:mi></m:msup></m:math> difference</entry>
+                <entry><m:math overflow="scroll"><m:msup><m:mn>1</m:mn><m:mi mathvariant="bold-sans-serif">st</m:mi></m:msup></m:math> difference</entry>
                 <entry/>
                 <entry>6</entry>
                 <entry/>
@@ -1347,7 +1347,7 @@ given by</para>
                 <entry>24</entry>
               </row>
               <row>
-                <entry><m:math overflow="scroll"><m:msup><m:mn>2</m:mn><m:mi mathvariant="sans-serif">nd</m:mi></m:msup></m:math> difference</entry>
+                <entry><m:math overflow="scroll"><m:msup><m:mn>2</m:mn><m:mi mathvariant="bold-sans-serif">nd</m:mi></m:msup></m:math> difference</entry>
                 <entry/>
                 <entry/>
                 <entry>6</entry>
